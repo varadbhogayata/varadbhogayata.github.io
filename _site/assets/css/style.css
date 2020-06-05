@@ -1,0 +1,447 @@
+body {
+  color: #333;
+  font-size: 16px;
+}
+a {
+  color: #009688;
+}
+blockquote {
+  border-left: 5px solid #795548;
+  color: #795548;
+  font-size: 125%;
+  font-weight: 400;
+  margin: 20px 0;
+  padding-left: 1.5rem;
+}
+blockquote * {
+  font-size: inherit;
+  line-height: inherit;
+}
+.text-center {
+  text-align: center;
+}
+nav {
+  background: white;
+  box-shadow: none;
+  height: 0;
+}
+nav i {
+  padding: 0 15px;
+  position: relative;
+  top: 5px;
+}
+main {
+  background: url(../../assets/img/bg.png) repeat;
+  padding-left: 190px;
+}
+dl {
+  margin-top: 0.5rem;
+}
+dd {
+  display: inline-block;
+  font-weight: 500;
+  margin-left: 0;
+}
+dt {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+pre {
+  background-color: #222;
+  color: #ccc;
+  font-size: 1rem;
+  padding: 2rem;
+  white-space: pre-line;
+}
+p code {
+  background: #ddd;
+  border: 0.25rem solid #ddd;
+  border-left-width: 0.5rem;
+  border-right-width: 0.5rem;
+  color: #EB5757;
+}
+#blog a {
+  font-size: 1.5rem;
+  padding: 0;
+  text-decoration: underline;
+}
+#blog a:hover {
+  background: #009688;
+  color: white;
+}
+#blog ol {
+  list-style-type: none;
+  padding: 0;
+}
+ul.side-nav {
+  width: 190px;
+}
+ul.side-nav li {
+  padding: 0;
+}
+ul.side-nav.fixed a {
+  box-sizing: content-box;
+  color: #444;
+  display: block;
+  line-height: 100%;
+  padding: 10px 0 12px;
+}
+ul.table-of-contents li.logo a.active,
+ul.table-of-contents li.logo a:hover {
+  border: none;
+  font-weight: 200;
+}
+ul.side-nav.fixed li.logo {
+  background-color: #fafafa;
+  border-bottom: 1px solid #ddd;
+  box-sizing: content-box;
+  min-height: 90px;
+  padding: 30px 30px 40px;
+}
+ul.side-nav.fixed li.logo a {
+  font-weight: 200;
+  line-height: 100%;
+}
+ul.table-of-contents li:not(.logo) a.active,
+ul.table-of-contents li:not(.logo) a:hover {
+  background-color: #fafafa;
+  border-left: 3px solid;
+}
+ul.side-nav.fixed.table-of-contents li:not(.logo) a span,
+ul#slide-out li:not(.logo) a span {
+  color: #333 !important;
+}
+li.logo span {
+  display: block;
+  font-size: 14px;
+}
+.brand-logo h1 {
+  font-size: inherit;
+  line-height: inherit;
+  margin: inherit;
+  font-weight: inherit;
+}
+.container {
+  width: 95%;
+}
+h3 {
+  font-weight: 200;
+  margin-bottom: 60px;
+  margin-top: 0;
+  padding: 30px 40px;
+  text-transform: uppercase;
+}
+.section {
+  padding-bottom: 30px;
+  padding-top: 0;
+  position: relative;
+}
+.full-height {
+  height: 100vh;
+}
+#intro.section {
+  background: url(../../assets/img/andrew-borstein-2a.jpg) no-repeat top
+    center/cover;
+  position: relative;
+}
+#intro.section .container {
+  color: white;
+  font-weight: 200;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+#intro.section .container *:not(span) {
+  font-weight: 300;
+  line-height: 150%;
+  padding: 0 30px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+#intro.section .underline {
+  border-bottom: 5px solid #009688;
+}
+#intro.section .teal {
+  padding: 0 10px;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.waves-effect.waves-blue .waves-ripple {
+  /* The alpha value allows the text and background color
+   of the button to still show through. */
+  background-color: rgba(33, 150, 243, 0.2);
+}
+.card {
+  margin-bottom: 60px;
+}
+.card .role {
+  font-size: 1.25rem;
+  position: absolute;
+  right: 38px;
+  top: 35px;
+}
+.card li a {
+  margin-right: 0;
+  color: #333;
+  border-bottom: 2px solid #ffab40;
+}
+.card li a:hover {
+  color: #333;
+  font-weight: 500;
+}
+.card .card-content {
+  padding-bottom: 30px;
+}
+.card .card-content p {
+  padding: 5px 0 0;
+}
+.card h5 {
+  font-size: 1.5rem;
+  margin-bottom: -0.5rem;
+  margin-top: 2rem;
+}
+.card h6 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+#experience .card-action {
+  background-color: rgba(0, 0, 0, 0.02);
+  border: none;
+}
+#experience .card .col.s12.m2 a {
+  display: block;
+}
+#experience .card .col.s12.m2 a img {
+  max-height: 60px;
+}
+.card-action span {
+  font-size: 85%;
+  color: #666;
+}
+.card ul {
+  margin-bottom: 0;
+}
+.card ul li {
+  line-height: 200%;
+  list-style-type: disc;
+  margin-left: 24px;
+}
+.card ul li li {
+  color: #666;
+  font-size: 13px;
+}
+.card .card-title {
+  font-size: 24px;
+}
+.card .card-content .card-title {
+  line-height: 2.5rem;
+}
+.card i.right {
+  margin-left: 10px;
+}
+a.hoverline {
+  border-bottom: 3px solid transparent !important;
+  padding: 3px 3px 0 3px;
+  transition: 0.25s all;
+  -moz-transition: 0.25s all;
+  -webkit-transition: 0.25s all;
+}
+a.hoverline:hover {
+  border-bottom: 3px solid #009688 !important;
+}
+#skills .card.large {
+  height: 360px;
+}
+#skills h4 {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+#skills .col img.responsive-img {
+  margin: 0 auto;
+  max-height: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+.card.large .card-content p {
+  color: inherit;
+  margin: 0;
+  padding: 30px 0;
+}
+#experience .card-content .row {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.card.large .card-image {
+  height: 230px;
+}
+.card.large .card-content {
+  height: auto;
+}
+.card.medium .card-image {
+  height: 240px;
+}
+.card-action a.btn-floating {
+  margin-bottom: 0;
+}
+
+#contact a:not(.btn-floating) {
+  bottom: 6px;
+  left: 20px;
+  position: relative;
+}
+#experience .col.s12.m2 {
+  text-align: center;
+}
+.fa-external-link:before {
+  left: 3px;
+  position: relative;
+  top: 2px;
+}
+small {
+  display: none;
+}
+.grey-text {
+  color: #666 !important;
+}
+.teal-text {
+  color: #008073 !important;
+}
+.teal {
+  background-color: #008073 !important;
+}
+@media (min-width: 1200px) {
+  #experience .container {
+    width: 860px;
+  }
+}
+@media (max-width: 1360px) {
+  .card ul li {
+    font-size: 14px;
+    line-height: 200%;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 1160px) {
+  .card ul li {
+    line-height: 150%;
+  }
+}
+@media (max-width: 992px) {
+  main {
+    padding-left: 0px;
+    padding-top: 64px;
+  }
+  ul.side-nav a {
+    line-height: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  nav {
+    background: #fff;
+    height: 64px;
+    position: absolute;
+  }
+  nav a.button-collapse,
+  nav a.button-collapse i {
+    color: #009688;
+    height: 56px;
+    line-height: 56px;
+  }
+  h3 {
+    padding: 20px 30px;
+    margin-bottom: 40px;
+  }
+  .container {
+    margin: 0 auto;
+  }
+
+  nav.hide-on-large.only.trigger {
+    display: block;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+  .name-title {
+    display: block;
+    height: 100%;
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+  }
+  .name-title > span,
+  .name-title > a {
+    position: relative;
+    line-height: 20px;
+  }
+  .name-title a {
+    font-size: 22px;
+    display: block;
+  }
+  .name-title span {
+    display: block;
+    font-size: 14px;
+  }
+  h3,
+  .container {
+    position: relative;
+    top: 64px;
+  }
+  section#intro {
+    margin-bottom: -64px;
+  }
+  .card .role {
+    position: relative;
+    right: initial;
+    top: initial;
+  }
+}
+@media (max-width: 600px) {
+  h2 {
+    font-size: 22px;
+    line-height: 200%;
+    margin: 30px 0 0;
+  }
+  #intro.section .container *:not(span) {
+    padding: 0;
+  }
+  .card .card-content .card-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  #experience span.card-title {
+    text-align: center;
+    display: block;
+  }
+  #experience span.card-title a {
+    margin: 0;
+  }
+  i.mdi-navigation-close.right {
+    position: relative;
+    bottom: 35px;
+  }
+  #contact a:not(.btn-floating) {
+    text-align: center;
+    display: block;
+    left: initial;
+    bottom: initial;
+  }
+  #contact a.btn-floating.btn-large {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #intro.section {
+    background-position-x: 30%;
+  }
+}

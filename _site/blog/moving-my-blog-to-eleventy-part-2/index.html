@@ -1,0 +1,580 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Materialize - Compiled and minified CSS-->
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css"
+    />
+    <!-- Font Awesome Icon - CSS-->
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <title>Moving my blog to Eleventy, Part 2: Getting Started</title>
+    <!-- Open Graph-->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Moving my blog to Eleventy, Part 2: Getting Started" />
+    <meta property="og:description" content="In this post I carefully walk through the official Eleventy Quick Start guide, magically turning 3 lines of code into 300 lines of juicy commentary and (hopefully) helpful explanation." />
+    <meta property="og:url" content="andrewborstein.com" />
+    <meta property="og:site_name" content="Moving my blog to Eleventy, Part 2: Getting Started" />
+    <meta property="article:publisher" content="andrewborstein.com" />
+    <meta property="og:image" content="" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@andrewarei" />
+    <meta name="twitter:title" content="Moving my blog to Eleventy, Part 2: Getting Started" />
+    <meta name="twitter:description" content="In this post I carefully walk through the official Eleventy Quick Start guide, magically turning 3 lines of code into 300 lines of juicy commentary and (hopefully) helpful explanation." />
+    <meta name="twitter:url" content="andrewborstein.com" />
+    <meta name="author" content="Andrew Borstein" />
+    <meta name="description" content="In this post I carefully walk through the official Eleventy Quick Start guide, magically turning 3 lines of code into 300 lines of juicy commentary and (hopefully) helpful explanation." />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/assets/img/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/assets/img/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/assets/img/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/img/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/assets/img/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/assets/img/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/assets/img/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/assets/img/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/img/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/assets/img/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/assets/img/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="/assets/img/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js')
+	-->
+    <meta name="robots" content="index, follow" />
+  </head>
+  <body>
+    
+<!-- Custom Styles-->
+<style>
+  /* Blog Styles */
+  body {
+    color: #333;
+    font-size: 16px;
+  }
+  a {
+    color: #009688;
+  }
+  blockquote {
+    border-left: 5px solid #795548;
+    color: #795548;
+    font-size: 125%;
+    font-weight: 400;
+    margin: 20px 0;
+    padding-left: 1.5rem;
+  }
+  blockquote * {
+    font-size: inherit;
+    line-height: inherit;
+  }
+  .text-center {
+    text-align: center;
+  }
+  nav {
+    background: white;
+    box-shadow: none;
+    height: 0;
+  }
+  nav i {
+    padding: 0 15px;
+    position: relative;
+    top: 5px;
+  }
+  main {
+    background: url(/assets/img/bg.png) repeat;
+  }
+  article {
+    max-width: 85ch;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 100%;
+    line-height: 1.6;
+  }
+  img {
+    max-width: 100%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  }
+  @media (min-width: 30rem) {
+    article {
+      font-size: 120%;
+    }
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  @media (min-width: 30rem) {
+    h1 {
+      font-size: 5rem;
+    }
+  }
+  h2 {
+    font-size: 3rem;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+  hr {
+    margin: 4rem 0;
+  }
+  ul {
+    padding-left: 1em;
+  }
+  ul li {
+    list-style-type: initial;
+  }
+  p a {
+    text-decoration: underline;
+  }
+  dl {
+    color: #666;
+    margin-bottom: 3rem;
+    margin-top: 0.5rem;
+  }
+  dd {
+    display: inline-block;
+    font-weight: 500;
+    margin-left: 0;
+  }
+  dt {
+    display: inline-block;
+    margin-left: 0.5rem;
+  }
+  .back-to-index {
+    align-content: center;
+    display: flex;
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+  }
+  .back-to-index i {
+    margin-right: 0.5rem;
+  }
+  dl {
+    margin-top: 0.5rem;
+  }
+  dd {
+    display: inline-block;
+    font-weight: 500;
+    margin-left: 0;
+  }
+  dt {
+    display: inline-block;
+    margin-left: 0.5rem;
+  }
+  pre {
+    background-color: #222;
+    color: #ccc;
+    font-size: 1rem;
+    padding: 2rem;
+  }
+  p code {
+    background: #ddd;
+    border: 0.25rem solid #ddd;
+    border-left-width: 0.5rem;
+    border-right-width: 0.5rem;
+    color: #eb5757;
+    font-size: 0.9em;
+  }
+</style>
+<a class="back-to-index" href="/#blog">
+  <i class="mdi-hardware-keyboard-arrow-left"></i>
+  Back to blog index
+</a>
+<!-- Main Content-->
+<main>
+  <article>
+    <h1>Moving my blog to Eleventy, Part 2: Getting Started</h1>
+<h2>tl:dr;</h2>
+<p><a href="/blog/moving-my-blog-to-eleventy-part-1/">Last time around</a>, I spent the entire evening installing Node instead of, well, getting started. So that's what I'll do today! In this post I carefully walk through the official <a href="https://www.11ty.dev/#quick-start">Eleventy Quick Start guide</a>, magically turning 3 lines of code into 300 lines of juicy commentary and (hopefully) helpful explanation.</p>
+<p>View all posts in this Eleventy series:</p>
+<ul>
+<li><a href="/blog/moving-my-blog-to-eleventy-part-1/">Part 1: Installing Node with NVM</a></li>
+<li><a href="/blog/moving-my-blog-to-eleventy-part-2/">Part 2: Getting Started</a></li>
+</ul>
+<hr>
+<h2>Installing Eleventy</h2>
+<h3>Installing Eleventy globally (on my laptop)</h3>
+<p>After a few days of rest and I'm returning to this project refreshed, rejuvenated, and only slightly beaten down! Small victories are victories nonetheless. I'm ready to install the dang thang.</p>
+<pre><code class="language-bash">$ npm install -g @11ty/eleventy
+# ... other stuff
++ @11ty/eleventy@0.11.0
+added 598 packages from 427 contributors in 39.029s
+</code></pre>
+<p>🎉</p>
+<p>OK! We're off to the races, with about 600 packages in tow, NBD 👀. We've just installed the Eleventy package <em>globally</em>, meaning as an application on my laptop. This is an important distinction, because it means that if someone else were to clone my website repo exactly as it is at this step in the process, they wouldn't get a copy of Eleventy. In order for that to happen, we need to also install it as a dependency of this website, which we're about to do.</p>
+<h3>Creating a <code>package.json</code> file</h3>
+<p>The next step is to add an infamous <code>package.json</code> file to manage our Javascript dependencies. We'll run the command with <code>-y</code> at the end so we can skip the questionnaire prompt and have it fill in the file with reasonable defaults.</p>
+<pre><code class="language-bash">$ npm init -y
+</code></pre>
+<p>This command created a new file</p>
+<pre><code>netlify_functions/
+public/
+.gitignore
+CNAME
+netlify.toml
+package.json ⬅️
+README.md
+</code></pre>
+<p>with the following content, automatically pulled from my associated Github repo for this website.</p>
+<pre><code class="language-json">// package.json
+{
+  &quot;name&quot;: &quot;portfolio&quot;,
+  &quot;version&quot;: &quot;1.0.0&quot;,
+  &quot;description&quot;: &quot;Tools used to build this website (first created in 2015, with only minor content updates since): - [GitHub Pages](https://pages.github.com) - you can host any static website (HTML, CSS, JS) really easily using GitHub, totally for free! - [Materialize](https://materializecss.com) - a super handy CSS framework to get Google's Material Design components and style - And a bunch of custom CSS to get it looking just right.&quot;,
+  &quot;main&quot;: &quot;index.js&quot;,
+  &quot;scripts&quot;: {
+    &quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;
+  },
+  &quot;repository&quot;: {
+    &quot;type&quot;: &quot;git&quot;,
+    &quot;url&quot;: &quot;git+https://github.com/andrewborstein/portfolio.git&quot;
+  },
+  &quot;keywords&quot;: [],
+  &quot;author&quot;: &quot;&quot;,
+  &quot;license&quot;: &quot;ISC&quot;,
+  &quot;bugs&quot;: {
+    &quot;url&quot;: &quot;https://github.com/andrewborstein/portfolio/issues&quot;
+  },
+  &quot;homepage&quot;: &quot;https://github.com/andrewborstein/portfolio#readme&quot;
+}
+</code></pre>
+<h3>Installing Eleventy locally (as a site dependency)</h3>
+<p>The final step here is to add Eleventy as my first and only dev dependency, which is just a fancy way of saying it's required for development. Our website visitors don't need it, but anyone who wants to install or develop this site locally needs it.</p>
+<pre><code class="language-bash">$ npm install --save-dev @11ty/eleventy
+# ... other stuff
+npm notice created a lockfile as package-lock.json. You should commit this file.
++ @11ty/eleventy@0.11.0
+added 533 packages from 416 contributors and audited 533 packages in 24.961s
+</code></pre>
+<p>That adds one new file, a <code>package-lock.json</code>.</p>
+<pre><code>netlify_functions/
+public/
+.gitignore
+CNAME
+netlify.toml
+package.json
+package-lock.json ⬅️
+README.md
+</code></pre>
+<p>This file is includes the word <code>lock</code> because you're not meant to manually modify it. The contents of your <code>package.json</code> should automatically generate the info inside <code>package-lock.json</code> for you, every time you run <code>npm install</code>, or add a new package with <code>npm</code>. It documents all of your explicit dependencies' <em>implicit</em> dependencies. That's why installing 1 package (Eleventy) actually ends up installing 500 more!</p>
+<p>It's like Carl Sagan said, <a href="https://www.youtube.com/watch?v=7s664NsLeFM">&quot;If you wish to make an apple pie from scratch, you must first invent the universe.&quot;</a>.</p>
+<pre><code class="language-json">// package.json
+{
+  // ... other stuff
+  &quot;homepage&quot;: &quot;https://github.com/andrewborstein/portfolio#readme&quot;,
+  &quot;devDependencies&quot;: {
+    &quot;@11ty/eleventy&quot;: &quot;^0.10.0&quot; ⬅️
+  }
+}
+</code></pre>
+<p>Now, When I want to build and run this website on my next laptop, or when I eventually turn it into a template that other folks can install and develop themselves, each of those environments will know a) they need to install Eleventy and b) here's how to do it.</p>
+<h2>Compiling files (Eleventy's super power)</h2>
+<h3>Running the compilation command</h3>
+<p>The <a href="https://www.11ty.dev/">Eleventy Quick Start docs</a> say all I need to run is <code>eleventy</code> and then</p>
+<blockquote>
+<p>This will compile any files matching valid template file extensions in the current directory into the output folder (defaults to <code>_site</code>).</p>
+</blockquote>
+<p>I'm honestly not sure what that means! It sounds like nothing will happen, because who knows if any of my existing website files are valid Eleventy template types. I assume it requires some setup or configuration to actually work. But the docs say go for it, so fine, let's just go for it!</p>
+<p>But before we do that, I should point out that the <a href="">Getting Started guide</a> recommends running the local version of this command, now that we've installed Eleventy as a dev dependency.</p>
+<p>So instead of</p>
+<pre><code class="language-bash">$ eleventy
+</code></pre>
+<p>we'll run</p>
+<pre><code class="language-bash">$ npx @11ty/eleventy
+</code></pre>
+<p>to ensure my <em>local</em> Eleventy dependency has been successfully installed.</p>
+<pre><code class="language-bash">$ npx @11ty/eleventy
+Writing _site/README/index.html from ./README.md.
+Writing _site/public/index.html from ./public/index.html.
+Writing _site/public/blog/hello-world-and-why-im-blogging/index.html from ./public/blog/hello-world-and-why-im-blogging.html.
+Writing _site/public/resume/index.html from ./public/resume/index.html.
+Wrote 4 files in 0.08 seconds (v0.11.0)
+</code></pre>
+<h3>Checking out what's changed</h3>
+<p>Woah! I'm impressed. It looks like it automatically searched for stuff it could compile and went ahead and did it. Here's a list of what's changed, without any configuration on my part:</p>
+<ol>
+<li>
+<p>All files that already in a format that can be compiled have been automatically compiled into <code>.html</code> files and moved into a new <code>_site</code> folder in the root.</p>
+<pre><code>_site/ ⬅️
+netlify_functions/
+public/
+.gitignore
+CNAME
+netlify.toml
+package.json
+README.md
+yarn.lock
+</code></pre>
+</li>
+<li>
+<p>Any existing markdown files changed formats — from markdown to HTML — during compilation.</p>
+<pre><code>README.md
+</code></pre>
+<p>is now</p>
+<pre><code>README/index.html
+</code></pre>
+</li>
+<li>
+<p>Each compiled file gets transformed into an <code>index.html</code> file inside a folder with the same and name as the original file. The original directory structure is also retained, but now it's nested inside the top-level <code>_site/</code> folder.</p>
+<pre><code>public/
+  blog/
+    hello-world-and-why-im-blogging.html
+</code></pre>
+<p>is now</p>
+<pre><code>_site/
+  public/
+    blog/
+      hello-world-and-why-im-blogging/
+        index.html
+</code></pre>
+</li>
+</ol>
+<p>Pretty cool! Now we're starting to see the power of Eleventy in action.</p>
+<h2>Serving the website locally</h2>
+<h3>Running the local server command</h3>
+<p>Next up in these fancy docs is a note about how to serve the files locally, so we can view the website locally while it's still in development.</p>
+<blockquote>
+<p>Run <code>eleventy --serve</code> to start up a hot-reloading web server.</p>
+</blockquote>
+<pre><code class="language-bash">$ eleventy --serve
+Writing _site/README/index.html from ./README.md.
+Writing _site/public/index.html from ./public/index.html.
+Writing _site/public/blog/hello-world-and-why-im-blogging/index.html from ./public/blog/hello-world-and-why-im-blogging.html.
+Writing _site/public/resume/index.html from ./public/resume/index.html.
+Wrote 4 files in 0.09 seconds (v0.11.0)
+Watching…
+[Browsersync] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:8080
+    External: http://192.168.29.186:8080
+ ---------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ ---------------------------------------
+[Browsersync] Serving files from: _site
+</code></pre>
+<p>Neat! I love a nice console message. It let me know that it re-compiled my website in a blazing 250 milliseconds. And it shared some handy URLs, too.</p>
+<h3>Viewing the BrowserSync interface</h3>
+<p>I know that <code>localhost</code> is likely where I can see my website, but I have no idea what <code>UI</code> is referencing here. When I click it I see this slick BrowserSync interface!</p>
+<p><img src="screenshot-browsersync.jpg" alt="browsersync interface"></p>
+<p>NOICE. I'm not going to dig in too far with this, because I don't want to get distracted. But I'm definitely having fun again! Let's keep going.</p>
+<h3>Viewing the local version of my website</h3>
+<p>The first thing I notice is that the website is only available at <code>http://localhost:8080/public/</code> not <code>http://localhost:8080/</code> as my command line suggested it would, and that's because the entire site still lives inside a <code>public/</code> folder, which we'll fix shortly.</p>
+<p>After visiting the correct local URL, my website is successfully loaded and WOW does it look production ready.</p>
+<p><img src="screenshot-broken-website.jpg" alt="my broken website with missing stylesheets and images"></p>
+<h3>Debugging my broken website</h3>
+<p>I open my the <code>console</code> tab in Chrome developer tools and it's telling me that basically none of my assets were loaded.</p>
+<p><img src="screenshot-console-missing-assets.jpg" alt="chrome dev console showing errors related to missing assets"></p>
+<p>This makes sense. The site is being loaded from a new <code>/_site</code> directory that <em>only</em> includes compiled HTML files and their parent folders. No other files or folders were touched, including my <code>/assets</code> folder. So all of my CSS files and images are broken because my <code>index.html</code> assumes the assets live in the same folder as it does — they are loaded via relative URLs:</p>
+<pre><code class="language-html">_site/ 
+  public/ 
+    index.html 
+public/ 
+  assets/ ⬅️
+</code></pre>
+<pre><code class="language-html">&lt;!-- index.html  --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/style.css&quot; /&gt;
+</code></pre>
+<p>The above will only work if the <code>assets/</code> folder is in the <code>_site/</code> folder alongside <code>index.html</code>. But it's not yet, because it wasn't moved there by Eleventy. It's looking for directories in places where they don't exist yet.</p>
+<p>I'm sure (I hope?) Eleventy has some official method for managing and compiling assets. If not, I can always manually move the assets folder where I need it. I'll circle back later to find out if there's a better way to load my static assets.</p>
+<h3>Fixing the missing assets, attempt #1</h3>
+<p>After I move my <code>assets/</code> folder, this is what my directory looks:</p>
+<pre><code class="language-html">_site/ 
+  public/ 
+    assets/ ⬅️ 
+    index.html 
+public/
+</code></pre>
+<p>OK, it turns out that simply moving the <code>/assets</code> folder into <code>/_site</code> didn't fix the issue. A closer look shows that the relative URLs actually use a syntax that makes them relative to the <em>root</em> of the site, not their current directory. We want <code>index.html</code> to the find the folder that's sitting right next to it, no matter where they both move.</p>
+<h3>Fixing the missing assets, attempt #2</h3>
+<p>I remove the leading <code>/</code> where I link to my assets, so they are now directory-relative URLS instead of website-relative URLs, i.e. <code>/assets/...</code> becomes <code>assets/...</code>. Now because <code>index.html</code> is looking for an <code>assets/</code> folder in the <em>same</em> directory...</p>
+<pre><code class="language-html">&lt;!-- index.html --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/style.css&quot; /&gt;
+</code></pre>
+<p>... it's alive!</p>
+<p><img src="screenshot-working-website.jpg" alt="my website displaying correctly"></p>
+<p>Alright, let's take a break. We've earned it 😅.</p>
+<p>Join me next week as we dive into what Eleventy does best, by creating dynamic layouts for the both the entire site and for individual blog posts. Or maybe stuff will break or I'll get distracted and we'll tackle something else. Stay tuned!</p>
+
+    <hr>
+    <p>
+      <a href="mailto:andrew@andrewborstein.com">Email me</a> anytime to offer
+      feedback, ask questions, or just say hello 👋.
+    </p>
+  </article>
+</main>
+
+
+    <!--
+      Google Analytics
+      -------------------------------------------------
+      If you want to enable your own account, assign analyticsId to your
+      google analytics id, which should be the numbers following "UA-", e.g.
+      var analyticsId = "12345678-9"
+    -->
+    <script>
+      var analyticsId;
+
+      // If analytics id has been manually defined
+      if (analyticsId) {
+        // Initialize GA with local var
+        initGoogleAnalytics(analyticsId);
+      } else {
+        // Initialize GA with Netlify env var available via lamba function
+        fetch("/.netlify/functions/env_vars")
+          .then(getEnvVar)
+          .then(initGoogleAnalytics)
+          .catch(handleError);
+      }
+
+      // -------------------------------------------------
+      // Helper Functions
+      // --------------------------------------------------
+
+      function handleError(error) {
+        console.log("error", error);
+      }
+
+      function getEnvVar(response) {
+        // If the request was successful
+        if (response.ok) {
+          // Return the response text
+          return response.text();
+        } else {
+          // Return a rejected Promise object, triggering the .catch()
+          return Promise.reject(response);
+        }
+      }
+
+      // Set Up Google Analytics
+      function initGoogleAnalytics(analyticsId) {
+        if (analyticsId) {
+          // Inject the Google Analytics Tag Manager script into the DOM
+          analyticsUrl =
+            "https://www.googletagmanager.com/gtag/js?id=UA-" + analyticsId;
+          var ref = document.getElementsByTagName("script")[0];
+          var script = document.createElement("script");
+          script.src = analyticsUrl;
+          ref.parentNode.insertBefore(script, ref);
+
+          // Initialize Google Analytics
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+          gtag("config", "UA-" + analyticsId);
+        }
+      }
+    </script>
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+      // Materialize - Initializers
+      $(document).ready(function () {
+        $(".scrollspy").scrollSpy();
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+          menuWidth: 190, // Default is 240
+          edge: "left", // Choose the horizontal origin
+          closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        });
+      });
+    </script>
+
+    <!-- prettier-ignore -->
+    <small hidden>
+           ___                       ___           ___                    ___                                     ___
+          /\  \                     /\__\         /\  \                  /\__\                      ___          /\__\
+          \:\  \       ___         /:/ _/_        \:\  \                /:/ _/_       ___          /\  \        /:/ _/_
+           \:\  \     /\__\       /:/ /\  \        \:\  \              /:/ /\__\     /\__\         \:\  \      /:/ /\__\
+       ___ /::\  \   /:/__/      /:/ /::\  \   ___ /::\  \            /:/ /:/  /    /:/__/          \:\  \    /:/ /:/ _/_
+      /\  /:/\:\__\ /::\  \     /:/__\/\:\__\ /\  /:/\:\__\          /:/_/:/  /    /::\  \      ___  \:\__\  /:/_/:/ /\__\
+      \:\/:/  \/__/ \/\:\  \__  \:\  \ /:/  / \:\/:/  \/__/          \:\/:/  /     \/\:\  \__  /\  \ |:|  |  \:\/:/ /:/  /
+       \::/__/       ~~\:\/\__\  \:\  /:/  /   \::/__/                \::/__/       ~~\:\/\__\ \:\  \|:|  |   \::/_/:/  /
+        \:\  \          \::/  /   \:\/:/  /     \:\  \                 \:\  \          \::/  /  \:\__|:|__|    \:\/:/  /
+         \:\__\         /:/  /     \::/  /       \:\__\                 \:\__\         /:/  /    \::::/__/      \::/  /
+          \/__/         \/__/       \/__/         \/__/                  \/__/         \/__/      ~~~~           \/__/
+    </small>
+  </body>
+</html>
