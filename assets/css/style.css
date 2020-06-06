@@ -345,11 +345,21 @@ small {
 .grey-text {
   color: #666 !important;
 }
-.teal-text {
+
+/* main .teal-text */
+/* .teal-text {
   color: #008073 !important;
+} */
+.teal-text {
+  color: #000000 !important;
 }
-.teal {
+
+/* .teal */
+/* .teal {
   background-color: #008073 !important;
+} */
+.teal {
+  background-color: #000000 !important;
 }
 @media (min-width: 1200px) {
   #experience .container {
