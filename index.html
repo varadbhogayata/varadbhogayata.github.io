@@ -1,2058 +1,2278 @@
----
-layout: layouts/portfolio
----
-<!-- Navigation Menu-->
-<nav class="hide-on-small-only">
-  <ul class="side-nav fixed section table-of-contents">
-    <li class="logo">
-      <a
-        id="logo-container"
-        aria-label="Navigate to the beginning of the page"
-        href="#intro"
-        class="brand-logo teal-text"
-      >
-        <h1>
-          Andrew Borstein<span class="brown-text light"
-            >Full Stack Developer</span
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Materialize - Compiled and minified CSS-->
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css"
+    />
+    <!-- Font Awesome Icon - CSS-->
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Andrew Borstein | Full Stack Developer</title>
+    <!-- Open Graph-->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Andrew Borstein | Full Stack Developer"
+    />
+    <meta
+      property="og:description"
+      content="I want to make things that make a difference."
+    />
+    <meta property="og:url" content="andrewborstein.com" />
+    <meta
+      property="og:site_name"
+      content="Andrew Borstein | Full Stack Developer"
+    />
+    <meta property="article:publisher" content="andrewborstein.com" />
+    <meta property="og:image" content="" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@andrewarei" />
+    <meta
+      name="twitter:title"
+      content="Andrew Borstein | Full Stack Developer"
+    />
+    <meta
+      name="twitter:description"
+      content="I want to make things that make a difference."
+    />
+    <meta name="twitter:url" content="andrewborstein.com" />
+    <meta name="author" content="Andrew Borstein" />
+    <meta
+      name="description"
+      content="I want to make things that make a difference."
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/assets/img/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/assets/img/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/assets/img/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/img/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/assets/img/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/assets/img/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/assets/img/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/assets/img/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/img/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/assets/img/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/assets/img/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="/assets/img/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js')
+    -->
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="google-site-verification"
+      content="-3F1R8ekDXe8XFfCi7eIVfXOSWqlp_pWNQX2dfgKD4Y"
+    />
+  </head>
+  <body>
+    <!-- Navigation Menu-->
+    <nav class="hide-on-small-only">
+      <ul class="side-nav fixed section table-of-contents">
+        <li class="logo">
+          <a
+            id="logo-container"
+            aria-label="Navigate to the beginning of the page"
+            href="#intro"
+            class="brand-logo teal-text"
           >
-        </h1></a
-      >
-    </li>
-    <li class="bold">
+            <h1>
+              Andrew Borstein<span class="brown-text light"
+                >Full Stack Developer</span
+              >
+            </h1></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the About section"
+            href="#about"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-social-person small"></i><span>About</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Experience section"
+            href="#experience"
+            class="waves-effect waves-dark cyan-text"
+            ><i class="mdi-action-trending-up small"></i
+            ><span>Experience</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Projects section"
+            href="#projects"
+            class="waves-effect waves-dark indigo-text"
+            ><i class="mdi-av-web small"></i><span>Projects</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Skills section"
+            href="#skills"
+            class="waves-effect waves-dark purple-text"
+            ><i class="mdi-av-equalizer small"></i><span>Skills</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Awards section"
+            href="#awards"
+            class="waves-effect waves-dark red-text"
+            ><i class="mdi-action-grade small"></i><span>Awards</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Education section"
+            href="#education"
+            class="waves-effect waves-dark orange-text"
+            ><i class="mdi-social-school small"></i><span>Education</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Contact section"
+            href="#contact"
+            class="waves-effect waves-dark brown-text"
+            ><i class="mdi-content-mail small"></i><span>Contact</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Blog section"
+            href="#blog"
+            class="waves-effect waves-dark yellow-text text-darken-2"
+            ><i class="mdi-content-create small"></i><span>Blog</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Open Andrew's resume in a new tab"
+            href="https://docs.google.com/document/d/1evlvmAcOmPTttl1isyX_UcQbLO5pK8OwB4Rs2Sv4riY"
+            target="_blank"
+            class="waves-effect waves-dark grey-text text-darken-3"
+            ><i class="mdi-action-description small"></i><span>Resume</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <nav class="hide-on-large only trigger z-depth-1">
       <a
-        aria-label="Navigate to the About section"
-        href="#about"
-        class="waves-effect waves-dark teal-text"
-        ><i class="mdi-social-person small"></i><span>About</span></a
-      >
-    </li>
-    <li class="bold">
-      <a
-        aria-label="Navigate to the Experience section"
-        href="#experience"
-        class="waves-effect waves-dark cyan-text"
-        ><i class="mdi-action-trending-up small"></i
-        ><span>Experience</span></a
-      >
-    </li>
-    <li class="bold">
-      <a
-        aria-label="Navigate to the Projects section"
-        href="#projects"
-        class="waves-effect waves-dark indigo-text"
-        ><i class="mdi-av-web small"></i><span>Projects</span></a
-      >
-    </li>
-    <li class="bold">
-      <a
-        aria-label="Navigate to the Skills section"
-        href="#skills"
-        class="waves-effect waves-dark purple-text"
-        ><i class="mdi-av-equalizer small"></i><span>Skills</span></a
-      >
-    </li>
-    <li class="bold">
-      <a
-        aria-label="Navigate to the Awards section"
-        href="#awards"
-        class="waves-effect waves-dark red-text"
-        ><i class="mdi-action-grade small"></i><span>Awards</span></a
-      >
-    </li>
-    <li class="bold">
-      <a
-        aria-label="Navigate to the Education section"
-        href="#education"
-        class="waves-effect waves-dark orange-text"
-        ><i class="mdi-social-school small"></i><span>Education</span></a
-      >
-    </li>
-    <li class="bold">
-      <a
-        aria-label="Navigate to the Contact section"
-        href="#contact"
-        class="waves-effect waves-dark brown-text"
-        ><i class="mdi-content-mail small"></i><span>Contact</span></a
-      >
-    </li>
-    <li class="bold">
-      <a
-        aria-label="Navigate to the Blog section"
-        href="#blog"
-        class="waves-effect waves-dark yellow-text text-darken-2"
-        ><i class="mdi-content-create small"></i><span>Blog</span></a
-      >
-    </li>
-    <li class="bold">
-      <a
-        aria-label="Open Andrew's resume in a new tab"
-        href="https://docs.google.com/document/d/1evlvmAcOmPTttl1isyX_UcQbLO5pK8OwB4Rs2Sv4riY"
-        target="_blank"
-        class="waves-effect waves-dark grey-text text-darken-3"
-        ><i class="mdi-action-description small"></i><span>Resume</span></a
-      >
-    </li>
-  </ul>
-</nav>
-<nav class="hide-on-large only trigger z-depth-1">
-  <a
-    aria-label="Toggle visibility of the mobile navbar"
-    href="#"
-    data-activates="slide-out"
-    class="button-collapse"
-    ><i class="mdi-navigation-menu"></i
-  ></a>
-  <div class="name-title">
-    <a
-      id="name"
-      aria-label="Navigate to the beginning of the page"
-      href="#main"
-      class="teal-text"
-      >Andrew Borstein</a
-    ><span class="brown-text light">Full Stack Developer</span>
-  </div>
-</nav>
-<nav class="hide-on-large only">
-  <ul id="slide-out" class="side-nav">
-    <li class="bold">
-      <a
-        aria-label="Navigate to the About section"
-        href="#about"
-        class="waves-effect waves-dark teal-text"
-        ><i class="mdi-social-person small"></i><span>About</span></a
-      >
-    </li>
-    <li class="bold">
-      <a
-        aria-label="Navigate to the Experience section"
-        href="#experience"
-        class="waves-effect waves-dark cyan-text"
-        ><i class="mdi-action-trending-up small"></i
-        ><span>Experience</span></a
-      >
-    </li>
-    <li class="bold">
-      <a
-        aria-label="Navigate to the Projects section"
-        href="#projects"
-        class="waves-effect waves-dark indigo-text"
-        ><i class="mdi-av-web small"></i><span>Projects</span></a
-      >
-    </li>
-    <li class="bold">
-      <a
-        aria-label="Navigate to the Skills section"
-        href="#skills"
-        class="waves-effect waves-dark purple-text"
-        ><i class="mdi-av-equalizer small"></i><span>Skills</span></a
-      >
-    </li>
-    <li class="bold">
-      <a
-        aria-label="Navigate to the Awards section"
-        href="#awards"
-        class="waves-effect waves-dark red-text"
-        ><i class="mdi-action-grade small"></i><span>Awards</span></a
-      >
-    </li>
-    <li class="bold">
-      <a
-        aria-label="Navigate to the Education section"
-        href="#education"
-        class="waves-effect waves-dark orange-text"
-        ><i class="mdi-social-school small"></i><span>Education</span></a
-      >
-    </li>
-    <li class="bold">
-      <a
-        aria-label="Navigate to the Contact section"
-        href="#contact"
-        class="waves-effect waves-dark brown-text"
-        ><i class="mdi-content-mail small"></i><span>Contact</span></a
-      >
-    </li>
-    <li class="bold">
-      <a
-        aria-label="Navigate to the Contact section"
-        href="#blog"
-        class="waves-effect waves-dark yellow-text text-dark-3"
-        ><i class="mdi-content-mail small"></i><span>Blog</span></a
-      >
-    </li>
-    <li class="bold">
-      <a
-        aria-label="Open Andrew's Resume in a new tab"
-        href="https://docs.google.com/document/d/1evlvmAcOmPTttl1isyX_UcQbLO5pK8OwB4Rs2Sv4riY"
-        target="_blank"
-        class="waves-effect waves-dark grey-text text-darken-3"
-        ><i class="mdi-action-description small"></i><span>Resume</span></a
-      >
-    </li>
-  </ul>
-</nav>
-<!-- Main Content-->
-<main>
-  <section id="intro" class="section scrollspy full-height">
-    <div class="overlay"></div>
-    <div class="container">
-      <h2>
-        I want to <span class="teal">make things</span><br />that
-        <span class="underline">make a difference</span>.
-      </h2>
-    </div>
-  </section>
-  <section id="about" class="section scrollspy">
-    <h3 class="page-title white-text teal">About</h3>
-    <div class="container flow-text">
-      <blockquote>
-        <h2>
-          Mission-driven full stack developer with a passion for thoughtful
-          UI design, collaboration, and teaching.
-        </h2>
-      </blockquote>
-      <p>
-        I’ve always sought out opportunities and challenges that are
-        meaningful to me. Although my professional path has taken many
-        twists and turns — from touring and recording artist, to employee of
-        the year at a non-profit, to dean's scholar at UPenn, to small
-        business owner and entrepreneur — I've never stopped engaging my
-        passion to help others and solve problems.
-      </p>
-      <p>
-        As a web developer, I enjoy using my obsessive attention to detail,
-        my unequivocal love for making things, and my mission-driven work
-        ethic to literally change the world. That's why I’m excited to make
-        a big impact at a high growth company.
-      </p>
-      <p>
-        <strong>Current Focus</strong>:&nbsp;<a
-          aria-label="Navigate to the Inclusive Design Patterns homepage"
-          href="https://www.smashingmagazine.com/inclusive-design-patterns/"
-          >Accessibility</a
-        >&nbsp;//&nbsp;<a
-          aria-label="Navigate to the Full Stack React homepage"
-          href="https://www.fullstackreact.com/"
-          >React</a
-        >&nbsp;//&nbsp;<a
-          aria-label='Navigate to the article "Scalable CSS"'
-          href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/"
-          >Design Systems</a
-        >
-      </p>
-    </div>
-  </section>
-  <section id="experience" class="section scrollspy">
-    <h3 class="page-title white-text teal">Experience</h3>
-    <div class="container">
-      <div class="card">
-        <div class="card-content">
-          <div class="row">
-            <div class="col s12 m2">
-              <a href="http://wespire.com" target="_blank"
-                ><img
-                  alt="WeSpire logo"
-                  src="/assets/img/wespire-logo.jpg"
-                  class="responsive-img center-block"
-              /></a>
-            </div>
-            <div class="col s12 m10">
-              <p>
-                <span class="card-title"
-                  ><a
-                    href="http://wespire.com"
-                    target="_blank"
-                    class="teal-text hoverline"
-                    >Wespire</a
-                  ></span
-                >
-              </p>
-            </div>
-          </div>
-          <div class="role brown-text">Full-Stack Software Developer</div>
+        aria-label="Toggle visibility of the mobile navbar"
+        href="#"
+        data-activates="slide-out"
+        class="button-collapse"
+        ><i class="mdi-navigation-menu"></i
+      ></a>
+      <div class="name-title">
+        <a
+          id="name"
+          aria-label="Navigate to the beginning of the page"
+          href="#main"
+          class="teal-text"
+          >Andrew Borstein</a
+        ><span class="brown-text light">Full Stack Developer</span>
+      </div>
+    </nav>
+    <nav class="hide-on-large only">
+      <ul id="slide-out" class="side-nav">
+        <li class="bold">
+          <a
+            aria-label="Navigate to the About section"
+            href="#about"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-social-person small"></i><span>About</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Experience section"
+            href="#experience"
+            class="waves-effect waves-dark cyan-text"
+            ><i class="mdi-action-trending-up small"></i
+            ><span>Experience</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Projects section"
+            href="#projects"
+            class="waves-effect waves-dark indigo-text"
+            ><i class="mdi-av-web small"></i><span>Projects</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Skills section"
+            href="#skills"
+            class="waves-effect waves-dark purple-text"
+            ><i class="mdi-av-equalizer small"></i><span>Skills</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Awards section"
+            href="#awards"
+            class="waves-effect waves-dark red-text"
+            ><i class="mdi-action-grade small"></i><span>Awards</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Education section"
+            href="#education"
+            class="waves-effect waves-dark orange-text"
+            ><i class="mdi-social-school small"></i><span>Education</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Contact section"
+            href="#contact"
+            class="waves-effect waves-dark brown-text"
+            ><i class="mdi-content-mail small"></i><span>Contact</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Contact section"
+            href="#blog"
+            class="waves-effect waves-dark yellow-text text-dark-3"
+            ><i class="mdi-content-mail small"></i><span>Blog</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Open Andrew's Resume in a new tab"
+            href="https://docs.google.com/document/d/1evlvmAcOmPTttl1isyX_UcQbLO5pK8OwB4Rs2Sv4riY"
+            target="_blank"
+            class="waves-effect waves-dark grey-text text-darken-3"
+            ><i class="mdi-action-description small"></i><span>Resume</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- Main Content-->
+    <main>
+      <section id="intro" class="section scrollspy full-height">
+        <div class="overlay"></div>
+        <div class="container">
+          <h2>
+            I want to <span class="teal">make things</span><br />that
+            <span class="underline">make a difference</span>.
+          </h2>
+        </div>
+      </section>
+      <section id="about" class="section scrollspy">
+        <h3 class="page-title white-text teal">About</h3>
+        <div class="container flow-text">
+          <blockquote>
+            <h2>
+              Mission-driven full stack developer with a passion for thoughtful
+              UI design, collaboration, and teaching.
+            </h2>
+          </blockquote>
           <p>
-            <em class="grey-text"
-              >SaaS platform that enables enterprise companies to build,
-              run, and measure their positive impact campaigns</em
+            I’ve always sought out opportunities and challenges that are
+            meaningful to me. Although my professional path has taken many
+            twists and turns — from touring and recording artist, to employee of
+            the year at a non-profit, to dean's scholar at UPenn, to small
+            business owner and entrepreneur — I've never stopped engaging my
+            passion to help others and solve problems.
+          </p>
+          <p>
+            As a web developer, I enjoy using my obsessive attention to detail,
+            my unequivocal love for making things, and my mission-driven work
+            ethic to literally change the world. That's why I’m excited to make
+            a big impact at a high growth company.
+          </p>
+          <p>
+            <strong>Current Focus</strong>:&nbsp;<a
+              aria-label="Navigate to the Inclusive Design Patterns homepage"
+              href="https://www.smashingmagazine.com/inclusive-design-patterns/"
+              >Accessibility</a
+            >&nbsp;//&nbsp;<a
+              aria-label="Navigate to the Full Stack React homepage"
+              href="https://www.fullstackreact.com/"
+              >React</a
+            >&nbsp;//&nbsp;<a
+              aria-label='Navigate to the article "Scalable CSS"'
+              href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/"
+              >Design Systems</a
             >
           </p>
-          <h6>Develop Product</h6>
-          <ul>
-            <li>
-              Contribute core features across entire stack (20k+ lines of
-              code, 250+ pulls)
-            </li>
-            <li>
-              Lead front-end development, creating and documenting app-wide
-              design system
-            </li>
-            <li>
-              Oversee transition from page-based styles to modular component
-              styles
-            </li>
-            <li>Guide best practices around accessible, semantic UI/UX</li>
-            <li>
-              Tools: Ruby, Rails, PostgreSQL // React, JS, jQuery // Sass //
-              HTML, JSX, Haml
-            </li>
-          </ul>
-          <h6>Accomplishments</h6>
-          <ul>
-            <li>
-              Dramatically increased speed of UI development using atomic,
-              scalable CSS
-            </li>
-            <li>
-              Built tool to convert HRIS data into user accounts to simplify
-              onboarding
-            </li>
-            <li>
-              Implemented inline @tagging feature to increase app
-              share-ability
-            </li>
-          </ul>
         </div>
-        <div class="card-action">
-          <span>Jan 2016 - Present | Boston, MA</span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-          <div class="row">
-            <div class="col s12 m2">
-              <a href="http://wespire.com" target="_blank"
-                ><img
-                  alt="WeSpire logo"
-                  src="/assets/img/wespire-logo.jpg"
-                  class="responsive-img center-block"
-              /></a>
-            </div>
-            <div class="col s12 m10">
+      </section>
+      <section id="experience" class="section scrollspy">
+        <h3 class="page-title white-text teal">Experience</h3>
+        <div class="container">
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="http://wespire.com" target="_blank"
+                    ><img
+                      alt="WeSpire logo"
+                      src="/assets/img/wespire-logo.jpg"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="http://wespire.com"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Wespire</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">Full-Stack Software Developer</div>
               <p>
-                <span class="card-title"
-                  ><a
-                    href="http://wespire.com"
-                    target="_blank"
-                    class="teal-text hoverline"
-                    >Wespire</a
-                  ></span
+                <em class="grey-text"
+                  >SaaS platform that enables enterprise companies to build,
+                  run, and measure their positive impact campaigns</em
                 >
               </p>
+              <h6>Develop Product</h6>
+              <ul>
+                <li>
+                  Contribute core features across entire stack (20k+ lines of
+                  code, 250+ pulls)
+                </li>
+                <li>
+                  Lead front-end development, creating and documenting app-wide
+                  design system
+                </li>
+                <li>
+                  Oversee transition from page-based styles to modular component
+                  styles
+                </li>
+                <li>Guide best practices around accessible, semantic UI/UX</li>
+                <li>
+                  Tools: Ruby, Rails, PostgreSQL // React, JS, jQuery // Sass //
+                  HTML, JSX, Haml
+                </li>
+              </ul>
+              <h6>Accomplishments</h6>
+              <ul>
+                <li>
+                  Dramatically increased speed of UI development using atomic,
+                  scalable CSS
+                </li>
+                <li>
+                  Built tool to convert HRIS data into user accounts to simplify
+                  onboarding
+                </li>
+                <li>
+                  Implemented inline @tagging feature to increase app
+                  share-ability
+                </li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>Jan 2016 - Present | Boston, MA</span>
             </div>
           </div>
-          <div class="role brown-text">QA Developer</div>
-          <p>
-            <em class="grey-text"
-              >SaaS platform that enables enterprise companies to build,
-              run, and measure their positive impact campaigns</em
-            >
-          </p>
-          <ul>
-            <li>
-              Improved accuracy, coverage, and speed of automated tests
-            </li>
-            <li>
-              Created an automated ‘smoke test’ using Ruby and the
-              CrossBrowserTesting API
-            </li>
-            <li>
-              Streamlined CLI and deployment, saving 10/hrs week and
-              increasing releases 5x
-            </li>
-          </ul>
-        </div>
-        <div class="card-action">
-          <span>May 2015 - Dec 2015 | Boston, MA</span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-          <div class="row">
-            <div class="col s12 m2">
-              <a href="https://www.startupinstitute.com/" target="_blank"
-                ><img
-                  alt="Startup Institute logo"
-                  src="/assets/img/si-logo.png"
-                  class="responsive-img center-block"
-              /></a>
-            </div>
-            <div class="col s12 m10">
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="http://wespire.com" target="_blank"
+                    ><img
+                      alt="WeSpire logo"
+                      src="/assets/img/wespire-logo.jpg"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="http://wespire.com"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Wespire</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">QA Developer</div>
               <p>
-                <span class="card-title"
-                  ><a
-                    href="https://www.startupinstitute.com/intro-courses/web-design/"
-                    target="_blank"
-                    class="teal-text hoverline"
-                    >Intro Course</a
-                  ></span
+                <em class="grey-text"
+                  >SaaS platform that enables enterprise companies to build,
+                  run, and measure their positive impact campaigns</em
                 >
               </p>
+              <ul>
+                <li>
+                  Improved accuracy, coverage, and speed of automated tests
+                </li>
+                <li>
+                  Created an automated ‘smoke test’ using Ruby and the
+                  CrossBrowserTesting API
+                </li>
+                <li>
+                  Streamlined CLI and deployment, saving 10/hrs week and
+                  increasing releases 5x
+                </li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>May 2015 - Dec 2015 | Boston, MA</span>
             </div>
           </div>
-          <div class="role brown-text">
-            Instructor & Curriculum Designer
-          </div>
-          <p>
-            <em class="grey-text"
-              >8-week course for students enrolled in the Fundamentals
-              Classes Intro to Web Design</em
-            >
-          </p>
-          <ul>
-            <li>
-              Teaching the basics of HTML, CSS, and the principles of
-              responsive design.
-            </li>
-            <li>
-              Currently redesigning and building a new, improved Web Design
-              curriculum to be implemented across all SI channels in 2018
-            </li>
-          </ul>
-          <h6>Accomplishments</h6>
-          <ul>
-            <li>
-              Increased the average student retention rate from less than
-              40% to more than 95%
-            </li>
-            <li>
-              Doubled the average amount of students that move from
-              Funamdentals Classes to the Full-Time program
-            </li>
-          </ul>
-        </div>
-        <div class="card-action">
-          <span>Jan 2016 - Present | Boston, MA</span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-          <div class="row">
-            <div class="col s12 m2">
-              <a href="https://www.startupinstitute.com/" target="_blank"
-                ><img
-                  alt="Startup Institute logo"
-                  src="/assets/img/si-logo.png"
-                  class="responsive-img center-block"
-              /></a>
-            </div>
-            <div class="col s12 m10">
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="https://www.startupinstitute.com/" target="_blank"
+                    ><img
+                      alt="Startup Institute logo"
+                      src="/assets/img/si-logo.png"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://www.startupinstitute.com/intro-courses/web-design/"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Intro Course</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">
+                Instructor & Curriculum Designer
+              </div>
               <p>
-                <span class="card-title"
-                  ><a
-                    href="https://www.eventbrite.com/e/boston-community-class-building-a-webpage-with-bootstrap-tickets-29157196961"
-                    target="_blank"
-                    class="teal-text hoverline"
-                    >Community Class</a
-                  ></span
+                <em class="grey-text"
+                  >8-week course for students enrolled in the Fundamentals
+                  Classes Intro to Web Design</em
                 >
               </p>
+              <ul>
+                <li>
+                  Teaching the basics of HTML, CSS, and the principles of
+                  responsive design.
+                </li>
+                <li>
+                  Currently redesigning and building a new, improved Web Design
+                  curriculum to be implemented across all SI channels in 2018
+                </li>
+              </ul>
+              <h6>Accomplishments</h6>
+              <ul>
+                <li>
+                  Increased the average student retention rate from less than
+                  40% to more than 95%
+                </li>
+                <li>
+                  Doubled the average amount of students that move from
+                  Funamdentals Classes to the Full-Time program
+                </li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>Jan 2016 - Present | Boston, MA</span>
             </div>
           </div>
-          <div class="role brown-text">Instructor</div>
-          <p>
-            <em class="grey-text"
-              >One-off community class open to the public and sponsored by
-              Resilient Coders</em
-            >
-          </p>
-          <ul>
-            <li>
-              Taught an introductory seminar covering HTML, CSS, and
-              primarily Bootstrap, with a one-page website deliverable
-            </li>
-          </ul>
-        </div>
-        <div class="card-action"><span>Nov 2016 | Boston, MA</span></div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-          <div class="row">
-            <div class="col s12 m2">
-              <a href="http:/startupinstitute.com" target="_blank"
-                ><img
-                  alt="Startup Institute logo"
-                  src="/assets/img/si-logo.png"
-                  class="responsive-img center-block"
-              /></a>
-            </div>
-            <div class="col s12 m10">
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="https://www.startupinstitute.com/" target="_blank"
+                    ><img
+                      alt="Startup Institute logo"
+                      src="/assets/img/si-logo.png"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://www.eventbrite.com/e/boston-community-class-building-a-webpage-with-bootstrap-tickets-29157196961"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Community Class</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">Instructor</div>
               <p>
-                <span class="card-title"
-                  ><a
-                    href="https://www.startupinstitute.com/courses/"
-                    target="_blank"
-                    class="teal-text hoverline"
-                    >Full-Time Program</a
-                  ></span
+                <em class="grey-text"
+                  >One-off community class open to the public and sponsored by
+                  Resilient Coders</em
                 >
               </p>
+              <ul>
+                <li>
+                  Taught an introductory seminar covering HTML, CSS, and
+                  primarily Bootstrap, with a one-page website deliverable
+                </li>
+              </ul>
             </div>
+            <div class="card-action"><span>Nov 2016 | Boston, MA</span></div>
           </div>
-          <div class="role brown-text">Instructor</div>
-          <p>
-            <em class="grey-text"
-              >2-day intensive and interactive courses and lab work with
-              students in the Full Time program.</em
-            >
-          </p>
-          <h6>Web Design topics</h6>
-          <ul>
-            <li>Intro to HTML/CSS</li>
-            <li>Fonts, Images,</li>
-            <li>Responsive Design</li>
-            <li>CSS Frameworks</li>
-          </ul>
-          <h6>Web Development topics</h6>
-          <ul>
-            <li>Intro to MVC Rails App</li>
-            <li>Rails Associations</li>
-            <li>Basic Layout and CSS Best Practices</li>
-          </ul>
-        </div>
-        <div class="card-action">
-          <span>Jun 2015 - Present | Boston, MA</span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-          <div class="row">
-            <div class="col s12 m2">
-              <a href="http:/startupinstitute.com" target="_blank"
-                ><img
-                  alt="Startup Institute logo"
-                  src="/assets/img/si-logo.png"
-                  class="responsive-img center-block"
-              /></a>
-            </div>
-            <div class="col s12 m10">
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="http:/startupinstitute.com" target="_blank"
+                    ><img
+                      alt="Startup Institute logo"
+                      src="/assets/img/si-logo.png"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://www.startupinstitute.com/courses/"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Full-Time Program</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">Instructor</div>
               <p>
-                <span class="card-title"
-                  ><a
-                    href="http:/startupinstitute.com"
-                    target="_blank"
-                    class="teal-text hoverline"
-                    >Startup Institute</a
-                  ></span
+                <em class="grey-text"
+                  >2-day intensive and interactive courses and lab work with
+                  students in the Full Time program.</em
                 >
               </p>
+              <h6>Web Design topics</h6>
+              <ul>
+                <li>Intro to HTML/CSS</li>
+                <li>Fonts, Images,</li>
+                <li>Responsive Design</li>
+                <li>CSS Frameworks</li>
+              </ul>
+              <h6>Web Development topics</h6>
+              <ul>
+                <li>Intro to MVC Rails App</li>
+                <li>Rails Associations</li>
+                <li>Basic Layout and CSS Best Practices</li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>Jun 2015 - Present | Boston, MA</span>
             </div>
           </div>
-          <div class="role brown-text">Web Dev Student</div>
-          <p>
-            <em class="grey-text"
-              >Competitive , 8-week immersive program that helps individuals
-              to develop the skills, mindset, and network to be high-impact
-              at a high-growth company.</em
-            >
-          </p>
-          <ul>
-            <li>Technology - Ruby on Rails, Git, AWS, Heroku, Node.js</li>
-            <li>
-              Practices - Agile development tactics, test-driven
-              development, mobile-first methodology
-            </li>
-          </ul>
-        </div>
-        <div class="card-action">
-          <span>Feb 2014 - Apr 2014 | Boston, MA</span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-          <div class="row">
-            <div class="col s12 m2">
-              <a href="http://brownborgstudios.com" target="_blank"
-                ><img
-                  alt="Brownborg Studios logo"
-                  src="/assets/img/brownborg-logo.png"
-                  class="responsive-img center-block"
-              /></a>
-            </div>
-            <div class="col s12 m10">
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="http:/startupinstitute.com" target="_blank"
+                    ><img
+                      alt="Startup Institute logo"
+                      src="/assets/img/si-logo.png"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="http:/startupinstitute.com"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Startup Institute</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">Web Dev Student</div>
               <p>
-                <span class="card-title"
-                  ><a
-                    href="http://brownborgstudios.com"
-                    target="_blank"
-                    class="teal-text hoverline"
-                    >Brownborg Studios</a
-                  ></span
+                <em class="grey-text"
+                  >Competitive , 8-week immersive program that helps individuals
+                  to develop the skills, mindset, and network to be high-impact
+                  at a high-growth company.</em
                 >
               </p>
+              <ul>
+                <li>Technology - Ruby on Rails, Git, AWS, Heroku, Node.js</li>
+                <li>
+                  Practices - Agile development tactics, test-driven
+                  development, mobile-first methodology
+                </li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>Feb 2014 - Apr 2014 | Boston, MA</span>
             </div>
           </div>
-          <div class="role brown-text">Founder & Developer</div>
-          <p>
-            <em class="grey-text"
-              >Small web development and design studio for businesses,
-              non-profits, and individuals</em
-            >
-          </p>
-          <ul>
-            <li>
-              Creating easy-to-use CMS websites for clients for local and
-              international clients
-            </li>
-            <li>
-              Managing all accounting, communication, and project management
-            </li>
-            <li>
-              Generated over $40k in revenue within first year of business,
-              without marketing or promotion
-            </li>
-          </ul>
-        </div>
-        <div class="card-action">
-          <span>July 2010 - Present | Providence, RI</span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-          <div class="row">
-            <div class="col s12 m2">
-              <a href="http://equalaccessri.org" target="_blank"
-                ><img
-                  alt="Equal Access RI logo"
-                  src="/assets/img/equal-access-ri.png"
-                  class="responsive-img center-block"
-              /></a>
-            </div>
-            <div class="col s12 m10">
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="http://brownborgstudios.com" target="_blank"
+                    ><img
+                      alt="Brownborg Studios logo"
+                      src="/assets/img/brownborg-logo.png"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="http://brownborgstudios.com"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Brownborg Studios</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">Founder & Developer</div>
               <p>
-                <span class="card-title"
-                  ><a
-                    href="http://equalaccessri.org"
-                    target="_blank"
-                    class="teal-text hoverline"
-                    >Equal Access RI</a
-                  ></span
+                <em class="grey-text"
+                  >Small web development and design studio for businesses,
+                  non-profits, and individuals</em
                 >
               </p>
+              <ul>
+                <li>
+                  Creating easy-to-use CMS websites for clients for local and
+                  international clients
+                </li>
+                <li>
+                  Managing all accounting, communication, and project management
+                </li>
+                <li>
+                  Generated over $40k in revenue within first year of business,
+                  without marketing or promotion
+                </li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>July 2010 - Present | Providence, RI</span>
             </div>
           </div>
-          <div class="role brown-text">Creative Strategist</div>
-          <p>
-            <em class="grey-text"
-              >Accessibility consultancy and advocacy project founded by
-              individual with Cerebral Palsy</em
-            >
-          </p>
-          <ul>
-            <li>
-              Mentored the founder and led a small team in business and
-              creative strategies
-            </li>
-            <li>
-              Designed visual branding, wrote copy, and developed website
-            </li>
-            <li>
-              Garnered a front-page Providence Journal article within first
-              9 months
-            </li>
-          </ul>
-        </div>
-        <div class="card-action">
-          <span>Mar 2014 - Feb 2015 | Pawtucket, RI</span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-          <div class="row">
-            <div class="col s12 m2">
-              <a
-                href="https://www.centerforautismresearch.org/"
-                target="_blank"
-                ><img
-                  alt="Equal Access RI logo"
-                  src="/assets/img/chop.jpg"
-                  class="responsive-img center-block"
-              /></a>
-            </div>
-            <div class="col s12 m10">
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="http://equalaccessri.org" target="_blank"
+                    ><img
+                      alt="Equal Access RI logo"
+                      src="/assets/img/equal-access-ri.png"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="http://equalaccessri.org"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Equal Access RI</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">Creative Strategist</div>
               <p>
-                <span class="card-title"
-                  ><a
+                <em class="grey-text"
+                  >Accessibility consultancy and advocacy project founded by
+                  individual with Cerebral Palsy</em
+                >
+              </p>
+              <ul>
+                <li>
+                  Mentored the founder and led a small team in business and
+                  creative strategies
+                </li>
+                <li>
+                  Designed visual branding, wrote copy, and developed website
+                </li>
+                <li>
+                  Garnered a front-page Providence Journal article within first
+                  9 months
+                </li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>Mar 2014 - Feb 2015 | Pawtucket, RI</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a
                     href="https://www.centerforautismresearch.org/"
                     target="_blank"
-                    class="teal-text hoverline"
-                    >Center for Autism Research</a
-                  ></span
+                    ><img
+                      alt="Equal Access RI logo"
+                      src="/assets/img/chop.jpg"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://www.centerforautismresearch.org/"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Center for Autism Research</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">Research Assistant</div>
+              <p>
+                <em class="grey-text"
+                  >Joint center of The Children’s Hospital of Philadelphia and
+                  the University of Pennsylvania</em
                 >
               </p>
+              <ul>
+                <li>
+                  Observed clinical evaluations of children with ASD provided
+                  support to clinicians
+                </li>
+                <li>Developed new data entry forms for research intake</li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>Sep 2011 - Apr 2013 | Philadelphia, PA</span>
             </div>
           </div>
-          <div class="role brown-text">Research Assistant</div>
-          <p>
-            <em class="grey-text"
-              >Joint center of The Children’s Hospital of Philadelphia and
-              the University of Pennsylvania</em
-            >
-          </p>
-          <ul>
-            <li>
-              Observed clinical evaluations of children with ASD provided
-              support to clinicians
-            </li>
-            <li>Developed new data entry forms for research intake</li>
-          </ul>
-        </div>
-        <div class="card-action">
-          <span>Sep 2011 - Apr 2013 | Philadelphia, PA</span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-          <div class="row">
-            <div class="col s12 m2">
-              <a href="http://rhdri.org" target="_blank"
-                ><img
-                  alt="RHD-RI logo"
-                  src="/assets/img/rhdri-logo.png"
-                  class="responsive-img center-block"
-              /></a>
-            </div>
-            <div class="col s12 m10">
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="http://rhdri.org" target="_blank"
+                    ><img
+                      alt="RHD-RI logo"
+                      src="/assets/img/rhdri-logo.png"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="http://rhdri.org"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >RHD-RI</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">Direct Support Professional</div>
               <p>
-                <span class="card-title"
-                  ><a
-                    href="http://rhdri.org"
-                    target="_blank"
-                    class="teal-text hoverline"
-                    >RHD-RI</a
-                  ></span
-                >
+                <em class="grey-text"
+                  >Non-profit, arts-based day program for adults with
+                  disabilities
+                </em>
               </p>
+              <ul>
+                <li>
+                  Supported over forty clients daily in a fast-paced, team
+                  environment
+                </li>
+                <li>
+                  Created new method for organizing staff information and
+                  clients’ goals, still in use today
+                </li>
+                <li>
+                  Awarded Employee of the Year out of 30+ employees after only
+                  one year of service
+                </li>
+                <li>
+                  Awarded Most Valuable Staff at Winter Art Show for highest
+                  sales and unique client product
+                </li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <span>Feb 2010 - Sept 2011 | Pawtucket, RI</span>
             </div>
           </div>
-          <div class="role brown-text">Direct Support Professional</div>
-          <p>
-            <em class="grey-text"
-              >Non-profit, arts-based day program for adults with
-              disabilities
-            </em>
-          </p>
-          <ul>
-            <li>
-              Supported over forty clients daily in a fast-paced, team
-              environment
-            </li>
-            <li>
-              Created new method for organizing staff information and
-              clients’ goals, still in use today
-            </li>
-            <li>
-              Awarded Employee of the Year out of 30+ employees after only
-              one year of service
-            </li>
-            <li>
-              Awarded Most Valuable Staff at Winter Art Show for highest
-              sales and unique client product
-            </li>
-          </ul>
-        </div>
-        <div class="card-action">
-          <span>Feb 2010 - Sept 2011 | Pawtucket, RI</span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-          <div class="row">
-            <div class="col s12 m2">
-              <a
-                href="https://www.google.com/search?q=Monty+Are+I"
-                target="_blank"
-                ><img
-                  alt="Monty Are I logo"
-                  src="/assets/img/monty-are-i-logo.png"
-                  class="responsive-img center-block"
-              /></a>
-            </div>
-            <div class="col s12 m10">
-              <p>
-                <span class="card-title"
-                  ><a
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a
                     href="https://www.google.com/search?q=Monty+Are+I"
                     target="_blank"
-                    class="teal-text hoverline"
-                    >Monty Are I</a
-                  ></span
+                    ><img
+                      alt="Monty Are I logo"
+                      src="/assets/img/monty-are-i-logo.png"
+                      class="responsive-img center-block"
+                  /></a>
+                </div>
+                <div class="col s12 m10">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://www.google.com/search?q=Monty+Are+I"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Monty Are I</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="role brown-text">
+                Co-Founder &amp; Touring / Recording Artist
+              </div>
+              <p>
+                <em class="grey-text"
+                  >Five piece “action rock” band from Cranston, RI</em
                 >
               </p>
+              <ul>
+                <li>
+                  Built a successful and sustainable small-business with four
+                  other founders
+                </li>
+                <li>
+                  Wrote, produced, and recorded five albums both independently
+                  and under Island/DefJam
+                </li>
+                <li>
+                  Completed 7 full US tours, including one headlining tour
+                </li>
+                <li>
+                  Created, recruited and managed 2000 member promotional street
+                  team
+                </li>
+              </ul>
+            </div>
+            <div class="card-action"><span>2004 - 2010 | USA</span></div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="section scrollspy">
+        <h3 class="page-title white-text teal">Projects</h3>
+        <div class="container">
+          <div class="row">
+            <!-- Interpol8r-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of Interpol8r web app"
+                    src="/assets/img/interpol8r.jpg"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Interpol8r<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <p>
+                    Experimental web app with homemade recursive string
+                    interpolation.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Accomplishments<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li><strong>Ruby on Rails</strong> backend</li>
+                    <li><strong>Bulma CSS</strong> frontend</li>
+                    <li>String interpolation via <strong>recursion</strong></li>
+                    <li><strong>Dependency free</strong> JS config</li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Interpol8r web app"
+                      href="https://interpol8r.herokuapp.com/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i></a
+                    ><a
+                      aria-label="Visit the GitHub repo for Interpol8r project"
+                      href="https://github.com/andrewborstein/interpol8r"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- BlogSpire-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of BlogSpire web app"
+                    src="/assets/img/blogspire.jpg"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >BlogSpire<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <p>
+                    Blogging web app created for the Engineering team at
+                    WeSpire.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Accomplishments<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li><strong>Ruby on Rails</strong> backend</li>
+                    <li><strong>Materialize CSS</strong> frontend</li>
+                    <li>User <strong>authentication</strong> via Devise</li>
+                    <li>Implemented <strong>liking functionality</strong></li>
+                    <li><strong>Client-side rendering</strong> via AJAX</li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit BlogSpire web app"
+                      href="https://blogspire.herokuapp.com/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i></a
+                    ><a
+                      aria-label="Visit the GitHub repo for BlogSpire project"
+                      href="https://github.com/andrewborstein/blogspire"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Code Island-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Code Island logo"
+                    src="/assets/img/code-island.jpg"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Code Island<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <p>
+                    Online headquarters for the local Code for America brigade
+                    in Rhode Island.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Accomplishments<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li>
+                      Integrated “Next Meeting” via <strong>Meetup API</strong>
+                    </li>
+                    <li>
+                      Developed <strong>CSS and JS</strong> responsive menu
+                    </li>
+                    <li>Created member list via <strong>GitHub API</strong></li>
+                    <li>Refreshed branding and layout</li>
+                    <li>
+                      Refactored all existing code (<strong>Jekyll</strong>)
+                    </li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Code Island website"
+                      href="http://code-island.org"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i></a
+                    ><a
+                      aria-label="Visit the GitHub repo for Code Island project"
+                      href="http://github.com/andrewborstein/code-island.org"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Saved By the Text-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Zach Morris from Saved by the Bell, on his clunky cell phone"
+                    src="/assets/img/saved-by-the-text.jpg"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Saved By the Text<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>
+                    Fun, TV nostalgia-themed app that sends an MMS to a user's
+                    phone number.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Accomplishments<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li>Built with Ruby on <strong>Rails</strong></li>
+                    <li>Integrated <strong>Twilio API</strong></li>
+                    <li>Designed in <strong>Bootstrap</strong></li>
+                    <li><strong>Javascript</strong> input validation</li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Saved By The Test web app"
+                      href="http://savedbythetext.herokuapp.com"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i></a
+                    ><a
+                      aria-label="Visit the GitHub repo for Saved By the Text project"
+                      href="http://github.com/andrewborstein/saved-by-the-text"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Skate Something-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Skate boarder catching air on a half pipe"
+                    src="/assets/img/skate-something.jpg"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Skate Something<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>
+                    Mobile-focused web app where users can explore, collect, and
+                    share skate spots.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Accomplishments<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li>Front-end development in <strong>Bootstrap</strong></li>
+                    <li>Contributed creative strategy and UX</li>
+                    <li>Built dynamic templates using <strong>Jade</strong></li>
+                    <li>
+                      Worked with <strong>MVC</strong> framework,
+                      <strong>Node</strong> server
+                    </li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Skate Something web app"
+                      href="http://skatesomething.com"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i></a
+                    ><a
+                      aria-label="Visit the GitHub repo for Skate Something project"
+                      href="#"
+                      data-position="top"
+                      data-tooltip="Source is Private"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- RI WiFi-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="RI WiFi logo"
+                    src="/assets/img/ri-wifi.jpg"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >RI WiFi<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <p>
+                    Sortable database of WiFi-enabled spots with details for
+                    laptop users.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Accomplishments<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li>
+                      Ruby on <strong>Rails</strong> &amp;
+                      <strong>Bootstrap</strong>
+                    </li>
+                    <li><strong>Google Maps API</strong></li>
+                    <li>Native Javascript <strong>geolocation</strong></li>
+                    <li><strong>Dynamic CSS</strong> color coding</li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit RI WiFi web app"
+                      href="http://ri-wifi.herokuapp.com"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i></a
+                    ><a
+                      aria-label="Visit the GitHub repo for RI WiFi project"
+                      href="http://github.com/andrewborstein/ri-wifi"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Pinterest-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Cute kitten"
+                    src="/assets/img/pinteresting.jpg"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Pinteresting<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <p>
+                    Lite Pinterest clone, where users can 'pin' photos,
+                    especially those of cats.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Accomplishments<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li>
+                      Ruby on <strong>Rails</strong> &amp;
+                      <strong>Bootstrap</strong>
+                    </li>
+                    <li>Image upload with <strong>AWS</strong></li>
+                    <li><strong>jQuery</strong> Masonry effect</li>
+                    <li>User Authentication with <strong>Devise</strong></li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Pinteresting web app"
+                      href="http://asb-pinteresting.herokuapp.com"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i></a
+                    ><a
+                      aria-label="Visit the GitHub repo for Pinteresting project"
+                      href="http://github.com/andrewborstein/pinteresting"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Shelter Finder-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of Google map with pins on it"
+                    src="/assets/img/shelter-finder.jpg"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Shelter Finder<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <p>
+                    Web app that helps Boston teens find the nearest available
+                    short-term housing.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Accomplishments<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li>Ruby on <strong>Rails</strong> backend API</li>
+                    <li>
+                      <strong>AJAX</strong> query of Rails <strong>JSON</strong>
+                    </li>
+                    <li>Custom <strong>Google Maps API</strong> integration</li>
+                    <li>Automatic location/distance calculation</li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Sehlter Finder website"
+                      href="http://shelterfinder.herokuapp.com"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i></a
+                    ><a
+                      aria-label="Visit the GitHub repo for Shelter Finder project"
+                      href="http://github.com/andrewborstein/youth-shelter-finder"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Custom Social Feed-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Chandon logo"
+                    src="/assets/img/chandon.jpg"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Custom Social Feed<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>
+                    AJAX Twitter and Instagram feed of specific #hashtag posts.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Accomplishments<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li>Fully customized <strong>jQuery</strong> plugin</li>
+                    <li>
+                      Integrates <strong>Twitter and Instagram API</strong>
+                    </li>
+                    <li>Matches Chandon's exact branding</li>
+                    <li>Built into custom <strong>Tumblr</strong> theme</li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Chandon Tumblr website"
+                      href="http://chandonusa.tumblr.com/pour-on-the-fun"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Madlibs-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Andrew playfully posing with face half covered by laptop"
+                    src="/assets/img/madlibs.jpg"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Portfolio MadLibs<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>
+                    Have fun with my personal profile by replacing random words.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Accomplishments<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li>Custom <strong>jQuery</strong> script</li>
+                    <li>Hover and click actions</li>
+                    <li>Pulls from random word array</li>
+                    <li>Hours of fun!</li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Portfolio Madlibs website"
+                      href="http://andrewborstein.github.io/portfolio-madlibs/andrew.html"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i></a
+                    ><a
+                      aria-label="Visit the GitHub repo for the Portfolio Madlibs project"
+                      href="http://github.com/andrewborstein/portfolio-madlibs"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Cidewalk for Etsy-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Cidewalk logo"
+                    src="/assets/img/cidewalk.jpg"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Cidewalk for Etsy<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>
+                    UI redesign of the popular mobile ad platform, styled for
+                    Etsy users.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Accomplishments<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li>Restyled UI, design, and branding</li>
+                    <li>Reorganized user process and flow</li>
+                    <li>
+                      Built with <strong>Angular</strong> and
+                      <strong>Bootstrap</strong>
+                    </li>
+                    <li>
+                      <a aria-label="" href="http://app.cidewalk.com"
+                        >Original &amp;&nbsp;</a
+                      ><a aria-label="" href="http://etsy.cidewalk.com"
+                        >Redesign</a
+                      >
+                    </li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Cidewalk web app"
+                      href="https://etsy.cidewalk.com"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Brownborg Studios-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Brownborg Studios logo"
+                    src="/assets/img/brownborg-studios.jpg"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Website Portfolio<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <p>
+                    Over a dozen powerful, easy-to-use CMS websites built for
+                    local and international clients.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    >Accomplishments<i class="mdi-navigation-close right"></i
+                  ></span>
+                  <ul>
+                    <li><strong>Customized</strong> themes and plugins</li>
+                    <li>Wordpress, Squarespace &amp; Tumblr</li>
+                    <li>Fully <strong>responsive</strong> designs</li>
+                    <li>Unique admin experiences</li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Brownborg Studios website"
+                      href="http://brownborgstudios.com/portfolio"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="role brown-text">
-            Co-Founder &amp; Touring / Recording Artist
+        </div>
+      </section>
+      <section id="skills" class="section scrollspy">
+        <h3 class="page-title white-text teal">Skills</h3>
+        <div class="container">
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">HTML</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/html5.png"
+                    class="responsive-img"
+                  />HTML5
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/react.png"
+                    class="responsive-img"
+                  />JSX
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/haml.png"
+                    class="responsive-img"
+                  />Haml
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/jade.png"
+                    class="responsive-img"
+                  />Jade
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/jekyll.png"
+                    class="responsive-img"
+                  />Jekyll
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">CSS</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/css3.png"
+                    class="responsive-img"
+                  />CSS3
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/sass.png"
+                    class="responsive-img"
+                  />SASS
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/bootstrap.png"
+                    class="responsive-img"
+                  />Bootstrap
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/foundation.png"
+                    class="responsive-img"
+                  />Foundation
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/materialize.png"
+                    class="responsive-img"
+                  />Materialize
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Javascript</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/react.png"
+                    class="responsive-img"
+                  />React
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/javascript.png"
+                    class="responsive-img"
+                  />Javascript
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/jquery.png"
+                    class="responsive-img"
+                  />jQuery
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/angular.png"
+                    class="responsive-img"
+                  />Angular
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/nodejs.png"
+                    class="responsive-img"
+                  />Node
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/ionic.png"
+                    class="responsive-img"
+                  />Ionic
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Back-End</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/ruby.png"
+                    class="responsive-img"
+                  />Ruby
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/rails.png"
+                    class="responsive-img"
+                  />Rails
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/minitest.png"
+                    class="responsive-img"
+                  />Minitest
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/postgresql.png"
+                    class="responsive-img"
+                  />PostgreSQL
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/mongodb.png"
+                    class="responsive-img"
+                  />MongoDB
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Build Tools</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/webpack.png"
+                    class="responsive-img"
+                  />Webpack
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/gulp.png"
+                    class="responsive-img"
+                  />Gulp
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/grunt.png"
+                    class="responsive-img"
+                  />Grunt
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/bower.png"
+                    class="responsive-img"
+                  />Bower
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">CMS</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/wordpress.png"
+                    class="responsive-img"
+                  />Wordpress
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/tumblr.png"
+                    class="responsive-img"
+                  />Tumblr
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/squarespace.png"
+                    class="responsive-img"
+                  />Squarespace
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Other</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/github.png"
+                    class="responsive-img"
+                  />Github
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/heroku.png"
+                    class="responsive-img"
+                  />Heroku
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/photoshop.png"
+                    class="responsive-img"
+                  />Photoshop
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="/assets/img/fcpx.png"
+                    class="responsive-img"
+                  />Final Cut Pro
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="awards" class="section scrollspy">
+        <h3 class="page-title white-text teal">Awards</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="http://startupinstitute.com"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Student Choice Award</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">
+                    Startup Institute - Full Time Web Development | April 2017
+                  </p>
+                  <ul>
+                    <li>
+                      Awarded by students in the Full-Time Web Development track
+                      to one instructor as recognition for "outstanding
+                      teaching, listening, mentoring."
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://wespire.com"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Inspired By You Award</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">WeSpire | June 2016</p>
+                  <ul>
+                    <li>
+                      Quarterly award given to a team member who exemplifies
+                      WeSpire's purpose, vision, and values, goes above and
+                      beyond in their role to make a particularly positive
+                      impact on the company.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="http://startupinstitute.com"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Owl Award</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">Startup Institute | April 2016</p>
+                  <ul>
+                    <li>
+                      Given to an alumnus who "continually gives back to the
+                      Startup Institute community with true humility, despite
+                      everyone knowing how awesome he is."
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="http://www.rhdri.org"
+                        class="teal-text hoverline"
+                        >Honorable Mention</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">
+                    West Philly Homebrew Competition | May 2013
+                  </p>
+                  <ul>
+                    <li>
+                      Neightborhood beer enthusiasts voted on their favorite
+                      local home-brewed beer. “Goldilocks" won in the "People's
+                      Choice" category.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="https://www.sas.upenn.edu/news/congratulations-our-dean%E2%80%99s-scholars"
+                        target="_blank"
+                        class="teal-text hoverline"
+                        >Dean's Scholar</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">
+                    University of Pennsylvania | April 2013
+                  </p>
+                  <ul>
+                    <li>
+                      One of only 20 students in the School of Arts &amp;
+                      Sciences nominated by faculty for "outstanding academic
+                      achievement and intellectual promise."
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a
+                        href="http://www.rhdri.org"
+                        class="teal-text hoverline"
+                        >Employee of the Year</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">RHD-RI | Aug 2011</p>
+                  <ul>
+                    <li>
+                      Nominated by management and coworkers for exceptional work
+                      ethic and dedication to clients.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a href="http://upenn.edu" class="teal-text hoverline"
+                        >Most Valuable Staff</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">RHD-RI | Dec 2010</p>
+                  <ul>
+                    <li>
+                      Awarded to the staff that went above in beyond in
+                      preparation, effort, and sales at the Winter Art show.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education" class="section scrollspy">
+        <h3 class="page-title white-text teal">Education</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a href="http://upenn.edu" class="teal-text hoverline"
+                        >University of Pennsylvania</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">Philadelphia, PA</p>
+                  <ul>
+                    <li>B.A. in Psychology</li>
+                    <li>Summa Cum Laude</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"
+                      ><a href="http://www.gwu.edu" class="teal-text hoverline"
+                        >George Washington University</a
+                      ></span
+                    >
+                  </p>
+                  <p class="brown-text">Washington, D.C.</p>
+                  <ul>
+                    <li>B.A. candidate</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section scrollspy full-height">
+        <h3 class="page-title white-text teal">Contact</h3>
+        <div class="container">
           <p>
-            <em class="grey-text"
-              >Five piece “action rock” band from Cranston, RI</em
+            <a
+              aria-label="Email Andrew"
+              href="mailto:andrew@andrewborstein.com"
+              data-position="top"
+              data-tooltip="Email Andrew"
+              class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+              ><i class="fa fa-envelope"></i
+              ><a
+                aria-label="Email Andrew"
+                href="mailto:andrew@andrewborstein.com"
+                class="hoverline"
+                >andrew@andrewborstein.com</a
+              ></a
             >
           </p>
-          <ul>
+          <p>
+            <a
+              aria-label="View Andrew on GitHub"
+              href="http://github.com/andrewborstein"
+              target="_blank"
+              data-position="top"
+              data-tooltip="View Andrew on GitHub"
+              class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+              ><i class="fa fa-github"></i
+              ><a
+                aria-label="Andrew on Github"
+                href="http://github.com/andrewborstein"
+                class="hoverline"
+                >github.com/andrewborstein</a
+              ></a
+            >
+          </p>
+          <p>
+            <a
+              aria-label="View Andrew on LinkedIn"
+              href="http://linkedin.com/in/andrewborstein"
+              target="_blank"
+              data-position="top"
+              data-tooltip="View Andrew on LinkedIn"
+              class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+              ><i class="fa fa-linkedin"></i
+              ><a
+                aria-label="Andrew on LinkedIn"
+                href="http://linkedin.com/in/andrewborstein"
+                class="hoverline"
+                >linkedin.com/in/andrewborstein</a
+              ></a
+            >
+          </p>
+        </div>
+      </section>
+      <section id="blog" class="section scrollspy full-height">
+        <h3 class="page-title white-text teal">Blog</h3>
+        <div class="container">
+          <h4 id="posts-2020">2020</h4>
+          <ol aria-labelledby="posts-2020">
             <li>
-              Built a successful and sustainable small-business with four
-              other founders
+              <a
+                class="hoverline"
+                href="/blog/moving-my-blog-to-eleventy-part-1.html"
+                >Moving my blog to Eleventy, Part 1: Installing Node with NVM</a
+              >
+              <dl>
+                <dd>Published:</span>
+                <dt>
+                  <time datetime="2020-05-05T00:00:00+00:00">
+                    May 5, 2020
+                  </time>
+                </dt>
+              </dl>
             </li>
-            <li>
-              Wrote, produced, and recorded five albums both independently
-              and under Island/DefJam
-            </li>
-            <li>
-              Completed 7 full US tours, including one headlining tour
-            </li>
-            <li>
-              Created, recruited and managed 2000 member promotional street
-              team
-            </li>
-          </ul>
-        </div>
-        <div class="card-action"><span>2004 - 2010 | USA</span></div>
-      </div>
-    </div>
-  </section>
-  <section id="projects" class="section scrollspy">
-    <h3 class="page-title white-text teal">Projects</h3>
-    <div class="container">
-      <div class="row">
-        <!-- Interpol8r-->
-        <div class="col s12 m6 l4">
-          <div class="card medium">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img
-                alt="Screenshot of Interpol8r web app"
-                src="/assets/img/interpol8r.jpg"
-                class="activator"
-              />
-            </div>
-            <div class="card-content">
-              <span class="card-title activator teal-text hoverline"
-                >Interpol8r<i class="mdi-navigation-more-vert right"></i
-              ></span>
-              <p>
-                Experimental web app with homemade recursive string
-                interpolation.
-              </p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title brown-text"
-                >Accomplishments<i class="mdi-navigation-close right"></i
-              ></span>
-              <ul>
-                <li><strong>Ruby on Rails</strong> backend</li>
-                <li><strong>Bulma CSS</strong> frontend</li>
-                <li>String interpolation via <strong>recursion</strong></li>
-                <li><strong>Dependency free</strong> JS config</li>
-              </ul>
-              <div class="card-action">
-                <a
-                  aria-label="Visit Interpol8r web app"
-                  href="https://interpol8r.herokuapp.com/"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Online"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-external-link"></i></a
-                ><a
-                  aria-label="Visit the GitHub repo for Interpol8r project"
-                  href="https://github.com/andrewborstein/interpol8r"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Source"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- BlogSpire-->
-        <div class="col s12 m6 l4">
-          <div class="card medium">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img
-                alt="Screenshot of BlogSpire web app"
-                src="/assets/img/blogspire.jpg"
-                class="activator"
-              />
-            </div>
-            <div class="card-content">
-              <span class="card-title activator teal-text hoverline"
-                >BlogSpire<i class="mdi-navigation-more-vert right"></i
-              ></span>
-              <p>
-                Blogging web app created for the Engineering team at
-                WeSpire.
-              </p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title brown-text"
-                >Accomplishments<i class="mdi-navigation-close right"></i
-              ></span>
-              <ul>
-                <li><strong>Ruby on Rails</strong> backend</li>
-                <li><strong>Materialize CSS</strong> frontend</li>
-                <li>User <strong>authentication</strong> via Devise</li>
-                <li>Implemented <strong>liking functionality</strong></li>
-                <li><strong>Client-side rendering</strong> via AJAX</li>
-              </ul>
-              <div class="card-action">
-                <a
-                  aria-label="Visit BlogSpire web app"
-                  href="https://blogspire.herokuapp.com/"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Online"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-external-link"></i></a
-                ><a
-                  aria-label="Visit the GitHub repo for BlogSpire project"
-                  href="https://github.com/andrewborstein/blogspire"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Source"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Code Island-->
-        <div class="col s12 m6 l4">
-          <div class="card medium">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img
-                alt="Code Island logo"
-                src="/assets/img/code-island.jpg"
-                class="activator"
-              />
-            </div>
-            <div class="card-content">
-              <span class="card-title activator teal-text hoverline"
-                >Code Island<i class="mdi-navigation-more-vert right"></i
-              ></span>
-              <p>
-                Online headquarters for the local Code for America brigade
-                in Rhode Island.
-              </p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title brown-text"
-                >Accomplishments<i class="mdi-navigation-close right"></i
-              ></span>
-              <ul>
-                <li>
-                  Integrated “Next Meeting” via <strong>Meetup API</strong>
-                </li>
-                <li>
-                  Developed <strong>CSS and JS</strong> responsive menu
-                </li>
-                <li>Created member list via <strong>GitHub API</strong></li>
-                <li>Refreshed branding and layout</li>
-                <li>
-                  Refactored all existing code (<strong>Jekyll</strong>)
-                </li>
-              </ul>
-              <div class="card-action">
-                <a
-                  aria-label="Visit Code Island website"
-                  href="http://code-island.org"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Online"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-external-link"></i></a
-                ><a
-                  aria-label="Visit the GitHub repo for Code Island project"
-                  href="http://github.com/andrewborstein/code-island.org"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Source"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Saved By the Text-->
-        <div class="col s12 m6 l4">
-          <div class="card medium">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img
-                alt="Zach Morris from Saved by the Bell, on his clunky cell phone"
-                src="/assets/img/saved-by-the-text.jpg"
-                class="activator"
-              />
-            </div>
-            <div class="card-content">
-              <span class="card-title activator teal-text hoverline"
-                >Saved By the Text<i
-                  class="mdi-navigation-more-vert right"
-                ></i
-              ></span>
-              <p>
-                Fun, TV nostalgia-themed app that sends an MMS to a user's
-                phone number.
-              </p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title brown-text"
-                >Accomplishments<i class="mdi-navigation-close right"></i
-              ></span>
-              <ul>
-                <li>Built with Ruby on <strong>Rails</strong></li>
-                <li>Integrated <strong>Twilio API</strong></li>
-                <li>Designed in <strong>Bootstrap</strong></li>
-                <li><strong>Javascript</strong> input validation</li>
-              </ul>
-              <div class="card-action">
-                <a
-                  aria-label="Visit Saved By The Test web app"
-                  href="http://savedbythetext.herokuapp.com"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Online"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-external-link"></i></a
-                ><a
-                  aria-label="Visit the GitHub repo for Saved By the Text project"
-                  href="http://github.com/andrewborstein/saved-by-the-text"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Source"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Skate Something-->
-        <div class="col s12 m6 l4">
-          <div class="card medium">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img
-                alt="Skate boarder catching air on a half pipe"
-                src="/assets/img/skate-something.jpg"
-                class="activator"
-              />
-            </div>
-            <div class="card-content">
-              <span class="card-title activator teal-text hoverline"
-                >Skate Something<i
-                  class="mdi-navigation-more-vert right"
-                ></i
-              ></span>
-              <p>
-                Mobile-focused web app where users can explore, collect, and
-                share skate spots.
-              </p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title brown-text"
-                >Accomplishments<i class="mdi-navigation-close right"></i
-              ></span>
-              <ul>
-                <li>Front-end development in <strong>Bootstrap</strong></li>
-                <li>Contributed creative strategy and UX</li>
-                <li>Built dynamic templates using <strong>Jade</strong></li>
-                <li>
-                  Worked with <strong>MVC</strong> framework,
-                  <strong>Node</strong> server
-                </li>
-              </ul>
-              <div class="card-action">
-                <a
-                  aria-label="Visit Skate Something web app"
-                  href="http://skatesomething.com"
-                  data-position="top"
-                  data-tooltip="View Online"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-external-link"></i></a
-                ><a
-                  aria-label="Visit the GitHub repo for Skate Something project"
-                  href="#"
-                  data-position="top"
-                  data-tooltip="Source is Private"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- RI WiFi-->
-        <div class="col s12 m6 l4">
-          <div class="card medium">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img
-                alt="RI WiFi logo"
-                src="/assets/img/ri-wifi.jpg"
-                class="activator"
-              />
-            </div>
-            <div class="card-content">
-              <span class="card-title activator teal-text hoverline"
-                >RI WiFi<i class="mdi-navigation-more-vert right"></i
-              ></span>
-              <p>
-                Sortable database of WiFi-enabled spots with details for
-                laptop users.
-              </p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title brown-text"
-                >Accomplishments<i class="mdi-navigation-close right"></i
-              ></span>
-              <ul>
-                <li>
-                  Ruby on <strong>Rails</strong> &amp;
-                  <strong>Bootstrap</strong>
-                </li>
-                <li><strong>Google Maps API</strong></li>
-                <li>Native Javascript <strong>geolocation</strong></li>
-                <li><strong>Dynamic CSS</strong> color coding</li>
-              </ul>
-              <div class="card-action">
-                <a
-                  aria-label="Visit RI WiFi web app"
-                  href="http://ri-wifi.herokuapp.com"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Online"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-external-link"></i></a
-                ><a
-                  aria-label="Visit the GitHub repo for RI WiFi project"
-                  href="http://github.com/andrewborstein/ri-wifi"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Source"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Pinterest-->
-        <div class="col s12 m6 l4">
-          <div class="card medium">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img
-                alt="Cute kitten"
-                src="/assets/img/pinteresting.jpg"
-                class="activator"
-              />
-            </div>
-            <div class="card-content">
-              <span class="card-title activator teal-text hoverline"
-                >Pinteresting<i class="mdi-navigation-more-vert right"></i
-              ></span>
-              <p>
-                Lite Pinterest clone, where users can 'pin' photos,
-                especially those of cats.
-              </p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title brown-text"
-                >Accomplishments<i class="mdi-navigation-close right"></i
-              ></span>
-              <ul>
-                <li>
-                  Ruby on <strong>Rails</strong> &amp;
-                  <strong>Bootstrap</strong>
-                </li>
-                <li>Image upload with <strong>AWS</strong></li>
-                <li><strong>jQuery</strong> Masonry effect</li>
-                <li>User Authentication with <strong>Devise</strong></li>
-              </ul>
-              <div class="card-action">
-                <a
-                  aria-label="Visit Pinteresting web app"
-                  href="http://asb-pinteresting.herokuapp.com"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Online"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-external-link"></i></a
-                ><a
-                  aria-label="Visit the GitHub repo for Pinteresting project"
-                  href="http://github.com/andrewborstein/pinteresting"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Source"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Shelter Finder-->
-        <div class="col s12 m6 l4">
-          <div class="card medium">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img
-                alt="Screenshot of Google map with pins on it"
-                src="/assets/img/shelter-finder.jpg"
-                class="activator"
-              />
-            </div>
-            <div class="card-content">
-              <span class="card-title activator teal-text hoverline"
-                >Shelter Finder<i class="mdi-navigation-more-vert right"></i
-              ></span>
-              <p>
-                Web app that helps Boston teens find the nearest available
-                short-term housing.
-              </p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title brown-text"
-                >Accomplishments<i class="mdi-navigation-close right"></i
-              ></span>
-              <ul>
-                <li>Ruby on <strong>Rails</strong> backend API</li>
-                <li>
-                  <strong>AJAX</strong> query of Rails <strong>JSON</strong>
-                </li>
-                <li>Custom <strong>Google Maps API</strong> integration</li>
-                <li>Automatic location/distance calculation</li>
-              </ul>
-              <div class="card-action">
-                <a
-                  aria-label="Visit Sehlter Finder website"
-                  href="http://shelterfinder.herokuapp.com"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Online"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-external-link"></i></a
-                ><a
-                  aria-label="Visit the GitHub repo for Shelter Finder project"
-                  href="http://github.com/andrewborstein/youth-shelter-finder"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Source"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Custom Social Feed-->
-        <div class="col s12 m6 l4">
-          <div class="card medium">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img
-                alt="Chandon logo"
-                src="/assets/img/chandon.jpg"
-                class="activator"
-              />
-            </div>
-            <div class="card-content">
-              <span class="card-title activator teal-text hoverline"
-                >Custom Social Feed<i
-                  class="mdi-navigation-more-vert right"
-                ></i
-              ></span>
-              <p>
-                AJAX Twitter and Instagram feed of specific #hashtag posts.
-              </p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title brown-text"
-                >Accomplishments<i class="mdi-navigation-close right"></i
-              ></span>
-              <ul>
-                <li>Fully customized <strong>jQuery</strong> plugin</li>
-                <li>
-                  Integrates <strong>Twitter and Instagram API</strong>
-                </li>
-                <li>Matches Chandon's exact branding</li>
-                <li>Built into custom <strong>Tumblr</strong> theme</li>
-              </ul>
-              <div class="card-action">
-                <a
-                  aria-label="Visit Chandon Tumblr website"
-                  href="http://chandonusa.tumblr.com/pour-on-the-fun"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Online"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-external-link"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Portfolio Madlibs-->
-        <div class="col s12 m6 l4">
-          <div class="card medium">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img
-                alt="Andrew playfully posing with face half covered by laptop"
-                src="/assets/img/madlibs.jpg"
-                class="activator"
-              />
-            </div>
-            <div class="card-content">
-              <span class="card-title activator teal-text hoverline"
-                >Portfolio MadLibs<i
-                  class="mdi-navigation-more-vert right"
-                ></i
-              ></span>
-              <p>
-                Have fun with my personal profile by replacing random words.
-              </p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title brown-text"
-                >Accomplishments<i class="mdi-navigation-close right"></i
-              ></span>
-              <ul>
-                <li>Custom <strong>jQuery</strong> script</li>
-                <li>Hover and click actions</li>
-                <li>Pulls from random word array</li>
-                <li>Hours of fun!</li>
-              </ul>
-              <div class="card-action">
-                <a
-                  aria-label="Visit Portfolio Madlibs website"
-                  href="http://andrewborstein.github.io/portfolio-madlibs/andrew.html"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Online"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-external-link"></i></a
-                ><a
-                  aria-label="Visit the GitHub repo for the Portfolio Madlibs project"
-                  href="http://github.com/andrewborstein/portfolio-madlibs"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Source"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Cidewalk for Etsy-->
-        <div class="col s12 m6 l4">
-          <div class="card medium">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img
-                alt="Cidewalk logo"
-                src="/assets/img/cidewalk.jpg"
-                class="activator"
-              />
-            </div>
-            <div class="card-content">
-              <span class="card-title activator teal-text hoverline"
-                >Cidewalk for Etsy<i
-                  class="mdi-navigation-more-vert right"
-                ></i
-              ></span>
-              <p>
-                UI redesign of the popular mobile ad platform, styled for
-                Etsy users.
-              </p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title brown-text"
-                >Accomplishments<i class="mdi-navigation-close right"></i
-              ></span>
-              <ul>
-                <li>Restyled UI, design, and branding</li>
-                <li>Reorganized user process and flow</li>
-                <li>
-                  Built with <strong>Angular</strong> and
-                  <strong>Bootstrap</strong>
-                </li>
-                <li>
-                  <a aria-label="" href="http://app.cidewalk.com"
-                    >Original &amp;&nbsp;</a
-                  ><a aria-label="" href="http://etsy.cidewalk.com"
-                    >Redesign</a
-                  >
-                </li>
-              </ul>
-              <div class="card-action">
-                <a
-                  aria-label="Visit Cidewalk web app"
-                  href="https://etsy.cidewalk.com"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Online"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-external-link"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Brownborg Studios-->
-        <div class="col s12 m6 l4">
-          <div class="card medium">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img
-                alt="Brownborg Studios logo"
-                src="/assets/img/brownborg-studios.jpg"
-                class="activator"
-              />
-            </div>
-            <div class="card-content">
-              <span class="card-title activator teal-text hoverline"
-                >Website Portfolio<i
-                  class="mdi-navigation-more-vert right"
-                ></i
-              ></span>
-              <p>
-                Over a dozen powerful, easy-to-use CMS websites built for
-                local and international clients.
-              </p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title brown-text"
-                >Accomplishments<i class="mdi-navigation-close right"></i
-              ></span>
-              <ul>
-                <li><strong>Customized</strong> themes and plugins</li>
-                <li>Wordpress, Squarespace &amp; Tumblr</li>
-                <li>Fully <strong>responsive</strong> designs</li>
-                <li>Unique admin experiences</li>
-              </ul>
-              <div class="card-action">
-                <a
-                  aria-label="Visit Brownborg Studios website"
-                  href="http://brownborgstudios.com/portfolio"
-                  target="_blank"
-                  data-position="top"
-                  data-tooltip="View Online"
-                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                  ><i class="fa fa-external-link"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="skills" class="section scrollspy">
-    <h3 class="page-title white-text teal">Skills</h3>
-    <div class="container">
-      <div class="card">
-        <div class="card-content">
-          <h4 class="brown-text light">HTML</h4>
-          <div class="row text-center">
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/html5.png"
-                class="responsive-img"
-              />HTML5
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/react.png"
-                class="responsive-img"
-              />JSX
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/haml.png"
-                class="responsive-img"
-              />Haml
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/jade.png"
-                class="responsive-img"
-              />Jade
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/jekyll.png"
-                class="responsive-img"
-              />Jekyll
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-          <h4 class="brown-text light">CSS</h4>
-          <div class="row text-center">
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/css3.png"
-                class="responsive-img"
-              />CSS3
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/sass.png"
-                class="responsive-img"
-              />SASS
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/bootstrap.png"
-                class="responsive-img"
-              />Bootstrap
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/foundation.png"
-                class="responsive-img"
-              />Foundation
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/materialize.png"
-                class="responsive-img"
-              />Materialize
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-          <h4 class="brown-text light">Javascript</h4>
-          <div class="row text-center">
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/react.png"
-                class="responsive-img"
-              />React
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/javascript.png"
-                class="responsive-img"
-              />Javascript
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/jquery.png"
-                class="responsive-img"
-              />jQuery
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/angular.png"
-                class="responsive-img"
-              />Angular
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/nodejs.png"
-                class="responsive-img"
-              />Node
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/ionic.png"
-                class="responsive-img"
-              />Ionic
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-          <h4 class="brown-text light">Back-End</h4>
-          <div class="row text-center">
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/ruby.png"
-                class="responsive-img"
-              />Ruby
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/rails.png"
-                class="responsive-img"
-              />Rails
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/minitest.png"
-                class="responsive-img"
-              />Minitest
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/postgresql.png"
-                class="responsive-img"
-              />PostgreSQL
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/mongodb.png"
-                class="responsive-img"
-              />MongoDB
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-          <h4 class="brown-text light">Build Tools</h4>
-          <div class="row text-center">
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/webpack.png"
-                class="responsive-img"
-              />Webpack
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/gulp.png"
-                class="responsive-img"
-              />Gulp
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/grunt.png"
-                class="responsive-img"
-              />Grunt
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/bower.png"
-                class="responsive-img"
-              />Bower
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-          <h4 class="brown-text light">CMS</h4>
-          <div class="row text-center">
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/wordpress.png"
-                class="responsive-img"
-              />Wordpress
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/tumblr.png"
-                class="responsive-img"
-              />Tumblr
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/squarespace.png"
-                class="responsive-img"
-              />Squarespace
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-          <h4 class="brown-text light">Other</h4>
-          <div class="row text-center">
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/github.png"
-                class="responsive-img"
-              />Github
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/heroku.png"
-                class="responsive-img"
-              />Heroku
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/photoshop.png"
-                class="responsive-img"
-              />Photoshop
-            </div>
-            <div class="col s4 m2">
-              <img
-                alt=""
-                src="/assets/img/fcpx.png"
-                class="responsive-img"
-              />Final Cut Pro
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="awards" class="section scrollspy">
-    <h3 class="page-title white-text teal">Awards</h3>
-    <div class="container">
-      <div class="row">
-        <div class="col s12 m6">
-          <div class="card">
-            <div class="card-content">
-              <p>
-                <span class="card-title"
-                  ><a
-                    href="http://startupinstitute.com"
-                    target="_blank"
-                    class="teal-text hoverline"
-                    >Student Choice Award</a
-                  ></span
-                >
-              </p>
-              <p class="brown-text">
-                Startup Institute - Full Time Web Development | April 2017
-              </p>
-              <ul>
-                <li>
-                  Awarded by students in the Full-Time Web Development track
-                  to one instructor as recognition for "outstanding
-                  teaching, listening, mentoring."
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m6">
-          <div class="card">
-            <div class="card-content">
-              <p>
-                <span class="card-title"
-                  ><a
-                    href="https://wespire.com"
-                    target="_blank"
-                    class="teal-text hoverline"
-                    >Inspired By You Award</a
-                  ></span
-                >
-              </p>
-              <p class="brown-text">WeSpire | June 2016</p>
-              <ul>
-                <li>
-                  Quarterly award given to a team member who exemplifies
-                  WeSpire's purpose, vision, and values, goes above and
-                  beyond in their role to make a particularly positive
-                  impact on the company.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12 m6">
-          <div class="card">
-            <div class="card-content">
-              <p>
-                <span class="card-title"
-                  ><a
-                    href="http://startupinstitute.com"
-                    target="_blank"
-                    class="teal-text hoverline"
-                    >Owl Award</a
-                  ></span
-                >
-              </p>
-              <p class="brown-text">Startup Institute | April 2016</p>
-              <ul>
-                <li>
-                  Given to an alumnus who "continually gives back to the
-                  Startup Institute community with true humility, despite
-                  everyone knowing how awesome he is."
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m6">
-          <div class="card">
-            <div class="card-content">
-              <p>
-                <span class="card-title"
-                  ><a
-                    href="http://www.rhdri.org"
-                    class="teal-text hoverline"
-                    >Honorable Mention</a
-                  ></span
-                >
-              </p>
-              <p class="brown-text">
-                West Philly Homebrew Competition | May 2013
-              </p>
-              <ul>
-                <li>
-                  Neightborhood beer enthusiasts voted on their favorite
-                  local home-brewed beer. “Goldilocks" won in the "People's
-                  Choice" category.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12 m6">
-          <div class="card">
-            <div class="card-content">
-              <p>
-                <span class="card-title"
-                  ><a
-                    href="https://www.sas.upenn.edu/news/congratulations-our-dean%E2%80%99s-scholars"
-                    target="_blank"
-                    class="teal-text hoverline"
-                    >Dean's Scholar</a
-                  ></span
-                >
-              </p>
-              <p class="brown-text">
-                University of Pennsylvania | April 2013
-              </p>
-              <ul>
-                <li>
-                  One of only 20 students in the School of Arts &amp;
-                  Sciences nominated by faculty for "outstanding academic
-                  achievement and intellectual promise."
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m6">
-          <div class="card">
-            <div class="card-content">
-              <p>
-                <span class="card-title"
-                  ><a
-                    href="http://www.rhdri.org"
-                    class="teal-text hoverline"
-                    >Employee of the Year</a
-                  ></span
-                >
-              </p>
-              <p class="brown-text">RHD-RI | Aug 2011</p>
-              <ul>
-                <li>
-                  Nominated by management and coworkers for exceptional work
-                  ethic and dedication to clients.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12 m6">
-          <div class="card">
-            <div class="card-content">
-              <p>
-                <span class="card-title"
-                  ><a href="http://upenn.edu" class="teal-text hoverline"
-                    >Most Valuable Staff</a
-                  ></span
-                >
-              </p>
-              <p class="brown-text">RHD-RI | Dec 2010</p>
-              <ul>
-                <li>
-                  Awarded to the staff that went above in beyond in
-                  preparation, effort, and sales at the Winter Art show.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="education" class="section scrollspy">
-    <h3 class="page-title white-text teal">Education</h3>
-    <div class="container">
-      <div class="row">
-        <div class="col s12 m6">
-          <div class="card">
-            <div class="card-content">
-              <p>
-                <span class="card-title"
-                  ><a href="http://upenn.edu" class="teal-text hoverline"
-                    >University of Pennsylvania</a
-                  ></span
-                >
-              </p>
-              <p class="brown-text">Philadelphia, PA</p>
-              <ul>
-                <li>B.A. in Psychology</li>
-                <li>Summa Cum Laude</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m6">
-          <div class="card">
-            <div class="card-content">
-              <p>
-                <span class="card-title"
-                  ><a href="http://www.gwu.edu" class="teal-text hoverline"
-                    >George Washington University</a
-                  ></span
-                >
-              </p>
-              <p class="brown-text">Washington, D.C.</p>
-              <ul>
-                <li>B.A. candidate</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="contact" class="section scrollspy full-height">
-    <h3 class="page-title white-text teal">Contact</h3>
-    <div class="container">
-      <p>
-        <a
-          aria-label="Email Andrew"
-          href="mailto:andrew@andrewborstein.com"
-          data-position="top"
-          data-tooltip="Email Andrew"
-          class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-          ><i class="fa fa-envelope"></i
-          ><a
-            aria-label="Email Andrew"
-            href="mailto:andrew@andrewborstein.com"
-            class="hoverline"
-            >andrew@andrewborstein.com</a
-          ></a
-        >
-      </p>
-      <p>
-        <a
-          aria-label="View Andrew on GitHub"
-          href="http://github.com/andrewborstein"
-          target="_blank"
-          data-position="top"
-          data-tooltip="View Andrew on GitHub"
-          class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-          ><i class="fa fa-github"></i
-          ><a
-            aria-label="Andrew on Github"
-            href="http://github.com/andrewborstein"
-            class="hoverline"
-            >github.com/andrewborstein</a
-          ></a
-        >
-      </p>
-      <p>
-        <a
-          aria-label="View Andrew on LinkedIn"
-          href="http://linkedin.com/in/andrewborstein"
-          target="_blank"
-          data-position="top"
-          data-tooltip="View Andrew on LinkedIn"
-          class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-          ><i class="fa fa-linkedin"></i
-          ><a
-            aria-label="Andrew on LinkedIn"
-            href="http://linkedin.com/in/andrewborstein"
-            class="hoverline"
-            >linkedin.com/in/andrewborstein</a
-          ></a
-        >
-      </p>
-    </div>
-  </section>
-  <section id="blog" class="section scrollspy full-height">
-    <h3 class="page-title white-text teal">Blog</h3>
-    <div class="container">
-      <h4 id="posts-2020">2020</h4>
-      <ol aria-labelledby="posts-2020">
-        <li>
-          <a
-            class="hoverline"
-            href="/blog/moving-my-blog-to-eleventy-part-2/"
-            >Moving my blog to Eleventy, Part 2: Getting Started</a
-          >
-          <dl>
-            <dd>Published:</span>
-            <dt>
-              <time datetime="2020-05-13T00:00:00+00:00">
-                May 13, 2020
-              </time>
-            </dt>
-          </dl>
-        </li>
-        <li>
-          <a
-            class="hoverline"
-            href="/blog/moving-my-blog-to-eleventy-part-1/"
-            >Moving my blog to Eleventy, Part 1: Installing Node with NVM</a
-          >
-          <dl>
-            <dd>Published:</span>
-            <dt>
-              <time datetime="2020-05-06T00:00:00+00:00">
-                May 6, 2020
-              </time>
-            </dt>
-          </dl>
-        </li>
-      </ol>
+          </ol>
 
-      <h4 id="posts-2019">2019</h4>
-      <ol aria-labelledby="posts-2019">
-        <li>
-          <a
-            class="hoverline"
-            href="/blog/hello-world-and-why-im-blogging"
-            >Hello, world. And why I'm blogging.</a
-          >
-          <dl>
-            <dd>Published:</span>
-            <dt>
-              <time datetime="2019-09-02T00:00:00+00:00">
-                September 2, 2019
-              </time>
-            </dt>
-          </dl>
-        </li>
-      </ol>
-    </div>
-  </section>
-</main>
+          <h4 id="posts-2019">2019</h4>
+          <ol aria-labelledby="posts-2019">
+            <li>
+              <a
+                class="hoverline"
+                href="/blog/hello-world-and-why-im-blogging.html"
+                >Hello, world. And why I'm blogging.</a
+              >
+              <dl>
+                <dd>Published:</span>
+                <dt>
+                  <time datetime="2019-09-02T00:00:00+00:00">
+                    September 2, 2019
+                  </time>
+                </dt>
+              </dl>
+            </li>
+          </ol>
+        </div>
+      </section>
+    </main>
+
+    <!--
+      Google Analytics
+      -------------------------------------------------
+      If you want to enable your own account, assign analyticsId to your
+      google analytics id, which should be the numbers following "UA-", e.g.
+      let analyticsId = "12345678-9"
+    -->
+    <script>
+      let analyticsId
+
+      // If analytics id has been manually defined
+      if (analyticsId) {
+        // Initialize GA with local var
+        initGoogleAnalytics(analyticsId)
+      } else {
+        // Initialize GA with Netlify env var available via lamba function
+        fetch("/.netlify/functions/env_vars")
+          .then(getEnvVar)
+          .then(initGoogleAnalytics)
+          .catch(handleError)
+      }
+
+      // -------------------------------------------------
+      // Helper Functions
+      // --------------------------------------------------
+
+      function handleError(error) {
+        console.log("error", error)
+      }
+
+      function getEnvVar(response) {
+        // If the request was successful
+        if (response.ok) {
+          // Return the response text
+          return response.text()
+        } else {
+          // Return a rejected Promise object, triggering the .catch()
+          return Promise.reject(response)
+        }
+      }
+
+      // Set Up Google Analytics
+      function initGoogleAnalytics(analyticsId) {
+        if (analyticsId) {
+          // Inject the Google Analytics Tag Manager script into the DOM
+          analyticsUrl =
+            "https://www.googletagmanager.com/gtag/js?id=UA-" + analyticsId
+          var ref = document.getElementsByTagName("script")[0]
+          var script = document.createElement("script")
+          script.src = analyticsUrl
+          ref.parentNode.insertBefore(script, ref)
+
+          // Initialize Google Analytics
+          window.dataLayer = window.dataLayer || []
+          function gtag() {
+            dataLayer.push(arguments)
+          }
+          gtag("js", new Date())
+          gtag("config", "UA-" + analyticsId)
+        }
+      }
+    </script>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+      // Materialize - Initializers
+      $(document).ready(function() {
+        $(".scrollspy").scrollSpy()
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+          menuWidth: 190, // Default is 240
+          edge: "left", // Choose the horizontal origin
+          closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        })
+      })
+    </script>
+
+    <!-- nothing to see here...-->
+    <!-- prettier-ignore -->
+    <small hidden>
+      NETLIFY
+           ___                       ___           ___                    ___                                     ___
+          /\  \                     /\__\         /\  \                  /\__\                      ___          /\__\
+          \:\  \       ___         /:/ _/_        \:\  \                /:/ _/_       ___          /\  \        /:/ _/_
+           \:\  \     /\__\       /:/ /\  \        \:\  \              /:/ /\__\     /\__\         \:\  \      /:/ /\__\
+       ___ /::\  \   /:/__/      /:/ /::\  \   ___ /::\  \            /:/ /:/  /    /:/__/          \:\  \    /:/ /:/ _/_
+      /\  /:/\:\__\ /::\  \     /:/__\/\:\__\ /\  /:/\:\__\          /:/_/:/  /    /::\  \      ___  \:\__\  /:/_/:/ /\__\
+      \:\/:/  \/__/ \/\:\  \__  \:\  \ /:/  / \:\/:/  \/__/          \:\/:/  /     \/\:\  \__  /\  \ |:|  |  \:\/:/ /:/  /
+       \::/__/       ~~\:\/\__\  \:\  /:/  /   \::/__/                \::/__/       ~~\:\/\__\ \:\  \|:|  |   \::/_/:/  /
+        \:\  \          \::/  /   \:\/:/  /     \:\  \                 \:\  \          \::/  /  \:\__|:|__|    \:\/:/  /
+         \:\__\         /:/  /     \::/  /       \:\__\                 \:\__\         /:/  /    \::::/__/      \::/  /
+          \/__/         \/__/       \/__/         \/__/                  \/__/         \/__/      ~~~~           \/__/
+    </small>
+  </body>
+</html>
