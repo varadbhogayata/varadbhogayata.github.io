@@ -17,16 +17,16 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Varad Bhogayata | Python Developer" />
   <meta property="og:description" content="My Tagline....." />
-  <meta property="og:url" content="andrewborstein.com" />
+  <meta property="og:url" content="varadbhogayata.github.io" />
   <meta property="og:site_name" content="Varad Bhogayata | Python Developer" />
-  <meta property="article:publisher" content="andrewborstein.com" />
+  <meta property="article:publisher" content="varadbhogayata.github.io" />
   <meta property="og:image" content="" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@andrewarei" />
-  <meta name="twitter:title" content="Varad Borstein | Full Stack Developer" />
+  <meta name="twitter:site" content="@varad_bhogayata" />
+  <meta name="twitter:title" content="Varad Bhogayata | Full Stack Developer" />
   <meta name="twitter:description" content="I want to make things that make a difference." />
-  <meta name="twitter:url" content="andrewborstein.com" />
-  <meta name="author" content="Varad Borstein" />
+  <meta name="twitter:url" content="varadbhogayata.github.io" />
+  <meta name="author" content="Varad Bhogayata" />
   <meta name="description" content="I want to make things that make a difference." />
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
   <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
@@ -79,10 +79,10 @@
         <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i
             class="mdi-av-equalizer small"></i><span>Skills</span></a>
       </li>
-      <li class="bold">
+      <!-- <li class="bold">
         <a aria-label="Navigate to the Awards section" href="#awards" class="waves-effect waves-dark red-text"><i
             class="mdi-action-grade small"></i><span>Awards</span></a>
-      </li>
+      </li> -->
       <li class="bold">
         <a aria-label="Navigate to the Education section" href="#education"
           class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a>
@@ -91,11 +91,11 @@
         <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i
             class="mdi-content-mail small"></i><span>Contact</span></a>
       </li>
-      <li class="bold">
+      <!-- <li class="bold">
         <a aria-label="Navigate to the Blog section" href="#blog"
           class="waves-effect waves-dark yellow-text text-darken-2"><i
             class="mdi-content-create small"></i><span>Blog</span></a>
-      </li>
+      </li> -->
       <li class="bold">
         <a aria-label="Open Varad's resume in a new tab"
           href="https://drive.google.com/file/d/1JK0WiDYe5uMZCtUqLfULc7L28Wrndo6n/view?usp=sharing" target="_blank"
@@ -135,10 +135,10 @@
         <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i
             class="mdi-av-equalizer small"></i><span>Skills</span></a>
       </li>
-      <li class="bold">
+      <!-- <li class="bold">
         <a aria-label="Navigate to the Awards section" href="#awards" class="waves-effect waves-dark red-text"><i
             class="mdi-action-grade small"></i><span>Awards</span></a>
-      </li>
+      </li> -->
       <li class="bold">
         <a aria-label="Navigate to the Education section" href="#education"
           class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a>
@@ -147,11 +147,11 @@
         <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i
             class="mdi-content-mail small"></i><span>Contact</span></a>
       </li>
-      <li class="bold">
+      <!-- <li class="bold">
         <a aria-label="Navigate to the Contact section" href="#blog"
           class="waves-effect waves-dark yellow-text text-dark-3"><i
             class="mdi-content-mail small"></i><span>Blog</span></a>
-      </li>
+      </li> -->
       <li class="bold">
         <a aria-label="Open Varad's Resume in a new tab"
           href="https://drive.google.com/file/d/1JK0WiDYe5uMZCtUqLfULc7L28Wrndo6n/view?usp=sharing" target="_blank"
@@ -337,7 +337,7 @@
       <h3 class="page-title white-text teal">Projects</h3>
       <div class="container">
         <div class="row">
-          <!-- Django Project -->
+          <!-- 1. Django Project -->
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
@@ -455,13 +455,13 @@
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of Interpol8r web app" src="/assets/img/project-ai-1.jpg" class="activator" />
+                <img alt="Screenshot of Interpol8r web app" src="/assets/img/project-AI.jpg" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Visual Question Answering<i
+                <span class="card-title activator teal-text hoverline">Video Summarizer<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  An attention-based classification model that aims at generating an answer for a given input image.
+                  A Seq2Seq model that generates a short summary of the given input video.
                 </p>
               </div>
               <div class="card-reveal">
@@ -470,17 +470,17 @@
                 <span class="card-title brown-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li>Incorporated Convolution Neural Networks (CNN) for extracting image features and Long Short Term
-                    Memory for extracting question
-                    embeddings.</li>
-                  <li>Tested the model on the COCO dataset, abstract scenes images, and got 69% overall accuracy on the
-                    VQA evaluation metric.</li>
+                  <li>Incorporated CNN to detect and classify objects in the video frames and Long Short Term Memory for
+                    generating a summary.</li>
+                  <li>Evaluated the model on MSVD (Microsoft Video Description Corpus) dataset; achieved 0.77, 0.71,
+                    0.52 scores respectively on ROGUE,
+                    BLEU, METEOR evaluation metrics.</li>
 
                 </ul>
+                <!-- TODO: UPLOAD THIS PROJECT ON GITHUB -->
                 <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for Interpol8r project"
-                    href="https://github.com/varadbhogayata/visual-question-answering" target="_blank"
-                    data-position="top" data-tooltip="View Source"
+                  <a aria-label="Visit the GitHub repo for Interpol8r project" href="https://github.com/varadbhogayata/"
+                    target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
                       class="fa fa-github"></i></a>
                 </div>
@@ -495,10 +495,10 @@
                 <img alt="Screenshot of Interpol8r web app" src="/assets/img/project-ai-1.jpg" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Visual Question Answering<i
+                <span class="card-title activator teal-text hoverline">Image Generator<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  An attention-based classification model that aims at generating an answer for a given input image.
+                  An image generator based on the concept of adversarial networks (GANs)
                 </p>
               </div>
               <div class="card-reveal">
@@ -507,17 +507,15 @@
                 <span class="card-title brown-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li>Incorporated Convolution Neural Networks (CNN) for extracting image features and Long Short Term
-                    Memory for extracting question
-                    embeddings.</li>
-                  <li>Tested the model on the COCO dataset, abstract scenes images, and got 69% overall accuracy on the
-                    VQA evaluation metric.</li>
+                  <li>Developed system was tested on a human-face database and loss was calculated by comparing the PCAs
+                    of generated and original image.</li>
+                  <li>Calculated difference in PCA was less than 10%, depicting the successful generation of an image by
+                    the generator.</li>
 
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for Interpol8r project"
-                    href="https://github.com/varadbhogayata/visual-question-answering" target="_blank"
-                    data-position="top" data-tooltip="View Source"
+                  <a aria-label="Visit the GitHub repo for Interpol8r project" href="https://github.com/varadbhogayata/"
+                    target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
                       class="fa fa-github"></i></a>
                 </div>
@@ -532,10 +530,10 @@
                 <img alt="Screenshot of Interpol8r web app" src="/assets/img/project-ai-1.jpg" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Visual Question Answering<i
+                <span class="card-title activator teal-text hoverline">Head Counting System<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  An attention-based classification model that aims at generating an answer for a given input image.
+                  A system that calculates the attendance of the class from a panoramic image of a live classroom.
                 </p>
               </div>
               <div class="card-reveal">
@@ -544,11 +542,9 @@
                 <span class="card-title brown-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li>Incorporated Convolution Neural Networks (CNN) for extracting image features and Long Short Term
-                    Memory for extracting question
-                    embeddings.</li>
-                  <li>Tested the model on the COCO dataset, abstract scenes images, and got 69% overall accuracy on the
-                    VQA evaluation metric.</li>
+                  <li>Used Singular Value Decomposition for image compression; applied various image processing
+                    techniques and morphological operations to
+                    detect the number of heads.</li>
 
                 </ul>
                 <div class="card-action">
@@ -563,7 +559,7 @@
           </div>
 
           <!-- Code Island-->
-          <div class="col s12 m6 l4">
+          <!-- <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Code Island logo" src="/assets/img/code-island.jpg" class="activator" />
@@ -596,14 +592,14 @@
                     data-position="top" data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
                       class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for Code Island project"
-                    href="http://github.com/andrewborstein/code-island.org" target="_blank" data-position="top"
+                    href="http://github.com/andrewBhogayata/code-island.org" target="_blank" data-position="top"
                     data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
                       class="fa fa-github"></i></a>
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- ************* -->
         </div>
@@ -614,98 +610,135 @@
     <section id="skills" class="section scrollspy">
       <h3 class="page-title white-text teal">Skills</h3>
       <div class="container">
+        <!-- Languages and Databases -->
         <div class="card">
           <div class="card-content">
-            <h4 class="brown-text light">HTML</h4>
+            <h4 class="brown-text light">Languages and Databases</h4>
             <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/python-logo-2.png" class="responsive-img" />Python
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/mysql-logo-1.png" class="responsive-img" />MySQL
+              </div>
               <div class="col s4 m2">
                 <img alt="" src="/assets/img/html5.png" class="responsive-img" />HTML5
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/react.png" class="responsive-img" />JSX
+                <img alt="" src="/assets/img/css3.png" class="responsive-img" />CSS3
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/haml.png" class="responsive-img" />Haml
+                <img alt="" src="/assets/img/unix-shell-logo-1.png" class="responsive-img" />Shell Scripting
               </div>
-              <div class="col s4 m2">
+              <!-- <div class="col s4 m2">
                 <img alt="" src="/assets/img/jade.png" class="responsive-img" />Jade
               </div>
               <div class="col s4 m2">
                 <img alt="" src="/assets/img/jekyll.png" class="responsive-img" />Jekyll
+              </div> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Libraries -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Libraries</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/numpy-logo-1.png" class="responsive-img" />NumPy
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/pandas-logo-1.png" class="responsive-img" />Pandas
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/opencv-logo-1.png" class="responsive-img" />OpenCV
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/sk-learn-logo-1.png" class="responsive-img" />scikit-learn
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/matplotlib-logo-1.svg" class="responsive-img" />matplotlib
               </div>
             </div>
           </div>
         </div>
+
+        <!-- Frameworks -->
         <div class="card">
           <div class="card-content">
-            <h4 class="brown-text light">CSS</h4>
+            <h4 class="brown-text light">Frameworks</h4>
             <div class="row text-center">
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/css3.png" class="responsive-img" />CSS3
+                <img alt="" src="/assets/img/django-logo.webp" class="responsive-img" />Django
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/sass.png" class="responsive-img" />SASS
+                <img alt="" src="/assets/img/flask-logo.png" class="responsive-img" />Flask
               </div>
               <div class="col s4 m2">
                 <img alt="" src="/assets/img/bootstrap.png" class="responsive-img" />Bootstrap
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/foundation.png" class="responsive-img" />Foundation
+                <img alt="" src="/assets/img/keras-logo.png" class="responsive-img" />Keras
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/materialize.png" class="responsive-img" />Materialize
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Javascript</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/react.png" class="responsive-img" />React
+                <img alt="" src="/assets/img/tensorflow-logo-1.png" class="responsive-img" />TensorFlow
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/javascript.png" class="responsive-img" />Javascript
+                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />PyTorch
               </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/jquery.png" class="responsive-img" />jQuery
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/angular.png" class="responsive-img" />Angular
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/nodejs.png" class="responsive-img" />Node
-              </div>
-              <div class="col s4 m2">
+
+              <!-- <div class="col s4 m2">
                 <img alt="" src="/assets/img/ionic.png" class="responsive-img" />Ionic
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
+
+        <!-- Other -->
         <div class="card">
           <div class="card-content">
-            <h4 class="brown-text light">Back-End</h4>
+            <h4 class="brown-text light">Other</h4>
             <div class="row text-center">
+
+
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/ruby.png" class="responsive-img" />Ruby
+                <img alt="" src="/assets/img/github.png" class="responsive-img" />GitHub
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/rails.png" class="responsive-img" />Rails
+                <img alt="" src="/assets/img/heroku.png" class="responsive-img" />Heroku
               </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/minitest.png" class="responsive-img" />Minitest
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/postgresql.png" class="responsive-img" />PostgreSQL
-              </div>
-              <div class="col s4 m2">
+              <!-- <div class="col s4 m2">
                 <img alt="" src="/assets/img/mongodb.png" class="responsive-img" />MongoDB
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
+
+        <!-- certifications -->
         <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Certificates</h4>
+            <div class="row text-left">
+
+              <ul>
+                <li>Machine Learning (Stanford)</li>
+                <li>Algorithms Specialization (Stanford)</li>
+              </ul>
+              <!-- <div class="col s4 m2">
+                <img alt="" src="/assets/img/github.png" class="responsive-img" />GitHub
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/heroku.png" class="responsive-img" />Heroku
+              </div> -->
+              <!-- <div class="col s4 m2">
+                <img alt="" src="/assets/img/mongodb.png" class="responsive-img" />MongoDB
+              </div> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="card">
           <div class="card-content">
             <h4 class="brown-text light">Build Tools</h4>
             <div class="row text-center">
@@ -747,9 +780,7 @@
               <div class="col s4 m2">
                 <img alt="" src="/assets/img/github.png" class="responsive-img" />Github
               </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/heroku.png" class="responsive-img" />Heroku
-              </div>
+              
               <div class="col s4 m2">
                 <img alt="" src="/assets/img/photoshop.png" class="responsive-img" />Photoshop
               </div>
@@ -758,12 +789,12 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
     <!-- Sixth Section: Awards -->
-    <section id="awards" class="section scrollspy">
+    <!-- <section id="awards" class="section scrollspy">
       <h3 class="page-title white-text teal">Awards</h3>
       <div class="container">
         <div class="row">
@@ -907,7 +938,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Seventh Section: Education -->
     <section id="education" class="section scrollspy">
@@ -918,13 +949,13 @@
             <div class="card">
               <div class="card-content">
                 <p>
-                  <span class="card-title"><a href="http://upenn.edu" class="teal-text hoverline">University of
-                      Pennsylvania</a></span>
+                  <span class="card-title"><a href="http://www.ufl.edu/" class="teal-text hoverline">University of
+                      Florida</a></span>
                 </p>
-                <p class="brown-text">Philadelphia, PA</p>
+                <p class="brown-text">Gainesville, FL</p>
                 <ul>
-                  <li>B.A. in Psychology</li>
-                  <li>Summa Cum Laude</li>
+                  <li>MS in Computer Science</li>
+                  <li>Upcoming Student</li>
                 </ul>
               </div>
             </div>
@@ -933,12 +964,25 @@
             <div class="card">
               <div class="card-content">
                 <p>
-                  <span class="card-title"><a href="http://www.gwu.edu" class="teal-text hoverline">George Washington
+                  <span class="card-title"><a href="https://ahduni.edu.in/" class="teal-text hoverline">Ahmedabad
                       University</a></span>
                 </p>
-                <p class="brown-text">Washington, D.C.</p>
+                <p class="brown-text">Ahmedabad, India</p>
                 <ul>
-                  <li>B.A. candidate</li>
+                  <li>B. Tech in Information and Communication Technology</li>
+                  <p>
+                    <b>Relevant Coursework</b>
+                  <ul>
+
+                    <li>Introduction to Programming</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Database Management Systems</li>
+                    <li>Operating Systems</li>
+                    <li>Probability and Random Processes</li>
+                    <li>Machine Learning</li>
+                    <li>Computer Vision</li>
+                  </ul>
+                  </p>
                 </ul>
               </div>
             </div>
@@ -952,73 +996,25 @@
       <h3 class="page-title white-text teal">Contact</h3>
       <div class="container">
         <p>
-          <a aria-label="Email Varad" href="mailto:vbhogayata@gmail.com" data-position="top" data-tooltip="Email Varad"
-            class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-envelope"></i><a
-              aria-label="Email Varad" href="mailto:vbhogayata@gmail.com" class="hoverline">vbhogayata@gmail.com</a></a>
+          <a aria-label="Email Varad" href="mailto:vbhogayata@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Varad" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Varad" href="mailto:vbhogayata@gmail.com"
+              class="hoverline">vbhogayata@gmail.com</a></a>
         </p>
         <p>
-          <a aria-label="View Varad on GitHub" href="http://github.com/varadbhogayata" target="_blank"
-            data-position="top" data-tooltip="View Varad on GitHub"
+          <a aria-label="View Varad on GitHub" href="http://github.com/varadbhogayata" data-position="top"
+            data-tooltip="View Varad on GitHub"
             class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i><a
-              aria-label="Varad on Github" href="http://github.com/varadbhogayata"
-              class="hoverline">github.com/varadbhogayata</a></a>
+              aria-label="Varad on Github" href="http://github.com/varadbhogayata" class="hoverline"
+              target="_blank">github.com/varadbhogayata</a></a>
         </p>
         <p>
-          <a aria-label="View Varad on LinkedIn" href="http://linkedin.com/in/varadbhogayata" target="_blank"
-            data-position="top" data-tooltip="View Varad on LinkedIn"
+          <a aria-label="View Varad on LinkedIn" href="http://linkedin.com/in/varadbhogayata" data-position="top"
+            data-tooltip="View Varad on LinkedIn"
             class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-linkedin"></i><a
-              aria-label="Varad on LinkedIn" href="http://linkedin.com/in/varadbhogayata"
-              class="hoverline">linkedin.com/in/varadbhogayata</a></a>
+              aria-label="Varad on LinkedIn" href="http://linkedin.com/in/varadbhogayata" class="hoverline"
+              target="_blank">linkedin.com/in/varadbhogayata</a></a>
         </p>
-      </div>
-    </section>
-
-    <!-- Nineth Section: Blog -->
-    <section id="blog" class="section scrollspy full-height">
-      <h3 class="page-title white-text teal">Blog</h3>
-      <div class="container">
-        <h4 id="posts-2020">2020</h4>
-        <ol aria-labelledby="posts-2020">
-          <li>
-            <a class="hoverline" href="/blog/moving-my-blog-to-eleventy-part-2/">Moving my blog to Eleventy, Part 2:
-              Getting Started</a>
-            <dl>
-              <dd>Published:</span>
-              <dt>
-                <time datetime="2020-05-13T00:00:00+00:00">
-                  May 13, 2020
-                </time>
-              </dt>
-            </dl>
-          </li>
-          <li>
-            <a class="hoverline" href="/blog/moving-my-blog-to-eleventy-part-1/">Moving my blog to Eleventy, Part 1:
-              Installing Node with NVM</a>
-            <dl>
-              <dd>Published:</span>
-              <dt>
-                <time datetime="2020-05-06T00:00:00+00:00">
-                  May 6, 2020
-                </time>
-              </dt>
-            </dl>
-          </li>
-        </ol>
-
-        <h4 id="posts-2019">2019</h4>
-        <ol aria-labelledby="posts-2019">
-          <li>
-            <a class="hoverline" href="/blog/hello-world-and-why-im-blogging">Hello, world. And why I'm blogging.</a>
-            <dl>
-              <dd>Published:</span>
-              <dt>
-                <time datetime="2019-09-02T00:00:00+00:00">
-                  September 2, 2019
-                </time>
-              </dt>
-            </dl>
-          </li>
-        </ol>
       </div>
     </section>
   </main>
