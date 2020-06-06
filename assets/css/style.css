@@ -1,10 +1,31 @@
-body {
+/* main body */
+/* body {
   color: #333;
   font-size: 16px;
+} */
+body {
+  color: black;
+  font-size: 18px;
 }
-a {
+
+/* main a -- links */
+/* a {
   color: #009688;
+} */
+a {
+  color: #06088f;
 }
+
+/* main blockqoute */
+/* blockquote {
+  border-left: 5px solid #795548;
+  color: #795548;
+  font-size: 125%;
+  font-weight: 400;
+  margin: 20px 0;
+  padding-left: 1.5rem;
+} */
+
 blockquote {
   border-left: 5px solid #795548;
   color: #795548;
@@ -20,20 +41,37 @@ blockquote * {
 .text-center {
   text-align: center;
 }
-nav {
+
+/* main nav */
+/* nav {
   background: white;
   box-shadow: none;
   height: 0;
+} */
+
+nav {
+  background: rgb(149, 126, 212);
+  box-shadow: none;
+  height: 0;
 }
+
 nav i {
   padding: 0 15px;
   position: relative;
   top: 5px;
 }
-main {
+
+/* main */
+/* main {
   background: url(../../assets/img/bg.png) repeat;
   padding-left: 190px;
+} */
+
+main {
+  background: url(../../assets/img/bg.png) repeat;
+  padding-left: 195px;
 }
+
 dl {
   margin-top: 0.5rem;
 }
@@ -51,10 +89,18 @@ dt {
   padding: 0;
   text-decoration: underline;
 }
-#blog a:hover {
+
+/* main blog a:hover */
+/* #blog a:hover {
   background: #009688;
   color: white;
+} */
+
+#blog a:hover {
+  background: #420101;
+  color: white;
 }
+
 #blog ol {
   list-style-type: none;
   padding: 0;
