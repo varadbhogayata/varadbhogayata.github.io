@@ -1,24 +1,22 @@
 /* Profile Picture */
 
-.image-cropper {
-  width: 100px;
-  height: 100px;
+/* .image-cropper {
+  width: 150px;
+  height: 150px;
   position: relative;
   overflow: hidden;
-  border-radius: 50%;
-}
+  border-radius: 0%;
+} */
 
-.profile-pic {
+/* .profile-pic {
+  margin: 10px 800px;
+  padding: 10px;
   vertical-align: middle;
   background-size: cover;
-  /* background: url(../../assets/img/bg.png) repeat; */
   display: inline;
-  margin: 0 auto;
   margin-left: 0%;
-  margin-bottom: 3rem !important;
-  height: 100%;
-  width: 100%;
-}
+  
+} */
 
 /* main body */
 
@@ -73,17 +71,17 @@ blockquote * {
 
 /* main nav */
 
-/* nav {
+nav {
   background: white;
   box-shadow: none;
   height: 0;
-} */
+}
 
-nav {
+/* nav {
   background: rgb(149, 126, 212);
   box-shadow: none;
   height: 0;
-}
+} */
 
 nav i {
   padding: 0 15px;
@@ -100,7 +98,7 @@ nav i {
 
 main {
   background: url(../../assets/img/bg.png) repeat;
-  padding-left: 195px;
+  padding-left: 180px;
 }
 
 dl {
@@ -142,16 +140,24 @@ dt {
 } */
 
 ul.side-nav {
-  width: 190px;
+  width: 180px;
 }
 
 ul.side-nav li {
   padding: 0;
 }
 
-ul.side-nav.fixed a {
+/* ul.side-nav.fixed a {
   box-sizing: content-box;
   color: rgb(48, 122, 207);
+  display: block;
+  line-height: 100%;
+  padding: 10px 0 12px;
+} */
+
+ul.side-nav.fixed a {
+  box-sizing: content-box;
+  color: rgb(16, 202, 56);
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
@@ -161,6 +167,14 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
   border: none;
   font-weight: 200;
 }
+
+/* ul.side-nav.fixed li.logo {
+  background-color: #fafafa;
+  border-bottom: 1px solid #ddd;
+  box-sizing: content-box;
+  min-height: 90px;
+  padding: 30px 30px 40px;
+} */
 
 ul.side-nav.fixed li.logo {
   background-color: #fafafa;
@@ -219,15 +233,15 @@ h3 {
 }
 
 /* Original */
-#intro.section {
+/* #intro.section {
   background: url(../../assets/img/white-ai-wallpaper.jpg) no-repeat top center/cover;
   position: relative;
-}
-
-/* #intro.section {
-  background: #2d76d4 repeat;
-  position: relative;
 } */
+
+#intro.section {
+  background: #a7ffeb repeat;
+  position: relative;
+}
 
 #intro.section .container {
   color: white;
@@ -454,7 +468,7 @@ small {
 } */
 
 .teal {
-  background-color: #374785 !important;
+  background-color: #00695c !important;
 }
 
 @media (min-width: 1200px) {
