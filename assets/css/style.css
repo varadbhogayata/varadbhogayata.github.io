@@ -113,7 +113,7 @@ ul.side-nav li {
 }
 ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: #444;
+  color: rgb(48, 122, 207);
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
@@ -172,7 +172,7 @@ h3 {
   height: 100vh;
 }
 #intro.section {
-  background: url(../../assets/img/eat-sleep-code-repeat-wallpaper.jpg) no-repeat top
+  background: url(../../assets/img/minimal-ai-wallpaper.jpg) no-repeat top
     center/cover;
   position: relative;
 }
@@ -190,7 +190,7 @@ h3 {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 #intro.section .underline {
-  border-bottom: 5px solid #009688;
+  border-bottom: 5px solid #24305e;
 }
 #intro.section .teal {
   padding: 0 10px;
@@ -286,7 +286,7 @@ a.hoverline {
   -webkit-transition: 0.25s all;
 }
 a.hoverline:hover {
-  border-bottom: 3px solid #009688 !important;
+  border-bottom: 3px solid #24305e !important;
 }
 #skills .card.large {
   height: 360px;
@@ -359,7 +359,7 @@ small {
   background-color: #008073 !important;
 } */
 .teal {
-  background-color: #0b3c5d !important;
+  background-color: #374785 !important;
 }
 @media (min-width: 1200px) {
   #experience .container {
