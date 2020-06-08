@@ -1,34 +1,15 @@
-/* Profile Picture */
-
-/* .image-cropper {
-  width: 150px;
-  height: 150px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 0%;
-} */
-
-/* .profile-pic {
-  margin: 10px 800px;
-  padding: 10px;
-  vertical-align: middle;
-  background-size: cover;
-  display: inline;
-  margin-left: 0%;
-  
-} */
-
 /* main body */
 
-/* body {
-  color: #333;
-  font-size: 16px;
-} */
-
+/* body-color */
 body {
-  color: black;
+  color: #333;
   font-size: 18px;
 }
+
+/* body {
+  color: black;
+  font-size: 18px;
+} */
 
 /* main a -- links */
 
@@ -115,29 +96,6 @@ dt {
   display: inline-block;
   margin-left: 0.5rem;
 }
-
-/* #blog a {
-  font-size: 1.5rem;
-  padding: 0;
-  text-decoration: underline;
-} */
-
-/* main blog a:hover */
-
-/* #blog a:hover {
-  background: #009688;
-  color: white;
-} */
-
-/* #blog a:hover {
-  background: #420101;
-  color: white;
-}
-
-#blog ol {
-  list-style-type: none;
-  padding: 0;
-} */
 
 ul.side-nav {
   width: 180px;
@@ -377,8 +335,13 @@ a.hoverline {
   -webkit-transition: 0.25s all;
 }
 
-a.hoverline:hover {
+/* main a.hoverline */
+/* a.hoverline:hover {
   border-bottom: 3px solid #24305e !important;
+} */
+
+a.hoverline:hover {
+  border-bottom: 3px solid #004d40 !important;
 }
 
 #skills .card.large {
@@ -453,23 +416,23 @@ small {
 
 /* main .teal-text */
 
-/* .teal-text {
-  color: #008073 !important;
-} */
-
 .teal-text {
-  color: #0b5e86 !important;
+  color: #008073 !important;
 }
+
+/* .teal-text {
+  color: #0b5e86 !important;
+} */
 
 /* .teal */
 
-/* .teal {
-  background-color: #008073 !important;
-} */
-
 .teal {
-  background-color: #00695c !important;
+  background-color: #008073 !important;
 }
+
+/* .teal {
+  background-color: #00695c !important;
+} */
 
 @media (min-width: 1200px) {
   #experience .container {

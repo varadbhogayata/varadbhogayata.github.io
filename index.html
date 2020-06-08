@@ -5,13 +5,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  
+
   <!-- bootstrap css js -->
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
   <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
-  
+
   <!-- Materialize - Compiled and minified CSS-->
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
   <!-- Font Awesome Icon - CSS-->
@@ -63,11 +63,20 @@
   <!-- Nav class 1 -->
   <nav class="hide-on-small-only">
     <ul class="side-nav fixed section table-of-contents">
-      
-      <img src="/assets/img/my-passport-photo.jpg" class="circle img-responsive" alt="avatar" 
+
+      <!-- <img src="/assets/img/my-passport-photo.jpg" class="circle img-responsive" alt="avatar" 
       width="130px" height="130px" style="display:block; margin: 12px; margin-left:auto; margin-right: auto; 
       max-width: 10rem; max-height: 10rem; border: 0.17rem solid #00796b; border-radius: 50%;"> 
       
+      <hr style="width: 100%;"> -->
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/my-passport-photo.jpg" class="circle img-responsive" alt="avatar" width="130px"
+            height="130px" style="display:block; margin: -25px; margin-left:-5.5px; margin-right: auto; 
+      max-width: 10rem; max-height: 10rem; border: 0.18rem hidden #00796b; border-radius: 50%;">
+        </a>
+      </li>
       <!-- <img src="/assets/img/my-passport-photo.jpg" alt="Avatar"> -->
       <!-- <li class="logo">
         <p>profile</p>
@@ -79,8 +88,8 @@
         <img src="/assets/img/my-passport-photo.jpg" alt="" class="circle responsive-img profile-pic">
       </div> -->
       <!-- <div class="col col s4 m4 l4"> -->
-        <!-- <img src="/assets/img/my-passport-photo.jpg" alt="" class="circle responsive-img valign profile-image">
-      </div> --> 
+      <!-- <img src="/assets/img/my-passport-photo.jpg" alt="" class="circle responsive-img valign profile-image">
+      </div> -->
 
       <!-- <div class="text-center">
         <span class="badge badge-white badge-pill profile-designation">UI / UX Designer</span>
@@ -95,12 +104,12 @@
         </a>
       </li> -->
       <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text text-darken-4"><i
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
             class="mdi-social-person small"></i><span>About</span></a>
       </li>
       <li class="bold">
         <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text text-darken-4"><i
+          class="waves-effect waves-dark teal-text"><i
             class="mdi-action-trending-up small"></i><span>Experience</span></a>
       </li>
       <!-- <li class="bold">
@@ -108,7 +117,7 @@
             class="mdi-av-web small"></i><span>Projects</span></a>
       </li> -->
       <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text text-darken-4"><i
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
             class="mdi-av-my-library-books small"></i><span>Projects</span></a>
       </li>
 
@@ -123,7 +132,7 @@
         mdi-social-poll
       -->
       <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text text-darken-4"><i
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
             class="mdi-action-assessment small"></i><span>Skills</span></a>
       </li>
       <!-- <li class="bold">
@@ -131,8 +140,8 @@
             class="mdi-action-grade small"></i><span>Awards</span></a>
       </li> -->
       <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education"
-          class="waves-effect waves-dark teal-text text-darken-4"><i class="mdi-social-school small"></i><span>Education</span></a>
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
       </li>
 
       <!-- 
@@ -145,10 +154,10 @@
             class="mdi-content-mail small"></i><span>Contact</span></a>
       </li> -->
       <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text text-darken-4"><i
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
             class="mdi-content-mail small"></i><span>Contact</span></a>
       </li>
-      
+
       <!-- <li class="bold">
         <a aria-label="Navigate to the Blog section" href="#blog"
           class="waves-effect waves-dark yellow-text text-darken-2"><i
@@ -165,8 +174,7 @@
       <li class="bold">
         <a aria-label="Open Varad's resume in a new tab"
           href="https://drive.google.com/file/d/1JK0WiDYe5uMZCtUqLfULc7L28Wrndo6n/view?usp=sharing" target="_blank"
-          class="waves-effect waves-dark teal-text text-darken-4"><i
-            class="mdi-file-folder-open small"></i><span>Resume</span></a>
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
       </li>
     </ul>
   </nav>
@@ -184,40 +192,41 @@
   <!-- Nav class 3 -->
   <nav class="hide-on-large only">
     <ul id="slide-out" class="side-nav">
+
       <li class="bold">
         <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
             class="mdi-social-person small"></i><span>About</span></a>
       </li>
       <li class="bold">
         <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark cyan-text"><i
+          class="waves-effect waves-dark teal-text"><i
             class="mdi-action-trending-up small"></i><span>Experience</span></a>
       </li>
       <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i
-            class="mdi-av-web small"></i><span>Projects</span></a>
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
       </li>
       <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i
-            class="mdi-av-equalizer small"></i><span>Skills</span></a>
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
       </li>
       <!-- <li class="bold">
         <a aria-label="Navigate to the Awards section" href="#awards" class="waves-effect waves-dark red-text"><i
             class="mdi-action-grade small"></i><span>Awards</span></a>
       </li> -->
       <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education"
-          class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a>
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
       </li>
       <!-- <li class="bold">
         <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i
             class="mdi-content-mail small"></i><span>Contact</span></a>
       </li> -->
       <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark blue-grey-text"><i
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
             class="mdi-communication-contacts small"></i><span>Contact</span></a>
       </li>
-      
+
 
       <!-- <li class="bold">
         <a aria-label="Navigate to the Contact section" href="#blog"
@@ -227,8 +236,7 @@
       <li class="bold">
         <a aria-label="Open Varad's Resume in a new tab"
           href="https://drive.google.com/file/d/1JK0WiDYe5uMZCtUqLfULc7L28Wrndo6n/view?usp=sharing" target="_blank"
-          class="waves-effect waves-dark grey-text text-darken-3"><i
-            class="mdi-action-description small"></i><span>Resume</span></a>
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
       </li>
     </ul>
   </nav>
@@ -238,14 +246,48 @@
     <!-- First Section: Heading lines and image -->
     <section id="intro" class="section scrollspy full-height">
       <div class="overlay"></div>
+      
+
+      <!-- <div style="display: block; margin-left: 0em; margin-top: 3 rem !important;">
+        <h6>Welcome to my Client template</h6>
+        <h2>Hello <span>I'm John Watson</span></h2>
+        <h4>designer - developer - freelancer</h4>
+        <p class="mt-4"> Auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+          Vivamus suscipit tortor eget felis porttitor volutpat. Mauris blandit aliquet elit.</p>
+        <ul class="social_section_1info mt-4">
+          <li class="mb-2 facebook"><a href="#"><span class="fa fa-facebook"></span></a></li>
+          <li class="mb-2 twitter"><a href="#"><span class="fa fa-twitter"></span></a></li>
+          <li class="linkedin"><a href="#"><span class="fa fa-linkedin"></span></a></li>
+          <li class="pinterest"><a href="#"><span class="fa fa-pinterest"></span></a></li>
+        </ul>
+        <a href="#about" class="scroll bnr-btn mr-2">Read more </a>
+        <a href="#contact" class="scroll bnr-btn1">Contact Me </a>
+      </div> -->
+
       <div class="container">
-        <!-- <h2>
-          I want to <span class="teal">make things</span><br />that
-          <span class="underline">make a difference</span>.
-        </h2> -->
-        <h2><span class="teal">VARAD BHOGAYATA</span></h2>
-        <!-- <h2 class="flow-text" style="font-family:Arial, Helvetica, sans-serif;">Code is like humor. When you have to explain it, it’s bad.</h2> -->
+        <div class="col-md-9">
+          <div class="content section-padding valign">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Varad Bhogayata.</span></h2>
+              <h5><span style="color: #1ab394 !important;">A</span>
+                <span>Coder, Pythonista!</span>
+              </h5>
+              <p>I am Varad Bhogayata. I love to solve real world problem using AI and Web Development.</p>
+
+              <a href="#about" style="padding: 11px 35px; background: none; color: #fff; border: 2px solid #fff; font-weight: 600; 
+              font-size: 15px; letter-spacing: 1px; display: inline-block; margin-top: 1.5em; border-radius: 4px;
+              -webkit-border-radius: 4px; margin: auto;">Read More</a>
+              <a href="#contact" style="padding: 11px 35px; background: none; color: #fff; border: 2px solid #fff; font-weight: 600; 
+              font-size: 15px; letter-spacing: 1px; display: inline-block; margin-top: 1.5em; border-radius: 4px;
+              -webkit-border-radius: 4px;">Contact Me</a>
+            </div>
+          </div>
+        </div>
       </div>
+
+      
+
+          
     </section>
 
 
@@ -297,7 +339,7 @@
                 </p>
               </div>
             </div>
-            <div class="role black-text text-darken-2">AI Developer</div>
+            <div class="role brown-text text-darken-2">AI Developer</div>
             <ul>
               <li>
                 Improved an in-production optimization algorithm which reduced the cycle-time of the automation process.
@@ -328,8 +370,8 @@
           <div class="card-content">
             <div class="row">
               <div class="col s12 m2">
-                <a href="https://www.mtag.in" target="_blank"><img alt="Mtag logo" src="/assets/img/exp-mtag-logo-500x500.jpg"
-                    class="responsive-img center-block" /></a>
+                <a href="https://www.mtag.in" target="_blank"><img alt="Mtag logo"
+                    src="/assets/img/exp-mtag-logo-500x500.jpg" class="responsive-img center-block" /></a>
 
               </div>
 
@@ -342,7 +384,7 @@
                 </p>
               </div>
             </div>
-            <div class="role black-text text-darken-2">Data Scientist</div>
+            <div class="role brown-text text-darken-2">Data Scientist</div>
             <ul>
               <li>
                 Developed a cloud-based data visualization and analytics web application aimed at storing and
@@ -381,7 +423,7 @@
                 </p>
               </div>
             </div>
-            <div class="role black-text text-darken-2">Project Trainee</div>
+            <div class="role brown-text text-darken-2">Project Trainee</div>
             <ul>
               <li>
                 Designed a library management system for a local library, where we undertook activities like requirement
@@ -415,8 +457,7 @@
           <div class="col s12 m6 l6">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of Interpol8r web app" src="/assets/img/project-python-django4.jpg"
-                  class="activator" />
+                <img alt="django web app" src="/assets/img/project-python-django4.jpg" class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">Django Project<i
@@ -428,7 +469,7 @@
               <div class="card-reveal">
                 <!-- TODO: change this -- only close button -->
                 <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Accomplishments</small><i
+                <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
                   <li></li>
@@ -438,11 +479,11 @@
                 <div class="card-action">
                   <a aria-label="Visit Code Island website" href="http://google.com" target="_blank" data-position="top"
                     data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-external-link"></i></a>
                   <a aria-label="Visit the GitHub repo for Interpol8r project" href="https://github.com/varadbhogayata/"
                     target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
                 </div>
               </div>
@@ -632,7 +673,7 @@
             </div>
           </div>
 
-        <!-- ************* -->
+          <!-- ************* -->
         </div>
       </div>
     </section>
@@ -670,7 +711,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="card">
           <div class="card-content">
             <h4 class="brown-text light">Libraries</h4>
@@ -744,7 +785,7 @@
             </div>
           </div>
         </div>
-        
+
         <!-- certifications -->
         <div class="card">
           <div class="card-content">
@@ -760,11 +801,11 @@
                         <!-- <span class="card-title">Card Title</span> -->
                       </div>
                       <div class="card-content">
-                        <span class="card-title teal-text">Machine Learning (Stanford)</span>  
+                        <span class="card-title teal-text">Machine Learning (Stanford)</span>
                       </div>
                     </div>
                   </div>
-                  
+
                   <!-- Course 1 -->
                   <div class="col s12 m6 l6">
                     <div class="card">
@@ -773,7 +814,7 @@
                         <!-- <span class="card-title">Card Title</span> -->
                       </div>
                       <div class="card-content">
-                        <span class="card-title teal-text">Algorithms (Stanford)</span>  
+                        <span class="card-title teal-text">Algorithms (Stanford)</span>
                       </div>
                     </div>
                   </div>
@@ -966,11 +1007,11 @@
                 <p class="brown-text">Ahmedabad, India</p>
                 <p>
                   <b>Degree: </b>Bachelor of Technology in Information and Communication Technology
-                <br>
-                <b>CGPA: </b>3.13/4.33
+                  <br>
+                  <b>CGPA: </b>3.13/4.33
                 </p>
-                
-                <ul>  
+
+                <ul>
                   <p>
                     <b>Relevant Courseworks:</b>
                   <ul>
@@ -994,9 +1035,9 @@
       <h3 class="page-title white-text teal">Contact</h3>
       <div class="container">
         <p>
-          <a aria-label="Call Varad" data-position="top"
-            data-tooltip="Call Varad" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-phone"></i><a aria-label="Call Varad">+918460816663</a></a>
+          <a aria-label="Call Varad" data-position="top" data-tooltip="Call Varad"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+              aria-label="Call Varad">+918460816663</a></a>
         </p>
         <p>
           <a aria-label="Email Varad" href="mailto:vbhogayata@gmail.com" target="_blank" data-position="top"
@@ -1005,18 +1046,18 @@
               class="hoverline">vbhogayata@gmail.com</a></a>
         </p>
         <p>
-          <a aria-label="View Varad on GitHub" href="http://github.com/varadbhogayata" target="_blank" data-position="top"
-            data-tooltip="View Varad on GitHub"
+          <a aria-label="View Varad on GitHub" href="http://github.com/varadbhogayata" target="_blank"
+            data-position="top" data-tooltip="View Varad on GitHub"
             class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
               aria-label="Varad on Github" href="http://github.com/varadbhogayata" class="hoverline"
               target="_blank">github.com/varadbhogayata</a></a>
         </p>
         <p>
-          <a aria-label="View Varad on LinkedIn" href="http://linkedin.com/in/varadbhogayata" target="_blank" data-position="top"
-            data-tooltip="View Varad on LinkedIn"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-linkedin"></i><a
-              aria-label="Varad on LinkedIn" href="http://linkedin.com/in/varadbhogayata" class="hoverline"
-              target="_blank">linkedin.com/in/varadbhogayata</a></a>
+          <a aria-label="View Varad on LinkedIn" href="http://linkedin.com/in/varadbhogayata" target="_blank"
+            data-position="top" data-tooltip="View Varad on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Varad on LinkedIn" href="http://linkedin.com/in/varadbhogayata"
+              class="hoverline" target="_blank">linkedin.com/in/varadbhogayata</a></a>
         </p>
       </div>
     </section>
