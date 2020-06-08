@@ -1,4 +1,4 @@
-# Portfolio - A static website
+# Portfolio - A one page static website
 
 Tools used to build this website:
 
@@ -10,6 +10,6 @@ Creadits: @andrewborstien
 Used Template: https://github.com/andrewborstein/portfolio
 
 # How to use my template?
-1. Clone the repository 
-2. Change the content of <b>index.html</b> according to your need.
-3. Add/Remove images from <b>root/assets/img</b> folder.
+* Clone the repository 
+* Change the content of <b>index.html</b> according to your need.
+* Add/Remove images from <b>root/assets/img</b> folder.
