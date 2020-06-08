@@ -1,54 +1,98 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
-
 .social {
-	margin: 0 auto;
-	width: auto;
-	text-align: inherit;
-	/* padding: 10px; */
+  margin: 0 auto;
+  width: auto;
+  text-align: inherit;
+  /* padding: 10px; */
 }
 
 .icon-btn {
   margin-left: auto;
-	width: 50px;
-	height: 50px;
-	border: 0;
-	color: #FFFFFF;
-	cursor: pointer;
-	font-size: 30px;
-	line-height: 70px;
-	border-radius: 45px;
-	display: inline-block;
-	margin: 4px;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 30px;
+  line-height: 70px;
+  border-radius: 45px;
+  display: inline-block;
+  margin: 4px;
 }
+
 .github {
-	color: black;
+  color: black;
 }
+
 .linkedin {
-	color: #0077b5;
+  color: #0077b5;
 }
+
 .angellist {
-	 color:grey;
+  color: grey;
 }
 
 .icon-btn:hover {
-	transform: scale(1.10);
-	color: #FFFFFF;
+  transform: scale(1.10);
+  color: #FFFFFF;
 }
+
 .linkedin:hover {
-	background-color: #0077b5;
+  background-color: #0077b5;
 }
+
 .angellist:hover {
-	background-color: grey;
+  background-color: grey;
 }
+
 .github:hover {
-	background-color: black;
+  background-color: black;
 }
-	
 
+/* Buttons - Read Me, Contact Us */
 
+.readme {
+  position: relative;
+  padding: 11px 35px;
+  background: #fff;
+  color: #00796b;
+  border: 2px solid #fff;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/* .readme:hover{
+  color: white;
+  background-color: #00796b;
+} */
+
+.contactme {
+  position: relative;
+  padding: 11px 35px;
+  background: none;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-top: 1.5em;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.contactme:hover{
+  color: #00796b;
+  background-color: white;
+}
 /* main body */
 
 /* body-color */
+
 body {
   color: #333;
   font-size: 18px;
@@ -239,6 +283,7 @@ h3 {
 }
 
 /* Original */
+
 /* #intro.section {
   background: url(../../assets/img/white-ai-wallpaper.jpg) no-repeat top center/cover;
   position: relative;
@@ -391,6 +436,7 @@ a.hoverline {
 }
 
 /* main a.hoverline */
+
 /* a.hoverline:hover {
   border-bottom: 3px solid #24305e !important;
 } */
