@@ -1,3 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+.social {
+	margin: 0 auto;
+	width: auto;
+	text-align: inherit;
+	/* padding: 10px; */
+}
+
+.icon-btn {
+  margin-left: auto;
+	width: 50px;
+	height: 50px;
+	border: 0;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 30px;
+	line-height: 70px;
+	border-radius: 45px;
+	display: inline-block;
+	margin: 4px;
+}
+.github {
+	color: black;
+}
+.linkedin {
+	color: #0077b5;
+}
+.angellist {
+	 color:grey;
+}
+
+.icon-btn:hover {
+	transform: scale(1.10);
+	color: #FFFFFF;
+}
+.linkedin:hover {
+	background-color: #0077b5;
+}
+.angellist:hover {
+	background-color: grey;
+}
+.github:hover {
+	background-color: black;
+}
+	
+
+
 /* main body */
 
 /* body-color */
@@ -209,10 +257,17 @@ h3 {
   top: 0;
 }
 
-#intro.section .container *:not(span) {
+/* #intro.section .container *:not(span) {
   font-weight: 300;
   line-height: 150%;
   padding: 0 30px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+} */
+
+#intro.section .container *:not(span) {
+  font-weight: 300;
+  line-height: 150%;
+  /* padding: 0 0px; */
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
