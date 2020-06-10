@@ -1,14 +1,23 @@
 .profile-pic {
-  width: 125px;
-  height: 125px;
-  display: block; 
-  margin: -28.5px; 
-  margin-left:-9px; 
-  margin-right: auto; 
-  /* max-width: 10rem; 
-  max-height: 10rem; */
+  position: relative;
+  max-width:130px;
+  max-height:130px;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  /* display: inline-block; */
+  
+  
+  /* background-size: cover;  */
+  margin: -31px; 
+  margin-left:-12px;
   border: 6px solid rgba(0, 77, 64, 0.4); 
   border-radius: 50% !important;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: auto;
 }
 
 .tracker {
