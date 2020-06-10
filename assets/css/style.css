@@ -1,3 +1,16 @@
+.profile-pic {
+  width: 125px;
+  height: 125px;
+  display: block; 
+  margin: -28.5px; 
+  margin-left:-9px; 
+  margin-right: auto; 
+  /* max-width: 10rem; 
+  max-height: 10rem; */
+  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border-radius: 50% !important;
+}
+
 .tracker {
   /* visibility: hidden; */
   position: fixed;
@@ -319,6 +332,7 @@ h3 {
 
 #intro.section .container *:not(span) {
   font-weight: 300;
+  /* font-weight: 400; */
   line-height: 150%;
   /* padding: 0 0px; */
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
