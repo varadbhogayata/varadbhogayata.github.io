@@ -89,8 +89,11 @@
           class="brand-logo grey-blue-text">
           <img src="/assets/img/my-passport-photo.jpg" class="circle img-responsive" alt="avatar" width="130px"
             height="130px" style="display:block; margin: -25px; margin-left:-5.5px; margin-right: auto; 
-      max-width: 10rem; max-height: 10rem; border: 0.18rem hidden #00796b; border-radius: 50%;">
+      max-width: 10rem; max-height: 10rem; border: 0.18rem hidden #00796b; border-radius: 50% !important;">
         </a>
+        <!-- <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/img/my-passport-photo.jpg" alt="">
+        </span> -->
       </li>
 
       <!-- <li class="logo">
@@ -248,12 +251,9 @@
           <div class="content section-padding valign" style="margin-left: 100px; margin-top: 50px;">
             <div class="caption">
               <h2>Hi, I'm <span class="teal">Varad Bhogayata.</span></h2>
-              <h5><span style="color: #00796b !important;">A</span>
-                <span>Coder, Software Developer, Python Lover</span>
-              </h5>
-              <!-- <h5><span>A </span><span style="color: #00796b !important;">Software Developer </span><span>with bent on AI.</span></h5> -->
-              <!-- <p>Small description here...</p> -->
-
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+              
             </div>
             <div class="social">
               <a href="http://linkedin.com/in/varadbhogayata" target="_blank">
@@ -288,11 +288,24 @@
       <div class="container flow-text">
         <blockquote>
           <h2>
-            Mission-driven Software Developer with a passion for Artificial Intelligence and Web Development.
+            Software Developer with a passion for artificial intelligence and backend development.
+            
+            <!-- Self-driven, quick starters, passionate problem solvers with curious mind who love solving very complex, very challenging real world problems -->
+            <!-- · Excited with opportunities to solve very complex problems and willingness to learn -->
+
+            <!-- Detail-oriented Software Engineer with a get-it-done, on-time, and high-quality product spirit and a keen interest in Machine Learning and Game Artificial Intelligence. -->
+            <!-- Skilled in C++, Python, Go Lang, and Java, with an understanding of Software Development Life Cycle having worked on various software projects using Continuous Integration tools like JIRA, Jenkins, Circle CI, GitHub. -->
+
+<!-- As a Software Developer I am creative, agile, can understand and absorb new technologies quickly to apply them with ongoing projects. I also have experience with C, HTML 5, JavaScript, MATLAB, Wireshark and some hardware like USRPs, Raspberry Pi and ATmega 32. -->
+            <!-- Passionate about technology and gaining knowledge in all fields encompassing Computer Science, Electronics, and IT. Always eager to learn new things! -->
+            <!-- Highly motivated to collaborate on projects having real-world impact. -->
+            <!-- I love building products/softwares which help people in their daily life. -->
+            <!-- Shoot me an email to discuss a career opportunity or just to say Hi 🙂. -->
+
           </h2>
         </blockquote>
         <p>
-          About Me.
+          Skilled in Python, Django, Flask, MySQL and Machine Learning. 
         </p>
         <p>
           Another Paragraph
@@ -891,10 +904,10 @@
               class="hoverline" target="_blank">linkedin.com/in/varadbhogayata</a></a>
         </p>
         
-        <!-- <a id="track-id" href='https://www.symptoma.es/'>symptoma.es</a>  -->
-        <div>
+        <!-- <a style="visibility: hidden;" href='https://www.symptoma.es/'>symptoma.es</a>  -->
+        <!-- <div>
           <a class="tracker" href='https://www.symptoma.es/'>symptoma.es</a> 
-        </div>
+        </div> -->
         
         <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=3e74f844e6e7ddcd90b1ef53fa246ebc89d6e084'></script>
         <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/700803/t/4"></script>
@@ -903,7 +916,7 @@
         <!-- <a href='https://www.symptoma.es/'>symptoma.es</a> 
         <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=47038a7c5b92d6416c2769eaa1078b27f487ffce'></script>
         <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/700810/t/3"></script> -->
-
+        <!-- website: https://www.freevisitorcounters.com/en/home/stats/id/700803 -->
       </div>
     </section>
   </main>
@@ -971,6 +984,17 @@
     }
   </script> -->
   
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Coder", "Software Developer", "Pythonista"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
   <!-- jQuery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
