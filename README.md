@@ -1,13 +1,9 @@
-# Portfolio - A one page static website
+# Portfolio - A one page static website using GitHub Pages
 
 Tools used to build this website:
 
-* <b>GitHub Pages</b> - you can host any static website (HTML, CSS, JS) really easily using GitHub, totally for free!
-* <b>Materialize</b> - a super handy CSS framework to get Google's Material Design components.
-
-Creadits: @andrewborstien
-
-Used Template: https://github.com/andrewborstein/portfolio
+* <b>GitHub Pages</b> - To host my static website (HTML, CSS, JS) totally for free!
+* <b>Materialize</b> - A useful CSS framework to get Google's Material Design components.
 
 # How to use my template?
 * Clone the repository 
