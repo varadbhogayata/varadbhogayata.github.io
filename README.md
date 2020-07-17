@@ -15,7 +15,7 @@
   </kbd>
 </p>
 
-:star: Star us on GitHub — it helps!
+:star: Star me on GitHub — it helps!
 
 ## Installation & Deployment 📦
 - Clone the repository and modify the content of <b>index.html</b> according to your requirement.
