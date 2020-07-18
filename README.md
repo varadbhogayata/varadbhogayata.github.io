@@ -18,6 +18,11 @@
 
 :star: Star me on GitHub — it helps!
 
+## Features 📋
+- Responsive web design
+- Typing animation using `typed-js`
+- Easy to modify
+
 ## Installation & Deployment 📦
 - Clone the repository and modify the content of <b>index.html</b> according to your requirement.
 - Add or remove images from `varadbhogayata.github.io/assets/img/` directory as per your requirement.
