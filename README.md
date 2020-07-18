@@ -20,7 +20,7 @@
 
 ## Features 📋
 - Responsive web design
-- Typing animation using `typed-js`
+- Typing animation using `Typed.js`
 - Easy to modify
 
 ## Installation & Deployment 📦
@@ -42,8 +42,9 @@
 To view a live example, **[click here](https://varadbhogayata.github.io/)**
 
 ## Tools Used 🛠️
-* <b>GitHub Pages</b> - To host my static website (HTML, CSS, JS).
-* <b>Materialize</b> - A CSS framework to get Google's Material Design components.
+* [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML, CSS, JS).
+* [<b>Materialize</b>](https://materializecss.com/) - A CSS framework to get Google's Material Design components.
+* [<b>Typed.js</b>](https://mattboldt.com/demos/typed-js/) - JavaScript Library
 
 ## Contributing 💡
 #### Step 1
