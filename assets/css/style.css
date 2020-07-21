@@ -10,7 +10,7 @@
   
   /* background-size: cover;  */
   margin: -31px; 
-  margin-left:-12px;
+  margin-left:-7px;
   border: 6px solid rgba(0, 77, 64, 0.4); 
   border-radius: 50% !important;
 }
@@ -201,7 +201,7 @@ nav i {
 
 main {
   background: url(../../assets/img/bg.png) repeat;
-  padding-left: 180px;
+  padding-left: 190px;
 }
 
 dl {
@@ -220,7 +220,7 @@ dt {
 }
 
 ul.side-nav {
-  width: 180px;
+  width: 190px;
 }
 
 ul.side-nav li {
