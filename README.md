@@ -13,7 +13,7 @@
 ### Website Preview
 <p align="center"> 
   <kbd>
-    <a href="https://varadbhogayata.github.io" target="_blank"><img src="readme_images/preview.JPG">
+    <a href="https://varadbhogayata.github.io" target="_blank"><img src="examples/preview.JPG">
   </a>
   </kbd>
 </p>
