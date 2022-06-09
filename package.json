@@ -1,0 +1,10 @@
+{
+  "name": "berkecanrizai.github.io",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {},
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "scripts": {"start": "http-server"}
+}

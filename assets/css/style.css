@@ -114,8 +114,26 @@
   border-radius: 5px;
   -webkit-border-radius: 5px;
 }
+.resume {
+  position: relative;
+  padding: 11px 35px;
+  background: #fff;
+  color: rgb(0, 0, 0);
+  border: 2px solid #fff;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-top: 1.5em;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
 
 .contactme:hover{
+  color: #00796b;
+  background-color: white;
+}
+.resume:hover{
   color: #00796b;
   background-color: white;
 }
@@ -340,11 +358,11 @@ h3 {
 } */
 
 #intro.section .container *:not(span) {
-  font-weight: 300;
+  font-weight: 600;
   /* font-weight: 400; */
   line-height: 150%;
   /* padding: 0 0px; */
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  /*text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); */
 }
 
 #intro.section .underline {
