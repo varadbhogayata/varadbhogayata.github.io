@@ -316,10 +316,15 @@
             </div>
             <div class="role brown-text text-darken-2">Data Science Intern</div>
             <ul>
-              <li>Developed workforce optimization with MIP. Used AWS step functions to update courier assignments on operations. Determined shift times for minimum cost.
+              <li>Developed optimization model for courier shift assignments.
+              </li>
+              <li>Built pipeline for train and inference of a ML model that calculates price elasticities of more 
+                than 3000 products with double ML (causal inference) approach.                
+              </li>
+              <li>Created Tableau dashboard that is fed by live model for decision making by pricing team.
               </li>
               <li>
-                <b>Tools:</b> Python, MongoDB, AWS, Google OR Tools
+                <b>Tools:</b> AWS SageMaker, Python, MongoDB, SQL, RedShift, S3
               </li>
             </ul>
           </div>
@@ -355,8 +360,11 @@
               <li>
                 Added support for hand-writing recognition, created validation scripts.
               </li>
-              <li>Trained, tested ML models. Implemented unit tests. Created pipeline for conversion of ink
-                data to png files.</li>
+              <li>Implemented unit tests, created CI/CD pipeline for tests.</li>
+              
+              <li>
+                Created pipeline for pre-processing data, training and optimizing SVM model, logging results.
+              </li>
               <li>
                 <b>Tools:</b> Python, JavaScript, Scikit-learn, Hugging Face, python-pptx
               </li>
@@ -393,14 +401,13 @@ it to user, with Java Spring and React Js. This is currently being used by clien
                 Created a Java app that reads data stored on Excel documents and transfers them to JSON.
               </li>
               <li>
-                With Python, cleared and reformatted data of 1200+ institutional clients and stored them on 
-Oracle Database.
+                Transformation and data processing on more than 1200 clients unstructured data.
               </li>
               <li>
-                Contributed to machine learning project for credit risk scoring.
+                Contributed to pre-processing step of ML project for credit risk scoring. Tools: Python
               </li>
               <li>
-                <b>Tools:</b> Java, Python, json, MongoDB, SQLite, Swing
+                <b>Tools:</b> Java, Python, MongoDB, SQLite, Swing, React
               </li>
             </ul>
           </div>
@@ -948,7 +955,7 @@ Oracle Database.
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script type="text/javascript">
     var typed = new Typed('.typing',{
-      strings: ["import pandas as pd", "from sklearn import svm", "import numpy as np", "import gradio as gr", "import matplotlib.pyplot as plt"],
+      strings: ["import pandas as pd", "from sklearn import svm", "import numpy as np", "import mlflow", "import matplotlib.pyplot as plt"],
       loop: true,
       typeSpeed: 80,
       backSpeed: 40
