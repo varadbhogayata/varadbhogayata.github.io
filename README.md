@@ -1,4 +1,4 @@
 # Personal Portfolio
-> A clean, beautiful, responsive portfolio template for Software Developers!
+This Personal Portfolio template was forked from https://github.com/varadbhogayata/varadbhogayata.github.io
 
-> https://ananyadeoghare.github.io
+To view a live example: https://ananyadeoghare.github.io
