@@ -3,7 +3,7 @@
 
 > https://gp-chen.github.io/
 
-Folked from https://github.com/varadbhogayata/varadbhogayata.github.io
+Forked from https://github.com/varadbhogayata/varadbhogayata.github.io
 
 ## Features 📋
 ⚡️ Fully Responsive\
