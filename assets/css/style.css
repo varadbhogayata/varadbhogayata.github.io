@@ -50,34 +50,19 @@
   margin: 4px;
 }
 
-.github {
-  color: black;
-}
 
-.linkedin {
-  color: #0077b5;
-}
 
 .angellist {
   color: grey;
 }
 
-.icon-btn:hover {
-  transform: scale(1.10);
-  color: #FFFFFF;
-}
 
-.linkedin:hover {
-  background-color: #0077b5;
-}
 
 .angellist:hover {
   background-color: grey;
 }
 
-.github:hover {
-  background-color: black;
-}
+
 
 /* Buttons - Read Me, Contact Us */
 
