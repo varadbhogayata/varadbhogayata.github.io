@@ -11,7 +11,7 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border: 6px solid rgba(0, 77, x1x`  , 0.4); 
   border-radius: 50% !important;
 }
 
@@ -59,10 +59,7 @@
   color: #0077b5;
 }
 
-.icon-btn:hover {
-  transform: scale(1.10);
-  color: #FFFFFF;
-}
+
 
 .github:hover {
   background-color: black;
@@ -350,7 +347,7 @@ h3 {
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #0F30C4;
   height: 100%;
   left: 0;
   position: absolute;
@@ -543,7 +540,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: white !important;
 }
 
 /* .teal-text {
@@ -553,7 +550,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #001566 !important;
 }
 
 /* .teal {
@@ -591,7 +588,7 @@ small {
     width: 100%;
   }
   nav {
-    background: #fff;
+    background: #001566;
     height: 64px;
     position: absolute;
   }
@@ -628,6 +625,7 @@ small {
   .name-title a {
     font-size: 22px;
     display: block;
+    
   }
   .name-title span {
     display: block;
