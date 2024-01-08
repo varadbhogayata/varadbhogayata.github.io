@@ -347,7 +347,7 @@ h3 {
 }
 
 .overlay {
-  background-color: #0F30C4;
+  background-color: #050922;
   height: 100%;
   left: 0;
   position: absolute;
@@ -550,7 +550,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #001566 !important;
+  background-color: #111a41 !important;
 }
 
 /* .teal {
@@ -588,7 +588,7 @@ small {
     width: 100%;
   }
   nav {
-    background: #001566;
+    background: #111a41;
     height: 64px;
     position: absolute;
   }
