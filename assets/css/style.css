@@ -667,7 +667,7 @@ small {
   }
   i.mdi-navigation-close.right {
     position: relative;
-    bottom: 15px;
+    bottom: px;
   }
   #contact a:not(.btn-floating) {
     text-align: center;
