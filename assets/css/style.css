@@ -361,6 +361,7 @@ h3 {
   background-color: rgba(33, 150, 243, 0.2);
 }
 
+
 .card {
   margin-bottom: 60px;
 }
@@ -540,7 +541,8 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: white !important;
+  color: #050922 !important;
+  font-weight: 1000;
 }
 
 /* .teal-text {
@@ -635,7 +637,7 @@ small {
     position: relative;
     top: 64px;
   }
-  section#intro {
+  #intro {
     margin-bottom: -64px;
   }
   .card .role {
