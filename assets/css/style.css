@@ -11,7 +11,7 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border: 6px solid rgba(0, 77, x1x`  , 0.4); 
   border-radius: 50% !important;
 }
 
@@ -50,6 +50,7 @@
   margin: 4px;
 }
 
+
 .github {
   color: black;
 }
@@ -58,26 +59,16 @@
   color: #0077b5;
 }
 
-.angellist {
-  color: grey;
-}
 
-.icon-btn:hover {
-  transform: scale(1.10);
-  color: #FFFFFF;
+
+.github:hover {
+  background-color: black;
 }
 
 .linkedin:hover {
   background-color: #0077b5;
 }
 
-.angellist:hover {
-  background-color: grey;
-}
-
-.github:hover {
-  background-color: black;
-}
 
 /* Buttons - Read Me, Contact Us */
 
@@ -356,7 +347,7 @@ h3 {
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #050922;
   height: 100%;
   left: 0;
   position: absolute;
@@ -369,6 +360,7 @@ h3 {
    of the button to still show through. */
   background-color: rgba(33, 150, 243, 0.2);
 }
+
 
 .card {
   margin-bottom: 60px;
@@ -549,7 +541,8 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #050922 !important;
+  font-weight: 1000;
 }
 
 /* .teal-text {
@@ -559,7 +552,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #111a41 !important;
 }
 
 /* .teal {
@@ -597,7 +590,7 @@ small {
     width: 100%;
   }
   nav {
-    background: #fff;
+    background: #111a41;
     height: 64px;
     position: absolute;
   }
@@ -634,6 +627,7 @@ small {
   .name-title a {
     font-size: 22px;
     display: block;
+    
   }
   .name-title span {
     display: block;
@@ -643,7 +637,7 @@ small {
     position: relative;
     top: 64px;
   }
-  section#intro {
+  #intro {
     margin-bottom: -64px;
   }
   .card .role {
@@ -675,7 +669,7 @@ small {
   }
   i.mdi-navigation-close.right {
     position: relative;
-    bottom: 15px;
+    bottom: px;
   }
   #contact a:not(.btn-floating) {
     text-align: center;
