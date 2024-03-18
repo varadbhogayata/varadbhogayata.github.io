@@ -1,54 +1,128 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+.profile-pic {
+  position: relative;
+  max-width:130px;
+  max-height:130px;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  /* display: inline-block; */
+  
+  
+  /* background-size: cover;  */
+  margin: -31px; 
+  margin-left:-7px;
+  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border-radius: 50% !important;
+}
 
+.profile-pic img {
+  width: 100%;
+  height: auto;
+}
+
+.tracker {
+  /* visibility: hidden; */
+  position: fixed;
+  /* margin-inline-end: auto;  */
+  bottom: 0; 
+  right: 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 .social {
-	margin: 0 auto;
-	width: auto;
-	text-align: inherit;
-	/* padding: 10px; */
+  margin: 0 auto;
+  width: auto;
+  text-align: inherit;
+  /* padding: 10px; */
 }
 
 .icon-btn {
   margin-left: auto;
-	width: 50px;
-	height: 50px;
-	border: 0;
-	color: #FFFFFF;
-	cursor: pointer;
-	font-size: 30px;
-	line-height: 70px;
-	border-radius: 45px;
-	display: inline-block;
-	margin: 4px;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 30px;
+  line-height: 70px;
+  border-radius: 45px;
+  display: inline-block;
+  margin: 4px;
 }
+
 .github {
-	color: black;
+  color: black;
 }
+
 .linkedin {
-	color: #0077b5;
+  color: #0077b5;
 }
+
 .angellist {
-	 color:grey;
+  color: grey;
 }
 
 .icon-btn:hover {
-	transform: scale(1.10);
-	color: #FFFFFF;
+  transform: scale(1.10);
+  color: #FFFFFF;
 }
+
 .linkedin:hover {
-	background-color: #0077b5;
+  background-color: #0077b5;
 }
+
 .angellist:hover {
-	background-color: grey;
+  background-color: grey;
 }
+
 .github:hover {
-	background-color: black;
+  background-color: black;
 }
-	
 
+/* Buttons - Read Me, Contact Us */
 
+.readme {
+  position: relative;
+  padding: 11px 35px;
+  background: #fff;
+  color: #00796b;
+  border: 2px solid #fff;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/* .readme:hover{
+  color: white;
+  background-color: #00796b;
+} */
+
+.contactme {
+  position: relative;
+  padding: 11px 35px;
+  background: none;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-top: 1.5em;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.contactme:hover{
+  color: #00796b;
+  background-color: white;
+}
 /* main body */
 
 /* body-color */
+
 body {
   color: #333;
   font-size: 18px;
@@ -127,7 +201,7 @@ nav i {
 
 main {
   background: url(../../assets/img/bg.png) repeat;
-  padding-left: 180px;
+  padding-left: 190px;
 }
 
 dl {
@@ -146,7 +220,7 @@ dt {
 }
 
 ul.side-nav {
-  width: 180px;
+  width: 190px;
 }
 
 ul.side-nav li {
@@ -239,6 +313,7 @@ h3 {
 }
 
 /* Original */
+
 /* #intro.section {
   background: url(../../assets/img/white-ai-wallpaper.jpg) no-repeat top center/cover;
   position: relative;
@@ -266,6 +341,7 @@ h3 {
 
 #intro.section .container *:not(span) {
   font-weight: 300;
+  /* font-weight: 400; */
   line-height: 150%;
   /* padding: 0 0px; */
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
@@ -391,6 +467,7 @@ a.hoverline {
 }
 
 /* main a.hoverline */
+
 /* a.hoverline:hover {
   border-bottom: 3px solid #24305e !important;
 } */
@@ -598,7 +675,7 @@ small {
   }
   i.mdi-navigation-close.right {
     position: relative;
-    bottom: 35px;
+    bottom: 15px;
   }
   #contact a:not(.btn-floating) {
     text-align: center;
