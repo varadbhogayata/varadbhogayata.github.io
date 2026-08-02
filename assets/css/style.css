@@ -1,7 +1,7 @@
 .profile-pic {
   position: relative;
-  max-width:130px;
-  max-height:130px;
+  max-width:135px;
+  max-height:135px;
   width: auto;
   height: auto;
   overflow: hidden;
@@ -11,7 +11,8 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border: 4px solid rgb(0, 0, 0); 
+  object-fit: cover;
   border-radius: 50% !important;
 }
 
@@ -320,7 +321,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #084177 repeat;
   position: relative;
 }
 
@@ -348,7 +349,7 @@ h3 {
 }
 
 #intro.section .underline {
-  border-bottom: 5px solid #24305e;
+  border-bottom: 5px solid #258097;
 }
 
 #intro.section .teal {
@@ -384,11 +385,11 @@ h3 {
 .card li a {
   margin-right: 0;
   color: #333;
-  border-bottom: 2px solid #ffab40;
+  border-bottom: 2px solid #40b3ff;
 }
 
 .card li a:hover {
-  color: #333;
+  color: #333333;
   font-weight: 500;
 }
 
@@ -428,7 +429,7 @@ h3 {
 
 .card-action span {
   font-size: 85%;
-  color: #666;
+  color: #797070;
 }
 
 .card ul {
@@ -442,7 +443,7 @@ h3 {
 }
 
 .card ul li li {
-  color: #666;
+  color: #fbfbfb;
   font-size: 13px;
 }
 
@@ -473,7 +474,7 @@ a.hoverline {
 } */
 
 a.hoverline:hover {
-  border-bottom: 3px solid #004d40 !important;
+  border-bottom: 3px solid #0f5b86 !important;
 }
 
 #skills .card.large {
@@ -481,7 +482,7 @@ a.hoverline:hover {
 }
 
 #skills h4 {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #161010;
   margin-bottom: 30px;
   padding-bottom: 20px;
 }
@@ -543,13 +544,13 @@ small {
 }
 
 .grey-text {
-  color: #666 !important;
+  color: #0d0000 !important;
 }
 
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #28729c !important;
 }
 
 /* .teal-text {
@@ -559,7 +560,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #28729c !important;
 }
 
 /* .teal {
@@ -602,7 +603,7 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    color: #28729c;
     height: 56px;
     line-height: 56px;
   }
