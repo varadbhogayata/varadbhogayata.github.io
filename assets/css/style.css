@@ -324,6 +324,13 @@ h3 {
   position: relative;
 }
 
+#about .flow-text {
+  font-size: 1.5rem; /* Smaller than default (1rem) */
+  line-height: 1.6;  /* Optional: Adjust line spacing */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 #intro.section .container {
   color: white;
   font-weight: 200;
@@ -423,7 +430,7 @@ h3 {
 }
 
 #experience .card .col.s12.m2 a img {
-  max-height: 60px;
+  max-height: 75px;
 }
 
 .card-action span {
@@ -488,8 +495,10 @@ a.hoverline:hover {
 
 #skills .col img.responsive-img {
   margin: 0 auto;
-  max-height: 100px;
-  padding-bottom: 10px;
+  max-height: 70px;
+  padding: 5px;
+  padding-top: 20px;
+  
   text-align: center;
   vertical-align: middle;
   display: table-cell;
@@ -690,5 +699,120 @@ small {
   }
   #intro.section {
     background-position-x: 30%;
+  }
+}
+
+.skill-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.skill-tag {
+  display: inline-block;
+  padding: 7px 14px;
+  border: 1px solid #d9e2e1;
+  border-radius: 999px;
+  background: #f8fbfb;
+  color: #37474f;
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+
+
+#publications .row {
+  margin-bottom: 0;
+}
+
+.publication-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.publication-item {
+  background: #ffffff;
+  border: 1px solid #e3e7e7;
+  border-radius: 12px;
+  padding: 20px 22px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.publication-item:last-child {
+  margin-bottom: 0;
+}
+
+.publication-title {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 1.12rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #004d40;
+  border-bottom: none !important;
+}
+
+.publication-title:hover {
+  color: #00695c;
+  text-decoration: underline;
+}
+
+.publication-meta {
+  margin: 0;
+  color: #333;
+  line-height: 1.8;
+}
+
+.publication-actions {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pub-btn {
+  display: inline-block;
+  padding: 8px 14px;
+  background: #eef4f3;
+  color: #004d40 !important;
+  border: 1px solid #d7e3e1;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  border-bottom: none !important;
+  transition: all 0.2s ease;
+}
+
+.pub-btn:hover {
+  background: #dfeceb;
+  color: #00332c !important;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 600px) {
+  .publication-item {
+    padding: 16px;
+  }
+
+  .publication-title {
+    font-size: 1rem;
+  }
+
+  .publication-meta {
+    line-height: 1.7;
+  }
+
+  .pub-btn {
+    font-size: 0.9rem;
+    padding: 8px 12px;
   }
 }
