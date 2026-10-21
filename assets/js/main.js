@@ -119,9 +119,9 @@
   if (window.Typed) {
     new window.Typed(".typing", {
       strings: [
-        "NLP researcher",
-        "machine learning engineer",
-        "AI enablement analyst",
+        "NLP Researcher",
+        "Machine Learning Engineer",
+        "AI Enablement Analyst",
         "fellow human being"
       ],
       loop: true,
