@@ -1,6 +1,8 @@
-## Acknowledgement
-I (Quamran) got this template from Varad Bhogayata. All credit goes to him.
-https://github.com/varadbhogayata/varadbhogayata.github.io. 
+# H M Quamran Hasan — Portfolio
+
+My personal portfolio site, built as a lightweight, dependency-free static site.
+
+> Originally bootstrapped from a Materialize-based template by [Varad Bhogayata](https://github.com/varadbhogayata/varadbhogayata.github.io). The site has since been fully rewritten (HTML, CSS, and JS) into a plain, framework-free build, but credit to Varad for the original starting point.
 
 ## Sections 📚
 ✔️ About me\
@@ -12,29 +14,17 @@ https://github.com/varadbhogayata/varadbhogayata.github.io.
 ✔️ Contact Info\
 ✔️ Resume
 
-
 ## Tools Used 🛠️
-* [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML, CSS, JS).
-* [<b>Materialize</b>](https://materializecss.com/) - A CSS framework to get Google's Material Design components.
-* [<b>Typed.js</b>](https://mattboldt.com/demos/typed-js/) - JavaScript Library
+* **GitHub Pages** — static hosting, no build step required.
+* **Plain HTML/CSS/JS** — no frameworks or dependencies; CSS custom properties power a light/dark theme toggle.
+* [**Typed.js**](https://mattboldt.com/demos/typed-js/) — the single remaining external script, used for the rotating hero tagline.
 
 ## Contributing 💡
-#### Step 1
+This is a personal portfolio, but feel free to fork it for your own use.
 
-- **Option 1**
-    - 🍴 Fork the original repo (https://github.com/varadbhogayata/varadbhogayata.github.io)!
-
-- **Option 2**
-    - 👯 Clone this repo to your local machine.
-
-
-#### Step 2
-
-- **Build your code** 🔨🔨🔨
-
-#### Step 3
-
-- 🔃 Create a new pull request.
+1. Clone the repo to your local machine.
+2. Edit `index.html` / `assets/css/style.css` / `assets/js/main.js` directly — no build tooling needed.
+3. Preview locally, e.g. `python -m http.server 8080`.
 
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
