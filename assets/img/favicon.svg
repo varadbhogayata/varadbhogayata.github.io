@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="32" fill="#0f766e"/>
+  <text x="32" y="41" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
+        font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">QH</text>
+</svg>

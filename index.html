@@ -1,957 +1,588 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="H M Quamran Hasan — AI Enablement Analyst at Servus Credit Union and researcher in NLP, explainable AI, and trustworthy LLM applications for clinical and legal reasoning." />
+  <meta name="theme-color" content="#0f766e" />
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
-  <!-- End Google Tag Manager -->
+  <title>H M Quamran Hasan | AI Enablement Analyst</title>
 
-  <!-- Materialize - Compiled and minified CSS-->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Font Awesome Icon - CSS-->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  <!-- Custom Styles-->
+  <!-- Open Graph -->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="H M Quamran Hasan | AI Enablement Analyst" />
+  <meta property="og:description" content="AI Enablement Analyst at Servus Credit Union and researcher in NLP, explainable AI, and trustworthy LLM applications for clinical and legal reasoning." />
+  <meta property="og:url" content="https://quamranhasan.github.io/" />
+  <meta property="og:site_name" content="H M Quamran Hasan" />
+  <meta property="og:image" content="https://quamranhasan.github.io/assets/img/dp.jpg" />
+  <meta name="robots" content="index, follow" />
+
   <link rel="stylesheet" href="/assets/css/style.css" />
-  <title>H M QUAMRAN HASAN | AI Operations Analyst</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-HVKQC0JCJQ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-HVKQC0JCJQ');
   </script>
-
-  <!-- Open Graph-->
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="H M QUAMRAN HASAN | AI Enablement Analyst" />
-  <meta property="og:description" content="Research Assistantr" />
-  <meta property="og:url" content="https://quamranhasan.github.io/" />
-  <meta property="og:site_name" content="H M QUAMRAN HASAN | Research Assistant" />
-  <meta property="article:publisher" content="https://quamranhasan.github.io/" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="robots" content="index, follow" />
 </head>
+
 <body>
-  
-  <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
-  <nav class="hide-on-small-only">
-    <ul class="side-nav fixed section table-of-contents">
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-      <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
-          class="brand-logo grey-blue-text">
-          <img src="/assets/img/dp.jpg" class="circle img-responsive profile-pic" alt="avatar">
-        </a>
-      </li>
+  <!-- Reusable icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="icon-menu" viewBox="0 0 24 24"><path fill="currentColor" d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24"><path fill="currentColor" d="M18.3 5.71 12 12.01l-6.3-6.3-1.4 1.41 6.29 6.3-6.3 6.29 1.41 1.41 6.3-6.3 6.29 6.3 1.41-1.41-6.3-6.29 6.3-6.3z"/></symbol>
+      <symbol id="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/></g></symbol>
+      <symbol id="icon-moon" viewBox="0 0 24 24"><path fill="currentColor" d="M20.8 14.5A9 9 0 1 1 9.5 3.2a7 7 0 0 0 11.3 11.3z"/></symbol>
+      <symbol id="icon-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.48 2 2 6.58 2 12.17c0 4.49 2.87 8.3 6.84 9.64.5.1.68-.22.68-.49 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.36-3.37-1.36-.46-1.2-1.11-1.52-1.11-1.52-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.17C22 6.58 17.52 2 12 2z"/></symbol>
+      <symbol id="icon-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.82-2.05 3.75-2.05C20.6 8.65 22 11 22 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.96 0-2.26 1.53-2.26 3.1V21H9z"/></symbol>
+      <symbol id="icon-phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.6 21 3 13.4 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.25 1.02z"/></symbol>
+      <symbol id="icon-mail" viewBox="0 0 24 24"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></symbol>
+      <symbol id="icon-external" viewBox="0 0 24 24"><path fill="currentColor" d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14zm5 16H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7h-2z"/></symbol>
+    </defs>
+  </svg>
 
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
+  <!-- Mobile topbar -->
+  <header class="topbar">
+    <span class="topbar-name">H M Quamran Hasan</span>
+    <button class="menu-btn" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="sidebar">
+      <svg><use href="#icon-menu"></use></svg>
+    </button>
+  </header>
+  <div class="nav-overlay" id="nav-overlay"></div>
 
-      <li class="bold">
-
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Publications section" href="#publications"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Publications</span></a>
-      </li>
-
-      <li class="bold">
-        <!-- mdi-av-web small
-             mdi-av-my-library-books small-->
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-
-
-      
-
-
-
-
-      <li class="bold">
-        <!-- 
-        1. mdi-communication-contacts
-        2. mdi-content-mail
-        3. mdi-communication-email
-        -->
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Open Quamran's resume in a new tab" href="https://quamranhasan.github.io/assets/resume/resume_H M QUAMRAN HASAN.pdf" target="_blank"
-        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Nav class 2 -->
-  <nav class="hide-on-large only trigger z-depth-1">
-    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
-      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    <div class="name-title">
-      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">H M QUAMRAN HASAN
-      </a><span class="black-text">AI Operations Analyst</span>
-    </div>
-  </nav>
-
-  <!-- Nav class 3 -->
-  <nav class="hide-on-large only">
-    <ul id="slide-out" class="side-nav">
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      
-      <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
-      
-      <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Publications section" href="#publications" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Publications</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Open Quamran's Resume in a new tab"
-          href="/assets/resume/resume_H M QUAMRAN HASAN.pdf" target="_blank"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Main Content-->
-  <main>
-    <!-- First Section: Heading lines and image -->
-    <section id="intro" class="section scrollspy full-height">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="col-md-9">
-          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
-            <div class="caption">
-              <h2>Hi there, I'm <span class="teal">H M QUAMRAN HASAN.</span></h2>
-              <h5 style="color:#fff">Theoretically, a <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
-              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
-              <h5>In practice, an inquisitive and self motivated researcher with a sharp focus on solving real-world problems leveraging artificial intelligence and data</h5>
-            </div>
-            <div class="social">
-              <a href="https://www.linkedin.com/in/h-m-quamran-hasan/" target="_blank">
-                <button class="icon-btn linkedin">
-                  <i class="fa fa-linkedin"></i>
-                </button>
-              </a>
-              <a href="https://github.com/quamranhasan" target="_blank">
-                <button class="icon-btn github">
-                  <i class="fa fa-github"></i>
-                </button>
-              </a>
-
-            </div>
-            <div class='buttons'>
-              <a href="#about" class="readme">Read More</a>
-              <a href="#contact" class="contactme">Contact Me</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Second Section: About -->
-    <section id="about" class="section scrollspy">
-      <h3 class="page-title white-text teal">About</h3>
-      <div class="flow-text about-copy">
-        <p>
-          I am a Master's graduate in Computer Science from the University of Alberta, with a background in Computer Science and Business Technology Management from KAIST.
-        </p>
-
-        <p>
-          My interests lie in NLP, explainable AI, and trustworthy large language model applications for clinical and legal reasoning.
-        </p>
-
-        <p>
-          I also work as an AI Enablement Analyst at Servus Credit Union, where I develop AI agents, build applied AI/ML solutions, and support AI adoption across the organization.
-        </p>
-      </div>
-    </section>
-<!-- Seventh Section: Education -->
-<section id="education" class="section scrollspy">
-  <h3 class="page-title white-text teal">Education</h3>
-  <div class="container">
-    <div class="row">
-      <!-- Education -->
-      <div class="col s12 m6 l6">
-        <a href="https://www.ualberta.ca/en/index.html" target="_blank"><img alt="UofA Logo"
-              src="/assets/img/uoa.png" class="responsive-img center-block" style="width:25%;" /></a>
-        <div class="card">
-          <div class="card-content">
-            <p>
-              <span class="card-title"><a href="https://www.ualberta.ca/en/index.html" target="_blank" class="teal-text hoverline">University of Alberta</a></span>
-            </p>
-            <p class="brown-text">Alberta, Canada.</p>
-            <p>
-              <b>Degree: </b>MSc. Computer Science.      
-              <br>
-            </p>
-
-            <ul>
-              <p>
-                <b>Relevant Courseworks:</b>
-              <ul>
-                <li>Introduction to Natural Language Processing.</li>
-                <li>Machine Learning Essentials.</li>
-                <li>Foundations of Trustworthy Machine Learning.</li>                 
-              </ul>
-              </p>
-
-            </ul>
-          </div>
-        </div>
-
-        
+  <div class="layout">
+    <!-- Sidebar navigation -->
+    <aside class="sidebar" id="sidebar">
+      <div class="profile">
+        <img src="/assets/img/dp.jpg" class="profile-pic" alt="Portrait of H M Quamran Hasan" width="92" height="92" />
+        <div class="profile-name">H M Quamran Hasan</div>
+        <div class="profile-role">AI Enablement Analyst</div>
       </div>
 
-
-      <div class="col s12 m6 l6">
-        <a href="https://www.kaist.ac.kr/en/" target="_blank"><img alt="KAIST Logo"
-              src="/assets/img/kaist.png" class="responsive-img center-block" style="width:20%;" /></a>
-        <div class="card">
-          <div class="card-content">
-            <p>
-              <span class="card-title"><a href="https://www.kaist.ac.kr/en/" target="_blank" class="teal-text hoverline">Korea Advanced Institute of Science and Technology</a></span>
-            </p>
-            <p class="brown-text">Daejeon, South Korea.</p>
-            <p>
-              <b>Degree: </b>BSc. Computer Science, Double Major in Business Technology Management, Semi Minor in Artificial Intelligence.     
-              <br>
-            </p>
-
-            <ul>
-              <p>
-                <b>Relevant Courseworks:</b>
-              <ul>
-                <li>Introduction to Natural Language Processing</li>
-                <li>Introduction to Data Science</li>
-                <li>Data Science Methodology</li>                 
-                <li>Introduction to Artificial Intelligence</li>
-                <li>Data Structures</li>  
-                <li>Introduction to Algorithms</li>  
-                <li>Probability and Statistics</li>  
-                <li>Principles of Marketing</li>  
-                <li>Marketing Research</li>                                    
-              </ul>
-              </p>
-
-            </ul>
-          </div>
-        </div>
-    </div>
-  </div>
-</section>
-
-    <!-- Third Section: Experience -->
-    <section id="experience" class="section scrollspy">
-      <h3 class="page-title white-text teal">Experience</h3>
-
-      <div class="container">
-
-        <!-- Latest Experience -->
-
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://servus.ca/" target="_blank"><img alt="Servus Logo"
-                    src="/assets/img/servuslogo.png" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://servus.ca/" target="_blank"
-                      class="teal-text hoverline">Servus Credit Union</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">AI Enablement Analyst</div>
-            <ul>
-
-              <li>
-                Development and monitoring of agents with 1000+ weekly active users.
-              </li>
-
-              <li>
-                Improving AI enablement through support and development of AI usecases across the organization.
-              </li>
-
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>Aug 2025 - Present | Edmonton, Canada</span>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://sites.ualberta.ca/~amiixai/" target="_blank"><img alt="xAI Logo"
-                    src="/assets/img/xai_logo.png" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://sites.ualberta.ca/~amiixai//" target="_blank"
-                      class="teal-text hoverline">UofA xAI Lab</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Research Assistant</div>
-            <ul>
-              <li>
-                Working on the integration of large language models in the fields of explainable medical and legal AI.
-              </li>
-                <li>
-                  Supervised by 
-                  <a href="https://www.amii.ca/about/our-people/randy-goebel/" target="_blank">Dr. Randy Goebel</a> 
-                  and 
-                  <a href="https://sites.ualberta.ca/~miyoung2/" target="_blank">Dr. Mi-Young Kim</a>
-              </li>
-
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>Sep 2024 - Aug 2026 | Edmonton, Canada</span>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.amii.ca/" target="_blank"><img alt="AMII Logo"
-                    src="https://findlogovector.com/wp-content/uploads/2019/07/alberta-machine-intelligence-institute-amii-logo-vector.png" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.amii.ca/" target="_blank"
-                      class="teal-text hoverline">AMII</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Work-Integrated Learning Opportunity</div>
-            <ul>
-              <li>
-                Built case studies for 5 startups on using Transformers for Ectopic Beat Detection, Differential Privacy with LLMs, and agentic AI.
-              </li>
-              <li>
-                Collaborated with AMII Scientists to provide technical coaching to startups in integrating ML techniques into their service.
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>Dec 2024 - Apr 2025 | Edmonton, Canada</span>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.molpax.com/" target="_blank"><img alt="Molpax Logo"
-                    src="/assets/img/molpax_logo.png" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.molpax.com/" target="_blank"
-                      class="teal-text hoverline">Molpax Bio</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Artificial Intelligence Researcher</div>
-            <ul>
-              <li>
-                Developed and deployed a novel metric and a model with a precision of 0.83 for cell structure detection for qualitative and quantitative
-                evaluation of NASH.
-              </li>
-              <li>
-                Achieved an FID score of 12.97 and precision of 0.77 after developing a GAN model to generate lung tissue Whole Slide Images.
-              </li>
-              <li>
-                <b>Tools:</b> Python, OpenCV, PyTorch, Tensorflow, NumPy
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>Feb 2024 - June 2024 | Daejeon, South Korea</span>
-          </div>
-        </div>
-
-
-        <!-- Experience 2 -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.kaistdmlab.org/" target="_blank"><img alt="Data Mining lab logo"
-                    src="/assets/img/Data Mining Lab.webp" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.kaistdmlab.org/" target="_blank"
-                      class="teal-text hoverline">KAIST Data Mining Lab</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Research Intern</div>
-            <ul>
-              <li>
-                Contributed to the DB4DL project, focusing on enhancing distributed training efficiency for Transformers.
-              </li>
-              <li>
-                Conducted research under the Undergraduate Research Program on models such as BERT and T5 to identify optimal parallelism strategies.
-              </li>
-              <li>
-                <b>Tools:</b> Python, Numpy, Pytorch
-              </li>
-              </ul>
-          </div>
-          <div class="card-action">
-            <span>July 2023 - Dec 2023 | Daejeon, South Korea</span>
-          </div>
-        </div>
-
-
-        <!-- Experience 3 -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-              </div>
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://uilab.kr/" target="_blank"
-                      class="teal-text hoverline">KAIST users & Information Lab</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Research Intern</div>
-            <ul>
-              <li>
-                Benchmarked LLMs' accuracy for reasoning tasks in Bengali by 20% through back translation and CoT reasoning.
-              </li>
-              <li>
-                <b>Tools:</b> Python, Seaborn, Transformers
-              </li>
-                
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>Mar 2023 - Dec 2023 | Daejeon, South Korea</span>
-          </div>
-        </div>
-
-
-
-        
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.sicpama.com/en" target="_blank"><img alt="Sicpama logo"
-                    src="/assets/img/sicpama-logo.webp" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.sicpama.com/en" target="_blank"
-                      class="teal-text hoverline">Sicpama</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Data Scientist</div>
-            <ul>
-              <li>
-                Led the UX/UI team to optimize service UI based on user behavior analysis using Hotjar and Google Analytics.
-              </li>
-              <li>
-                Designed and implemented a streamlined data collection strategy using Google Tag Manager.
-              </li>
-              <li>
-                Achieved a 90% reduction in data collection time by automating POS data collection.
-              </li>
-              <li>Improved sales by developing a recommendation system from the ground up.</li>
-              <li>
-              <b>Tools:</b> Python, Pandas, Numpy, Scikit-Learn, Seaborn, Selenium, Hotjar, Google Analytics, Google Tag Manager, Google Big Query,
-                Tableau, MySQL
-              </li> 
-              </ul>
-          </div>
-          <div class="card-action">
-            <span>Nov 2022 - Feb 2023 | Seoul, South Korea</span>
-          </div>
-        </div>
-
-
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.kooky.io/" target="_blank"><img alt="Kooky logo"
-                    src="/assets/img/kookyLogo.png" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.kooky.io/" target="_blank"
-                      class="teal-text hoverline">Kooky</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Data Analyst</div>
-            <ul>
-              <li>
-                Achieved a 150% increase in users by identifying potential markets and improving market-wise user experience.
-              </li>
-              <li>
-                Achieved an 80% increase in user engagement, by leading the content team based on user behavior analysis.
-              </li>
-              <li>
-                Led data collection, storage, and extraction for insights.
-              </li>
-              <li>Guided data-driven go-to-market and artist selection through user location and behavior analysis.</li>
-              <li>
-              <b>Tools:</b> Python, Pandas, Numpy, Scikit-Learn, Seaborn, Google Analytics, Google Tag Manager, Google Big Query,
-                Tableau, MySQL
-              </li>  
-              </ul>
-          </div>
-          <div class="card-action">
-            <span>Jan 2022 - Aug 2022 | Seoul, South Korea</span>
-          </div>
-        </div>
-
-
-      </div>
-    </section>
-
-    <!-- Fifth Section: Skills -->
-    <section id="skills" class="section scrollspy">
-      <h3 class="page-title white-text teal">Skills</h3>
-      <div class="container">
-
-        <div class="card skill-card">
-          <div class="card-content">
-            <h4 class="brown-text light">Programming Languages</h4>
-            <div class="skill-tags">
-              <span class="skill-tag">Python</span>
-              <span class="skill-tag">SQL</span>
-              <span class="skill-tag">C</span>
-              <span class="skill-tag">Java</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card skill-card">
-          <div class="card-content">
-            <h4 class="brown-text light">Frameworks & Tools</h4>
-            <div class="skill-tags">
-              <span class="skill-tag">PyTorch</span>
-              <span class="skill-tag">TensorFlow</span>
-              <span class="skill-tag">Copilot Studio</span>
-              <span class="skill-tag">Microsoft AI Foundry</span>
-              <span class="skill-tag">Microsoft Power Automate</span>
-              <span class="skill-tag">Salesforce Agentforce</span>
-              <span class="skill-tag">NumPy</span>
-              <span class="skill-tag">Pandas</span>
-              <span class="skill-tag">Scikit-learn</span>
-              <span class="skill-tag">OpenCV</span>
-              <span class="skill-tag">Git</span>
-              <span class="skill-tag">Flask</span>
-              <span class="skill-tag">Django ORM</span>
-              <span class="skill-tag">Selenium</span>
-              <span class="skill-tag">Figma</span>
-              <span class="skill-tag">Hotjar</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card skill-card">
-          <div class="card-content">
-            <h4 class="brown-text light">Cloud & Data</h4>
-            <div class="skill-tags">
-              <span class="skill-tag">AWS</span>
-              <span class="skill-tag">Google BigQuery</span>
-              <span class="skill-tag">Google Analytics</span>
-              <span class="skill-tag">Google Tag Manager</span>
-              <span class="skill-tag">Tableau</span>
-              <span class="skill-tag">MySQL</span>
-              <span class="skill-tag">PostgreSQL</span>
-              <span class="skill-tag">IBM SPSS</span>
-              <span class="skill-tag">SAP Analytics Cloud</span>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-
-    <section id="publications" class="section scrollspy">
-  <h3 class="page-title white-text teal">Publications</h3>
-  <div class="container">
-    <div class="row">
-      <div class="col s12">
-        <ul class="publication-list">
-
-          <li class="publication-item">
-            <a href="http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.181.pdf" target="_blank" class="publication-title">
-              Reason2Decide: Rationale-Driven Multi-Task Learning
-            </a>
-            <p class="publication-meta">
-              <b>H M QUAMRAN HASAN</b>, Housam Khalifa Bashier Babiker, Jiayi Dai, Mi-Young Kim, Randy Goebel.
-              Language Resource and Evaluation Conference (LREC), 2026.
-            </p>
-            <div class="publication-actions">
-              <a href="http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.181.pdf" target="_blank" class="pub-btn">PDF</a>
-              <a href="https://github.com/quamranhasan/Reason2Decide" target="_blank" class="pub-btn">GitHub Code</a>
-            </div>
-          </li>
-
-          <li class="publication-item">
-            <a href="https://www.mdpi.com/2073-431X/15/5/279" target="_blank" class="publication-title">
-              Reason2Decide-C: Adaptive Cycle-Consistent Training for Clinical Rationales
-            </a>
-            <p class="publication-meta">
-              <b>H M QUAMRAN HASAN</b>, Housam Khalifa Bashier Babiker, Mi-Young Kim, Randy Goebel.
-              Computers, 2026, 15(5), 279.
-            </p>
-            <div class="publication-actions">
-              <a href="https://www.mdpi.com/2073-431X/15/5/279" target="_blank" class="pub-btn">PDF</a>
-              <a href="https://github.com/quamranhasan/Reason2Decide-C" target="_blank" class="pub-btn">GitHub Code</a>
-            </div>
-          </li>
-
-          <li class="publication-item">
-            <a href="https://link.springer.com/article/10.1007/s12626-026-00208-x" target="_blank" class="publication-title">
-              Hybrid Legal Reasoning Approaches for COLIEE 2025
-            </a>
-            <p class="publication-meta">
-              Euijin Baek, Jiayi Dai, <b>H M QUAMRAN HASAN</b>, Yeji Kim, Abhita Gupta,
-              Housam Khalifa Bashier Babiker, Mi-Young Kim, Randy Goebel.
-              The Review of Socionetwork Strategies, 2026.
-            </p>
-            <div class="publication-actions">
-              <a href="https://link.springer.com/article/10.1007/s12626-026-00208-x" target="_blank" class="pub-btn">PDF</a>
-            </div>
-          </li>
-
-          <li class="publication-item">
-            <a href="https://aclanthology.org/2024.findings-acl.68/" target="_blank" class="publication-title">
-              BEnQA: A Question Answering Benchmark for Bengali and English
-            </a>
-            <p class="publication-meta">
-              Sheikh Shafayat, <b>HM Hasan</b>, Minhajur Mahim, Rifki Putri, James Thorne, Alice Oh.
-              Findings of the Association for Computational Linguistics: ACL 2024.
-            </p>
-            <div class="publication-actions">
-              <a href="https://aclanthology.org/2024.findings-acl.68.pdf" target="_blank" class="pub-btn">PDF</a>
-              <a href="https://github.com/sheikhshafayat/BEnQA" target="_blank" class="pub-btn">GitHub Code</a>
-            </div>
-          </li>
-
+      <nav aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="#about" data-nav>About</a></li>
+          <li><a href="#education" data-nav>Education</a></li>
+          <li><a href="#experience" data-nav>Experience</a></li>
+          <li><a href="#skills" data-nav>Skills</a></li>
+          <li><a href="#publications" data-nav>Publications</a></li>
+          <li><a href="#projects" data-nav>Projects</a></li>
+          <li><a href="#contact" data-nav>Contact</a></li>
         </ul>
+      </nav>
+
+      <div class="sidebar-footer">
+        <a class="resume-link" href="/assets/resume/resume_H%20M%20QUAMRAN%20HASAN.pdf" target="_blank" rel="noopener">
+          Download Resume
+        </a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+          <svg class="icon-light" aria-hidden="true"><use href="#icon-sun"></use></svg>
+          <svg class="icon-dark" aria-hidden="true"><use href="#icon-moon"></use></svg>
+          <span class="theme-toggle-label">Theme</span>
+        </button>
       </div>
+    </aside>
+
+    <!-- Main content -->
+    <div class="content">
+      <main id="main-content">
+
+        <!-- Hero -->
+        <section id="intro" class="section">
+          <div class="container hero">
+            <div class="hero-eyebrow">Hi there 👋</div>
+            <h1>I'm <span class="accent">H M Quamran Hasan</span></h1>
+            <p class="lede">Theoretically, a <span class="typing"></span>.</p>
+            <p class="sub">In practice, an inquisitive and self-motivated researcher with a sharp focus on solving real-world problems leveraging artificial intelligence and data.</p>
+
+            <div class="social-row">
+              <a class="icon-btn" href="https://www.linkedin.com/in/h-m-quamran-hasan/" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+                <svg aria-hidden="true"><use href="#icon-linkedin"></use></svg>
+              </a>
+              <a class="icon-btn" href="https://github.com/quamranhasan" target="_blank" rel="noopener" aria-label="GitHub profile">
+                <svg aria-hidden="true"><use href="#icon-github"></use></svg>
+              </a>
+            </div>
+
+            <div class="hero-buttons">
+              <a href="#about" class="btn btn-primary">Read More</a>
+              <a href="#contact" class="btn btn-ghost">Contact Me</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+          <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-copy">
+              <p>
+                I am a Master's graduate in Computer Science from the University of Alberta, with a background in Computer Science and Business Technology Management from KAIST.
+              </p>
+              <p>
+                My interests lie in NLP, explainable AI, and trustworthy large language model applications for clinical and legal reasoning.
+              </p>
+              <p>
+                I also work as an AI Enablement Analyst at Servus Credit Union, where I develop AI agents, build applied AI/ML solutions, and support AI adoption across the organization.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="section">
+          <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="edu-grid">
+
+              <div class="card edu-card">
+                <a href="https://www.ualberta.ca/en/index.html" target="_blank" rel="noopener">
+                  <img src="/assets/img/uoa.png" alt="University of Alberta logo" loading="lazy" />
+                </a>
+                <div class="school"><a href="https://www.ualberta.ca/en/index.html" target="_blank" rel="noopener" class="hoverline">University of Alberta</a></div>
+                <div class="location">Alberta, Canada</div>
+                <div class="degree"><b>Degree:</b> MSc. Computer Science</div>
+                <div class="courses-label">Relevant Coursework</div>
+                <ul>
+                  <li>Introduction to Natural Language Processing</li>
+                  <li>Machine Learning Essentials</li>
+                  <li>Foundations of Trustworthy Machine Learning</li>
+                </ul>
+              </div>
+
+              <div class="card edu-card">
+                <a href="https://www.kaist.ac.kr/en/" target="_blank" rel="noopener">
+                  <img src="/assets/img/kaist.png" alt="KAIST logo" loading="lazy" />
+                </a>
+                <div class="school"><a href="https://www.kaist.ac.kr/en/" target="_blank" rel="noopener" class="hoverline">Korea Advanced Institute of Science and Technology</a></div>
+                <div class="location">Daejeon, South Korea</div>
+                <div class="degree"><b>Degree:</b> BSc. Computer Science, Double Major in Business Technology Management, Semi Minor in Artificial Intelligence</div>
+                <div class="courses-label">Relevant Coursework</div>
+                <ul>
+                  <li>Introduction to Natural Language Processing</li>
+                  <li>Introduction to Data Science</li>
+                  <li>Data Science Methodology</li>
+                  <li>Introduction to Artificial Intelligence</li>
+                  <li>Data Structures</li>
+                  <li>Introduction to Algorithms</li>
+                  <li>Probability and Statistics</li>
+                  <li>Principles of Marketing</li>
+                  <li>Marketing Research</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="section">
+          <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="exp-list">
+
+              <div class="card exp-card">
+                <div class="exp-logo"><a href="https://servus.ca/" target="_blank" rel="noopener"><img src="/assets/img/servuslogo.png" alt="Servus Credit Union logo" loading="lazy" /></a></div>
+                <div>
+                  <div class="exp-head">
+                    <span class="exp-org"><a href="https://servus.ca/" target="_blank" rel="noopener" class="hoverline">Servus Credit Union</a></span>
+                    <span class="exp-period">Aug 2025 - Present | Edmonton, Canada</span>
+                  </div>
+                  <div class="exp-role">AI Enablement Analyst</div>
+                  <ul>
+                    <li>Development and monitoring of agents with 1000+ weekly active users.</li>
+                    <li>Improving AI enablement through support and development of AI use cases across the organization.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card exp-card">
+                <div class="exp-logo"><a href="https://sites.ualberta.ca/~amiixai/" target="_blank" rel="noopener"><img src="/assets/img/xai_logo.png" alt="UofA xAI Lab logo" loading="lazy" /></a></div>
+                <div>
+                  <div class="exp-head">
+                    <span class="exp-org"><a href="https://sites.ualberta.ca/~amiixai/" target="_blank" rel="noopener" class="hoverline">UofA xAI Lab</a></span>
+                    <span class="exp-period">Sep 2024 - Aug 2026 | Edmonton, Canada</span>
+                  </div>
+                  <div class="exp-role">Research Assistant</div>
+                  <ul>
+                    <li>Working on the integration of large language models in the fields of explainable medical and legal AI.</li>
+                    <li>Supervised by <a href="https://www.amii.ca/about/our-people/randy-goebel/" target="_blank" rel="noopener">Dr. Randy Goebel</a> and <a href="https://sites.ualberta.ca/~miyoung2/" target="_blank" rel="noopener">Dr. Mi-Young Kim</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card exp-card">
+                <div class="exp-logo"><a href="https://www.amii.ca/" target="_blank" rel="noopener"><img src="https://findlogovector.com/wp-content/uploads/2019/07/alberta-machine-intelligence-institute-amii-logo-vector.png" alt="AMII logo" loading="lazy" /></a></div>
+                <div>
+                  <div class="exp-head">
+                    <span class="exp-org"><a href="https://www.amii.ca/" target="_blank" rel="noopener" class="hoverline">AMII</a></span>
+                    <span class="exp-period">Dec 2024 - Apr 2025 | Edmonton, Canada</span>
+                  </div>
+                  <div class="exp-role">Work-Integrated Learning Opportunity</div>
+                  <ul>
+                    <li>Built case studies for 5 startups on using Transformers for Ectopic Beat Detection, Differential Privacy with LLMs, and agentic AI.</li>
+                    <li>Collaborated with AMII Scientists to provide technical coaching to startups in integrating ML techniques into their service.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card exp-card">
+                <div class="exp-logo"><a href="https://www.molpax.com/" target="_blank" rel="noopener"><img src="/assets/img/molpax_logo.png" alt="Molpax Bio logo" loading="lazy" /></a></div>
+                <div>
+                  <div class="exp-head">
+                    <span class="exp-org"><a href="https://www.molpax.com/" target="_blank" rel="noopener" class="hoverline">Molpax Bio</a></span>
+                    <span class="exp-period">Feb 2024 - June 2024 | Daejeon, South Korea</span>
+                  </div>
+                  <div class="exp-role">Artificial Intelligence Researcher</div>
+                  <ul>
+                    <li>Developed and deployed a novel metric and a model with a precision of 0.83 for cell structure detection for qualitative and quantitative evaluation of NASH.</li>
+                    <li>Achieved an FID score of 12.97 and precision of 0.77 after developing a GAN model to generate lung tissue Whole Slide Images.</li>
+                    <li><b>Tools:</b> Python, OpenCV, PyTorch, Tensorflow, NumPy</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card exp-card">
+                <div class="exp-logo"><a href="https://www.kaistdmlab.org/" target="_blank" rel="noopener"><img src="/assets/img/Data Mining Lab.webp" alt="KAIST Data Mining Lab logo" loading="lazy" /></a></div>
+                <div>
+                  <div class="exp-head">
+                    <span class="exp-org"><a href="https://www.kaistdmlab.org/" target="_blank" rel="noopener" class="hoverline">KAIST Data Mining Lab</a></span>
+                    <span class="exp-period">July 2023 - Dec 2023 | Daejeon, South Korea</span>
+                  </div>
+                  <div class="exp-role">Research Intern</div>
+                  <ul>
+                    <li>Contributed to the DB4DL project, focusing on enhancing distributed training efficiency for Transformers.</li>
+                    <li>Conducted research under the Undergraduate Research Program on models such as BERT and T5 to identify optimal parallelism strategies.</li>
+                    <li><b>Tools:</b> Python, Numpy, Pytorch</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card exp-card">
+                <div class="exp-logo empty"></div>
+                <div>
+                  <div class="exp-head">
+                    <span class="exp-org"><a href="https://uilab.kr/" target="_blank" rel="noopener" class="hoverline">KAIST Users &amp; Information Lab</a></span>
+                    <span class="exp-period">Mar 2023 - Dec 2023 | Daejeon, South Korea</span>
+                  </div>
+                  <div class="exp-role">Research Intern</div>
+                  <ul>
+                    <li>Benchmarked LLMs' accuracy for reasoning tasks in Bengali by 20% through back translation and CoT reasoning.</li>
+                    <li><b>Tools:</b> Python, Seaborn, Transformers</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card exp-card">
+                <div class="exp-logo"><a href="https://www.sicpama.com/en" target="_blank" rel="noopener"><img src="/assets/img/sicpama-logo.webp" alt="Sicpama logo" loading="lazy" /></a></div>
+                <div>
+                  <div class="exp-head">
+                    <span class="exp-org"><a href="https://www.sicpama.com/en" target="_blank" rel="noopener" class="hoverline">Sicpama</a></span>
+                    <span class="exp-period">Nov 2022 - Feb 2023 | Seoul, South Korea</span>
+                  </div>
+                  <div class="exp-role">Data Scientist</div>
+                  <ul>
+                    <li>Led the UX/UI team to optimize service UI based on user behavior analysis using Hotjar and Google Analytics.</li>
+                    <li>Designed and implemented a streamlined data collection strategy using Google Tag Manager.</li>
+                    <li>Achieved a 90% reduction in data collection time by automating POS data collection.</li>
+                    <li>Improved sales by developing a recommendation system from the ground up.</li>
+                    <li><b>Tools:</b> Python, Pandas, Numpy, Scikit-Learn, Seaborn, Selenium, Hotjar, Google Analytics, Google Tag Manager, Google BigQuery, Tableau, MySQL</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card exp-card">
+                <div class="exp-logo"><a href="https://www.kooky.io/" target="_blank" rel="noopener"><img src="/assets/img/kookyLogo.png" alt="Kooky logo" loading="lazy" /></a></div>
+                <div>
+                  <div class="exp-head">
+                    <span class="exp-org"><a href="https://www.kooky.io/" target="_blank" rel="noopener" class="hoverline">Kooky</a></span>
+                    <span class="exp-period">Jan 2022 - Aug 2022 | Seoul, South Korea</span>
+                  </div>
+                  <div class="exp-role">Data Analyst</div>
+                  <ul>
+                    <li>Achieved a 150% increase in users by identifying potential markets and improving market-wise user experience.</li>
+                    <li>Achieved an 80% increase in user engagement, by leading the content team based on user behavior analysis.</li>
+                    <li>Led data collection, storage, and extraction for insights.</li>
+                    <li>Guided data-driven go-to-market and artist selection through user location and behavior analysis.</li>
+                    <li><b>Tools:</b> Python, Pandas, Numpy, Scikit-Learn, Seaborn, Google Analytics, Google Tag Manager, Google BigQuery, Tableau, MySQL</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section">
+          <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+
+              <div class="skill-group">
+                <h4>Programming Languages</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">Python</span>
+                  <span class="skill-tag">SQL</span>
+                  <span class="skill-tag">C</span>
+                  <span class="skill-tag">Java</span>
+                </div>
+              </div>
+
+              <div class="skill-group">
+                <h4>Frameworks &amp; Tools</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">PyTorch</span>
+                  <span class="skill-tag">TensorFlow</span>
+                  <span class="skill-tag">Copilot Studio</span>
+                  <span class="skill-tag">Microsoft AI Foundry</span>
+                  <span class="skill-tag">Microsoft Power Automate</span>
+                  <span class="skill-tag">Salesforce Agentforce</span>
+                  <span class="skill-tag">NumPy</span>
+                  <span class="skill-tag">Pandas</span>
+                  <span class="skill-tag">Scikit-learn</span>
+                  <span class="skill-tag">OpenCV</span>
+                  <span class="skill-tag">Git</span>
+                  <span class="skill-tag">Flask</span>
+                  <span class="skill-tag">Django ORM</span>
+                  <span class="skill-tag">Selenium</span>
+                  <span class="skill-tag">Figma</span>
+                  <span class="skill-tag">Hotjar</span>
+                </div>
+              </div>
+
+              <div class="skill-group">
+                <h4>Cloud &amp; Data</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">AWS</span>
+                  <span class="skill-tag">Google BigQuery</span>
+                  <span class="skill-tag">Google Analytics</span>
+                  <span class="skill-tag">Google Tag Manager</span>
+                  <span class="skill-tag">Tableau</span>
+                  <span class="skill-tag">MySQL</span>
+                  <span class="skill-tag">PostgreSQL</span>
+                  <span class="skill-tag">IBM SPSS</span>
+                  <span class="skill-tag">SAP Analytics Cloud</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- Publications -->
+        <section id="publications" class="section">
+          <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <ul class="publication-list">
+
+              <li class="card publication-item">
+                <a href="http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.181.pdf" target="_blank" rel="noopener" class="publication-title">
+                  Reason2Decide: Rationale-Driven Multi-Task Learning
+                </a>
+                <p class="publication-meta">
+                  <b>H M Quamran Hasan</b>, Housam Khalifa Bashier Babiker, Jiayi Dai, Mi-Young Kim, Randy Goebel.
+                  Language Resource and Evaluation Conference (LREC), 2026.
+                </p>
+                <div class="publication-actions">
+                  <a href="http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.181.pdf" target="_blank" rel="noopener" class="pub-btn">PDF</a>
+                  <a href="https://github.com/quamranhasan/Reason2Decide" target="_blank" rel="noopener" class="pub-btn">GitHub Code</a>
+                </div>
+              </li>
+
+              <li class="card publication-item">
+                <a href="https://www.mdpi.com/2073-431X/15/5/279" target="_blank" rel="noopener" class="publication-title">
+                  Reason2Decide-C: Adaptive Cycle-Consistent Training for Clinical Rationales
+                </a>
+                <p class="publication-meta">
+                  <b>H M Quamran Hasan</b>, Housam Khalifa Bashier Babiker, Mi-Young Kim, Randy Goebel.
+                  Computers, 2026, 15(5), 279.
+                </p>
+                <div class="publication-actions">
+                  <a href="https://www.mdpi.com/2073-431X/15/5/279" target="_blank" rel="noopener" class="pub-btn">PDF</a>
+                  <a href="https://github.com/quamranhasan/Reason2Decide-C" target="_blank" rel="noopener" class="pub-btn">GitHub Code</a>
+                </div>
+              </li>
+
+              <li class="card publication-item">
+                <a href="https://link.springer.com/article/10.1007/s12626-026-00208-x" target="_blank" rel="noopener" class="publication-title">
+                  Hybrid Legal Reasoning Approaches for COLIEE 2025
+                </a>
+                <p class="publication-meta">
+                  Euijin Baek, Jiayi Dai, <b>H M Quamran Hasan</b>, Yeji Kim, Abhita Gupta,
+                  Housam Khalifa Bashier Babiker, Mi-Young Kim, Randy Goebel.
+                  The Review of Socionetwork Strategies, 2026.
+                </p>
+                <div class="publication-actions">
+                  <a href="https://link.springer.com/article/10.1007/s12626-026-00208-x" target="_blank" rel="noopener" class="pub-btn">PDF</a>
+                </div>
+              </li>
+
+              <li class="card publication-item">
+                <a href="https://aclanthology.org/2024.findings-acl.68/" target="_blank" rel="noopener" class="publication-title">
+                  BEnQA: A Question Answering Benchmark for Bengali and English
+                </a>
+                <p class="publication-meta">
+                  Sheikh Shafayat, <b>HM Hasan</b>, Minhajur Mahim, Rifki Putri, James Thorne, Alice Oh.
+                  Findings of the Association for Computational Linguistics: ACL 2024.
+                </p>
+                <div class="publication-actions">
+                  <a href="https://aclanthology.org/2024.findings-acl.68.pdf" target="_blank" rel="noopener" class="pub-btn">PDF</a>
+                  <a href="https://github.com/sheikhshafayat/BEnQA" target="_blank" rel="noopener" class="pub-btn">GitHub Code</a>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+          <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+
+              <div class="card project-card">
+                <img src="/assets/img/trashinator.jpeg" alt="Trashinator project" loading="lazy" />
+                <div class="project-body">
+                  <h3 class="project-title">Trashinator</h3>
+                  <p class="project-desc">A minimalistic and affordable AI-based trash sorter based on SAP Technologies.</p>
+                  <details>
+                    <summary>Accomplishments</summary>
+                    <ul>
+                      <li><b>Tools:</b> SAP Analytics Cloud, Arduino, AWS, SAP Hana Database, SAP AppGyver</li>
+                      <li>Led the data collection and analysis using SAP services like Hana Cloud and SAP Analytics Cloud.</li>
+                      <li>Demoed the project to the senior executives of SAP Korea.</li>
+                      <li>Team ranked 1st out of 5 teams.</li>
+                    </ul>
+                  </details>
+                  <div class="project-links">
+                    <a class="icon-btn" href="https://docs.google.com/presentation/d/1c4A54eIA_2lblo2CZ1LOTQl3LH0gioQTGR2cGC5O4v0/edit#slide=id.g1a7ae5fe16e_3_3" target="_blank" rel="noopener" aria-label="View demo online"><svg aria-hidden="true"><use href="#icon-external"></use></svg></a>
+                    <a class="icon-btn" href="https://github.com/quamranhasan/trashinator-SAP?tab=readme-ov-file" target="_blank" rel="noopener" aria-label="View source on GitHub"><svg aria-hidden="true"><use href="#icon-github"></use></svg></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card project-card">
+                <img src="/assets/img/heartificialMind.png" alt="Empathetic Dialog Generation project" loading="lazy" />
+                <div class="project-body">
+                  <h3 class="project-title">Empathetic Dialog Generation</h3>
+                  <p class="project-desc">Reproduction of the paper CEM: Commonsense-aware Empathetic Response Generation.</p>
+                  <details>
+                    <summary>Accomplishments</summary>
+                    <ul>
+                      <li><b>Tools:</b> Python, Transformers, Deep learning</li>
+                      <li>Improved the benchmark perplexity results by conducting successful ablation studies.</li>
+                      <li>Ranked 1st out of 52 teams.</li>
+                    </ul>
+                  </details>
+                  <div class="project-links">
+                    <a class="icon-btn" href="https://drive.google.com/file/d/14b1-UZhZCBZ_zAuYGvqFcyFWmHTKmje2/view" target="_blank" rel="noopener" aria-label="View demo online"><svg aria-hidden="true"><use href="#icon-external"></use></svg></a>
+                    <a class="icon-btn" href="https://github.com/quamranhasan/Empathetic-Dialogue-Generation/tree/main/src" target="_blank" rel="noopener" aria-label="View source on GitHub"><svg aria-hidden="true"><use href="#icon-github"></use></svg></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card project-card">
+                <img src="/assets/img/RAG.png" alt="QnA Bot project" loading="lazy" />
+                <div class="project-body">
+                  <h3 class="project-title">QnA Bot</h3>
+                  <p class="project-desc">A PoC AI tool that utilizes Retrieval Augmented Generation for QnA on a specific PDF.</p>
+                  <details>
+                    <summary>Accomplishments</summary>
+                    <ul>
+                      <li><b>Tools:</b> Python, Transformers</li>
+                      <li>Utilizes Retrieval Augmented Generation for QnA on a specific PDF.</li>
+                    </ul>
+                  </details>
+                  <div class="project-links">
+                    <a class="icon-btn" href="https://github.com/quamranhasan/rag_on_pdf" target="_blank" rel="noopener" aria-label="View source on GitHub"><svg aria-hidden="true"><use href="#icon-github"></use></svg></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card project-card">
+                <img src="/assets/img/zep.png" alt="ZEPademics project" loading="lazy" />
+                <div class="project-body">
+                  <h3 class="project-title">ZEPademics</h3>
+                  <p class="project-desc">Redefining online learning using ZEP metaverse. Project for JunctionAsia 2022.</p>
+                  <details>
+                    <summary>Accomplishments</summary>
+                    <ul>
+                      <li><b>Tools:</b> ZEPscript</li>
+                      <li>Earned 4th place (honorable mention) out of over 100 participating teams.</li>
+                      <li>Participated in the Naver ZEP track, earning the most curious project award.</li>
+                    </ul>
+                  </details>
+                  <div class="project-links">
+                    <a class="icon-btn" href="https://zep.us/play/8lPgbo" target="_blank" rel="noopener" aria-label="View demo online"><svg aria-hidden="true"><use href="#icon-external"></use></svg></a>
+                    <a class="icon-btn" href="https://github.com/abbasmammadov/JunctionAsia2022_ZEP" target="_blank" rel="noopener" aria-label="View source on GitHub"><svg aria-hidden="true"><use href="#icon-github"></use></svg></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card project-card">
+                <img src="/assets/img/fake_import.png" alt="Detecting Fake Import Declarations project" loading="lazy" />
+                <div class="project-body">
+                  <h3 class="project-title">Detecting Fake Import Declarations</h3>
+                  <p class="project-desc">Using machine learning techniques to identify fake import declarations.</p>
+                  <details>
+                    <summary>Accomplishments</summary>
+                    <ul>
+                      <li><b>Tools:</b> Python, Scikit-Learn, Pandas, Machine Learning</li>
+                      <li>Achieved a 91.12% accuracy in detecting fake import declarations.</li>
+                      <li>Earned 10th position out of 82 participants.</li>
+                    </ul>
+                  </details>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+          <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-list">
+              <div class="contact-row">
+                <a class="icon-btn" href="tel:+18259631602" aria-label="Call Quamran"><svg aria-hidden="true"><use href="#icon-phone"></use></svg></a>
+                <a href="tel:+18259631602">+1 825 963 1602</a>
+              </div>
+              <div class="contact-row">
+                <a class="icon-btn" href="mailto:quamranhasan@gmail.com" aria-label="Email Quamran"><svg aria-hidden="true"><use href="#icon-mail"></use></svg></a>
+                <a href="mailto:quamranhasan@gmail.com">quamranhasan@gmail.com</a>
+              </div>
+              <div class="contact-row">
+                <a class="icon-btn" href="https://github.com/quamranhasan" target="_blank" rel="noopener" aria-label="View Quamran on GitHub"><svg aria-hidden="true"><use href="#icon-github"></use></svg></a>
+                <a href="https://github.com/quamranhasan" target="_blank" rel="noopener">github.com/quamranhasan</a>
+              </div>
+              <div class="contact-row">
+                <a class="icon-btn" href="https://www.linkedin.com/in/h-m-quamran-hasan/" target="_blank" rel="noopener" aria-label="View Quamran on LinkedIn"><svg aria-hidden="true"><use href="#icon-linkedin"></use></svg></a>
+                <a href="https://www.linkedin.com/in/h-m-quamran-hasan/" target="_blank" rel="noopener">linkedin.com/in/h-m-quamran-hasan</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer>&copy; <span id="year"></span> H M Quamran Hasan</footer>
+
+      </main>
     </div>
   </div>
-</section>
-  
 
-    <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
-      <div class="container">
-        <div class="row">
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Trashinator" src="/assets/img/trashinator.jpeg" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Trashinator<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A minimalistic and affordable AI-based trash sorter based on SAP Technologies.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> SAP Analytics Cloud, Arduino, AWS, SAP Hana Database, SAP AppGyver</li>
-                  <li>I led the data collection and analysis using SAP services like Hana Cloud and SAP Analytics Cloud.</li>
-                  <li>Demoed the project to the senior executives of SAP Korea.</li>
-                  <li>My team ranked 1st out of 5 teams.</li>
-                </ul>
-
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://docs.google.com/presentation/d/1c4A54eIA_2lblo2CZ1LOTQl3LH0gioQTGR2cGC5O4v0/edit#slide=id.g1a7ae5fe16e_3_3" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/quamranhasan/trashinator-SAP?tab=readme-ov-file"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="quiz app" src="/assets/img/heartificialMind.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Empathetic Dialog Generation<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Reproduction of the paper CEM: Commonsense‑aware Empathetic Response Generation</p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Python, Transformers, Deep learning</li>
-                  <li>Improved the benchmark perplexity results by conducting successful ablation studies</li>
-                  <li>Ranked 1st out of 52 teams</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://drive.google.com/file/d/14b1-UZhZCBZ_zAuYGvqFcyFWmHTKmje2/view" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/quamranhasan/Empathetic-Dialogue-Generation/tree/main/src"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="quiz app" src="/assets/img/RAG.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">QnA Bot<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A PoC AI tool that utilizes Retrieval Augmented Generation for QnA on a specific PDF</p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Python, Transformers</li>
-                  <li>Utilizes Retrieval Augmented Generation for QnA on a specific PDF</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/quamranhasan/rag_on_pdf"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="ZEPademics" src="/assets/img/zep.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">ZEPademics<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Redefining online learning using ZEP metaverse. Project for JunctionAsia 2022.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> ZEPscript</li>
-                  <li> Earned 4th place (honorable mention) out of over 100 participating teams. </li>
-                  <li> Participated in the Naver ZEP track, earning the most curious project award.</li>
-                </ul>
-
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://zep.us/play/8lPgbo" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/abbasmammadov/JunctionAsia2022_ZEP"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="fake import declarations" src="/assets/img/fake_import.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Detecting Fake Import Declarations<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Using Machine Learning techniques to identify fake import declarations.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Python, Scikit-Learn, Pandas, Machine Learning</li> 
-                  <li> Achieved a 91.12% accuracy in detecting fake import declarations</li>
-                  <li> Earned 10th position out of 82 participants.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-
-
-    <!-- Eight Section: Contact -->
-    <section id="contact" class="section scrollspy full-height">
-      <h3 class="page-title white-text teal">Contact</h3>
-      <div class="container">
-        <p>
-          <a aria-label="Call Quamran" data-position="top" data-tooltip="Call Quamran"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
-              aria-label="Call Quamran">+18259631602</a></a>
-        </p>
-        <p>
-          <a aria-label="Email Quamran" href="mailto:quamranhasan@gmail.com" target="_blank" data-position="top"
-            data-tooltip="Email Quamran" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Email Quamran" href="mailto:quamranhasan@gmail.com"
-              class="hoverline">quamranhasan@gmail.com</a></a>
-        </p>
-        <p>
-          <a aria-label="View Quamran on GitHub" href="https://github.com/quamranhasan" target="_blank"
-            data-position="top" data-tooltip="View Quamran on GitHub"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
-              aria-label="Quamran on Github" href="https://github.com/quamranhasan" class="hoverline"
-              target="_blank">github.com/quamranhasan</a></a>
-        </p>
-        <p>
-          <a aria-label="View Quamran on LinkedIn" href="https://www.linkedin.com/in/h-m-quamran-hasan/" target="_blank"
-            data-position="top" data-tooltip="View Quamran on LinkedIn"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-linkedin"></i><a aria-label="Quamran on LinkedIn" href="https://www.linkedin.com/in/h-m-quamran-hasan/"
-              class="hoverline" target="_blank">linkedin.com/in/h-m-quamran-hasan/</a></a>
-        </p>
-      </div>
-    </section>
-  </main>
-
-  <!-- typed.js -->
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing',{
-      strings: ["fellow human being"],
-      loop: true,
-      typeSpeed: 80,
-      backSpeed: 40
-    });
-  </script>
-
-
-  <!-- jQuery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-  <!-- Materialize - Compiled and minified JavaScript-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
-  <script>
-    // Materialize - Initializers
-    $(document).ready(function () {
-      $(".scrollspy").scrollSpy()
-      // Initialize collapse button
-      $(".button-collapse").sideNav({
-        menuWidth: 190, // Default is 240
-        edge: "left", // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      })
-    })
-  </script>
+  <script src="/assets/vendor/typed.js/typed.min.js"></script>
+  <script src="/assets/js/main.js"></script>
 </body>
 
 </html>
